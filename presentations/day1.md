@@ -85,10 +85,11 @@ You should see `Hello World` in the console below
 greeting = "Hello World!"
 print(greeting)
 ```
-- We **assign** the string `"Hello World!"` to the variable `greeting`
+- We **assign** the string `"Hello World!"` to the variable `greeting` using `=` 
 - We **pass** `greeting` to `print` as its input
 - We can **reuse** greeting multiple times
   - Can you print `"Hello World"` three times?
+- Generally, variables in python are lowercase with `_` if necessary
 
 ---
 

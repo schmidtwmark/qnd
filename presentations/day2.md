@@ -9,6 +9,17 @@ Mark Schmidt
 
 ---
 
+# What does this do?
+
+```
+a = 5
+b = 4
+
+sum = a + b
+
+print(sum)
+```
+---
 # Types
 
 - What is a **type**?
@@ -21,6 +32,17 @@ Mark Schmidt
 
 ---
 
+# What does this do?
+
+```
+number = input("Enter a number to be multiplied by 5 ")
+
+product = 5 * number
+
+print(product)
+```
+---
+
 # Basic Math
 
 Let's add some new types
@@ -31,6 +53,35 @@ Let's add some new types
 - **float**
     - A decimal number
     - 5.2, 8.333, 9.6
-    - Limited precision
+    - Limited precision (it's weird)
+
+
+
+---
+
+# Type Conversions
+
+`int()`
+`str()`
+`float()`
+
+---
+
+# Project Time
+
+Make a **calculator**
+
+Use `input()` twice to get two numbers
+
+Compute the sum, print it out!
+
+--- 
+
+# Bonus Challenges
+
+1. Also print the difference (-)
+2. Also print the product (*)
+3. Also print the quotient (/)
+4. Ask for three numbers!
 
 

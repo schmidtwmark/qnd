@@ -1,16 +1,16 @@
 output:
-	mkdir -p output
+	mkdir -p output/presentations
 
 presentations/day0.pptx: output
-	cp presentations/day0.pptx output/day0.pptx
+	cp presentations/day0.pptx output/presentations/day0.pptx
 
 presentations/%.md: output
-	marp $@ -o output/$(echo "$@ | cut -f 1 -d '.').pptx --pptx --allow-local-files
+	marp $@ -o output/$(basename $@).pptx --pptx --allow-local-files
 
-README.md: output
-	marp README.md -o output/README.pdf --pdf
+plan.md: output
+	marp plan.md -o output/plan.pdf --pdf
 
-all: presentations/** README.md
+all: presentations/*.md plan.md
 
 clean:
 	rm -rf output

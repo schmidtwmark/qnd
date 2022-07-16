@@ -71,17 +71,16 @@ Below is a schedule for 20 class sessions
 
 ### Day 5
 
-- Functions
-- Code reuse
-- Project:
-	- Clean up calculator
-	- Guess my number game
-
-### Day 6 
-
 - Lists
 - Arrays
 - Indexing
+- Project:
+	- Add history to calculator and a way to output history
+
+### Day 6 
+
+- Functions
+- Code reuse
 - Project:
 	- Build a Wordle clone
 		- Be creative

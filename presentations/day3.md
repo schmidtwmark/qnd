@@ -36,6 +36,10 @@ greater = age > 16
 print("Age is greater than 16: " + str(greater))
 ```
 
+- What does this output if I enter 25?
+- 13?
+- 16? 
+
 ---
 
 # if else
@@ -51,18 +55,16 @@ else:
     print(f"You'll be old enough in {16-age} years")
 ```
 
+<!-- This is where we introduce f-strings for concatenation-->
+<!-- Explain that normal concatenation is fine, but this is preferred among most programmers-->
+
 ---
 
 # elif
 
-Multiple conditions!
-
-Evaluated *in order*, picking the first one where the condition is `True`
-
-Many elifs
+<!-- Multiple conditions! -->
 
 ```
-age = 17
 if age > 18:
     print("You are old enough to vote and drive")
 elif age > 16:
@@ -70,6 +72,9 @@ elif age > 16:
 else: 
     print(f"You can drive in {16 - age} years")
 ```
+- What does this output if age is 25?
+- 13?
+- 16? 
 
 ---
 
@@ -85,6 +90,7 @@ quot = a / b
 
 print("Quotient is " + str(quot))
 ```
+<!-- Crash will occur -->
 
 ---
 
@@ -118,22 +124,15 @@ if id_num == 5 or full_name = "Mark Schmidt":
 else:
     ...
 ```
----
-# What about this??
 
-```
-if ":
-    print("Hello Mr. Schmidt!")
-else:
-    ...
-```
+<!-- You can use and in a similar way -->
 ---
 
 # Project 
 
 Extend our calculator from yesterday
 
-Ask the user to choose an operation
+Ask the user to choose an operation using `input`
 Add, subtract, multiply, divide
 
 Use `if, elif, else` to perform that operation

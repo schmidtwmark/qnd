@@ -98,6 +98,9 @@ name = "Luna"
 print("Hello" + name)
 ```
 
+<!-- Gotcha: will print out "HelloLuna"
+We need to add a space -->
+
 ---
 # This program is boring!
 
@@ -108,9 +111,8 @@ print("Hello" + name)
 
 ```
 name = input("What is your name?")
-print("Hello " + name)
 ```
-- Notice the use of `+` to **concatenate** two strings into a single, bigger string
+- Use concatenation to greet the user!
 
 ---
 
@@ -118,4 +120,5 @@ print("Hello " + name)
 
 - Ask a user for their name and their favorite emoji. Greet them, and print their favorite emoji three times
 - Print empty lines between each line of output
+  - What happens if we pass `""` to `print`?
 - Store the greeting as a variable and print it 3 times

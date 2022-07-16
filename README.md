@@ -63,7 +63,7 @@ Below is a schedule for 20 class sessions
 
 ### Day 4
 
-- For loops and while loops
+- While loops
 - Infinite loops
 - Project:
 	- Extend calculator to keep a running total and allow repeated inputs
@@ -72,8 +72,8 @@ Below is a schedule for 20 class sessions
 ### Day 5
 
 - Lists
-- Arrays
 - Indexing
+- For loops
 - Project:
 	- Add history to calculator and a way to output history
 

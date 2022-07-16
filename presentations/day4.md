@@ -15,8 +15,11 @@ Mark Schmidt
 count = 0
 while count < 5:
     print("Hello, World!")
+    count += 1
 
 ```
+
+<!-- Introduces += shorthand -->
 
 ---
 
@@ -31,30 +34,41 @@ is_running = True
 while is_running:
     command = input("Please enter a command: ")
     if command == "q" or command == "quit":
+        is_running = False 
+    else:
+        print(f"Executing command {command}")
 
 ```
+<!-- Introduce break as an alternative-->
 
 ---
 
-# What does this output?
-```
-ice_cream_flavors = ["Chocolate", "Vanilla", "Cookies and Cream", "Strawberry"]
-
-my_favorite = ice_cream_flavors[2]
-
-print(my_favorite)
+# Here be dragons!
 
 ```
+count = 1
+while True:
+    print(f"The count is {count}")
+    count += 1
+```
 
+<!-- Infinite loop -->
 ---
 
-# What does this do?
+# Infinite Loops
 
-```
-for count in range(0, 5):
-    print("Hello, World!")
-```
+- This program will never end
+- To exit early, use CTRL + C shortcut
+- Beware of overflowing resources
 
---- 
+<!-- Python is smarter than most languages with this-->
+---
+
+# Today's Task
+
+- Update your calculator to use a program loop
+- Maintain a "running total", accept +=, -=, etc
+
+---
 
 

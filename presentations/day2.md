@@ -19,17 +19,8 @@ sum = a + b
 
 print(sum)
 ```
----
-# Types
 
-- What is a **type**?
-    - A kind of data
-    - **Types** have associated methods and operators
-    - You can print or concatenate strings
-    - You can do math on numbers
-
-    ![bg right w:500](../assets/types.jpg)
-
+<!-- Should print the number 9 -->
 ---
 
 # What does this do?
@@ -39,13 +30,14 @@ number = input("Enter a number to be multiplied by 5 ")
 
 product = 5 * number
 
-print(product)
+print("The sum is " + product)
 ```
+<!-- Gotcha 1: fails to multiply because number is a string>
+<!-- Gotcha 2: fails to run until we add str() -->
+<!-- Brief aside on types -->
 ---
 
 # Basic Math
-
-Let's add some new types
 
 - **int**
     - An integer
@@ -55,15 +47,7 @@ Let's add some new types
     - 5.2, 8.333, 9.6
     - Limited precision (it's weird)
 
-
-
----
-
-# Type Conversions
-
-`int()`
-`str()`
-`float()`
+    <!-- -->
 
 ---
 

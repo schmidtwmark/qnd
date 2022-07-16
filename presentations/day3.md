@@ -110,27 +110,24 @@ else:
 
 ---
 
-# and 
+# What do you think this does?
 
-a | b | a and b
------|------|:-----:
-True | True | True
-True | False | False
-False | True | False 
-False | False | Falase 
-
+```
+if id_num == 5 or full_name = "Mark Schmidt":
+    print("Hello Mr. Schmidt!")
+else:
+    ...
+```
 ---
-# or 
+# What about this??
 
-a | b | a or b
------|------|:-----:
-True | True | True
-True | False | True 
-False | True | True 
-False | False | Falase 
-
+```
+if ":
+    print("Hello Mr. Schmidt!")
+else:
+    ...
+```
 ---
-
 
 # Project 
 

@@ -67,8 +67,9 @@ while True:
 # Today's Task
 
 - Update your calculator to use a program loop
-- Maintain a "running total", accept +=, -=, etc
 
----
+- Bonus:
+    - Maintain a "running total", 
+    - Accept +=, -=, etc
 
 

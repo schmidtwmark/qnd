@@ -5,4 +5,7 @@ if [ -z "$1" ]; then
 fi
 
 touch solutions/day$1.py
-touch presentations/day$1.md
+cp templates/presentation_template.md presentations/day$1.md
+
+sed -i '' -e "s/aaaaa/$1/g"  presentations/day$1.md
+

@@ -58,7 +58,9 @@ Mark Schmidt
 
 In **main.py**, write:
 
-```print("Hello World")```
+```python
+print("Hello World")
+```
 
 Then tap the **▶️ Run** button on top
 
@@ -81,7 +83,7 @@ You should see `Hello World` in the console below
 
 # Variables 
 
-```
+```python
 greeting = "Hello World!"
 print(greeting)
 ```
@@ -93,7 +95,7 @@ print(greeting)
 ---
 # What will this do?
 
-```
+```python
 name = "Luna"
 print("Hello" + name)
 ```
@@ -109,7 +111,7 @@ We need to add a space -->
 - Input *optionally* takes in a string to output
 - Waits for user input *in the console*
 
-```
+```python
 name = input("What is your name?")
 ```
 - Use concatenation to greet the user!

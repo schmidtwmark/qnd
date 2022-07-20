@@ -10,7 +10,7 @@ Mark Schmidt
 --- 
 
 # What does this output?
-```
+```python
 ice_cream_flavors = ["Chocolate", "Vanilla", "Cookies and Cream", "Strawberry"]
 
 for flavor in ice_cream_flavors:
@@ -25,7 +25,7 @@ for flavor in ice_cream_flavors:
 
 # What does this output?
 
-```
+```python
 ice_cream_flavors = ["Vanilla", "Chocolate", "Cookies and Cream", "Strawberry"]
 
 my_favorite = ice_cream_flavors[2]
@@ -49,7 +49,7 @@ print(f"My favorite ice cream is {my_favorite}")
 
 # A simple program
 
-```
+```python
 team_name = "Chicago Blackhawks"
 team_id = 42
 
@@ -65,7 +65,7 @@ stanley_cup_wins = [1934, 1938, 1961, 2010, 2013, 2015]
 
 # Back to code
 
-```
+```python
 ice_cream_flavors = ["Vanilla", "Chocolate", "Cookies and Cream", "Strawberry"]
 
 my_favorite = ice_cream_flavors[4]
@@ -88,9 +88,10 @@ print(f"My favorite ice cream is {my_favorite}")
 --- 
 # Let's Google it!
 
-- software engineering is:
+- Software engineering is:
     - 10% knowing what to do
     - 90% knowing what to Google
+    
 - shh don't tell anyone
 
 ![bg right w:500](../assets/googling.jpeg)

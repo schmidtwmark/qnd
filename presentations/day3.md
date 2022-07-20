@@ -16,7 +16,7 @@ Mark Schmidt
     - New algebra
 - Booleans can either be `True` or `False`
 
-```
+```python
 a = True
 b = False
 ```
@@ -29,7 +29,7 @@ b = False
 
 `>`, `<`, `<=`, `>=`, `==`
 
-```
+```python
 age = input("How old are you? ")
 greater = age > 16
 
@@ -46,7 +46,7 @@ print("Age is greater than 16: " + str(greater))
 
 What do you think this will print out?
 
-```
+```python
 age = 14
 
 if age >= 16:
@@ -64,7 +64,7 @@ else:
 
 <!-- Multiple conditions! -->
 
-```
+```python
 if age > 18:
     print("You are old enough to vote and drive")
 elif age > 16:
@@ -82,7 +82,7 @@ else:
 
 What happens if I enter 0 for b?
 
-```
+```python
 a = int(input("First number "))
 b = int(input("Second number "))
 
@@ -96,7 +96,7 @@ print("Quotient is " + str(quot))
 
 # Error Handling
 
-```
+```python
 Traceback (most recent call last):
   File "main.py", line 7, in <module>
     quot = a / b
@@ -107,7 +107,7 @@ ZeroDivisionError: division by zero
 
 # Sanitizing Input
 
-```
+```python
 if b == 0:
     print("Cannot divide by zero")
 else:
@@ -118,7 +118,7 @@ else:
 
 # What do you think this does?
 
-```
+```python
 if id_num == 5 or full_name = "Mark Schmidt":
     print("Hello Mr. Schmidt!")
 else:

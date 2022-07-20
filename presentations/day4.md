@@ -11,7 +11,7 @@ Mark Schmidt
 
 # What does this do?
 
-```
+```python
 count = 0
 while count < 5:
     print("Hello, World!")
@@ -29,7 +29,7 @@ while count < 5:
 - Useful for repeating actions
 - More interactive programs!
 
-```
+```python
 is_running = True
 while is_running:
     command = input("Please enter a command: ")
@@ -37,7 +37,6 @@ while is_running:
         is_running = False 
     else:
         print(f"Executing command {command}")
-
 ```
 <!-- Introduce break as an alternative-->
 
@@ -45,7 +44,7 @@ while is_running:
 
 # Here be dragons!
 
-```
+```python
 count = 1
 while True:
     print(f"The count is {count}")

@@ -97,20 +97,20 @@ Below is a schedule for 20 class sessions
 
 ### Day 8
 
-- Maps
-- Dictionaries
+- Files
 - Project: 
 	- Continue Wordle clone
 
 ### Day 9
 
-- Pass by reference/pass by value
-- Share Wordle projects with each other
+- Maps
+- Dictionaries
+- Finish up Wordle
+- Add continue/replay modes
 
 
 ### Day 10 
 
-- Files
 - JSON
 - Project:
 	- Daily Reminders app with a simple TUI

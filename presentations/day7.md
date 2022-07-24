@@ -42,6 +42,7 @@ print(f"My random ice cream is: {random.choice(ice_creams)}")
 - Why isn't this code just included by default?
     - May not be present on certain machines
     - More inputs => more work for Python on startup
+- Replit will manage your packages for you
 
 ---
 
@@ -51,24 +52,28 @@ print(f"My random ice cream is: {random.choice(ice_creams)}")
 - Get access to high quality, well tested code
 
 ---
-# English Language
+# Better Coloring
 
 ```python
-import enchant
+from termcolor import colored
 
-d = enchant.Dict("en_US")
-if d.check(word):
-    ...
+red_hello = colored("hello", "red")
+green_world = colored("world", "green")
+
+print(f"{red_hello} {green_world}")
 
 ```
+
+<!-- Note that we can accomplish the same import with import termcolor -->
 
 ---
 # Project
 
 - Use `random` to select a random word from a list of secret words
-- Use `enchat` to make sure their guess is a valid English word
+- Use `termcolor` to color each letter appropriately
 - Give the user several guesses
 - Bonus:
+    - Ensure guess is 5 letters long
     - Track which letters are not used, display valid letters to user before their guess
 
 

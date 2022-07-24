@@ -22,12 +22,12 @@ print("Welcome to Wordle! I have a secret word, you have 6 chances to guess it")
 while guess_number < 6:
     guess_word = input("Enter a word: ")
     verify_result = verify_word(guess_word, word)
+    guess_number += 1
     if verify_result == colored(guess_word, "green"):
         print("You win!")
         break
     else:
         print(verify_word(guess_word, word))
-        guess_number += 1
         if guess_number == 6:
             print("You lose!")
             break

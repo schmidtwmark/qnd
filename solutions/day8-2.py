@@ -1,7 +1,6 @@
 five_letters = []
 with open("../assets/english_words.txt") as f:
-    words = f.readlines()
-    for word in words:
+    for word in f.read().splitlines():
         if len(word.strip()) == 5:
             five_letters.append(word.strip())
 

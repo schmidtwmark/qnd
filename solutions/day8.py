@@ -39,12 +39,12 @@ while guess_number < 6:
         print("Invalid word: {guess_word}, try again")
         continue
     verify_result, output = verify_word(guess_word, word)
+    guess_number += 1
     print(output)
     if verify_result:
         print(f"You win in {guess_number} tries!")
         break
     else:
-        guess_number += 1
         if guess_number == 6:
             print("You lose!")
             break

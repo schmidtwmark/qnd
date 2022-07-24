@@ -22,13 +22,14 @@ def get_random_word():
     return random.choice(word_list)
 
 
+
 def load_words():
     with open("five_letter_words.txt") as f:
-        words = f.readlines()
+        words = f.read().splitlines()
     return words
 
-
 def play():
+    valid_words = load_words()
     guess_number = 0
     word = get_random_word()
     print(
@@ -36,8 +37,9 @@ def play():
     while guess_number < 6:
         guess_word = input("Enter a guess: ")
         if guess_word not in valid_words:
-            print("Invalid word: {guess_word}, try again")
+            print(f"Invalid word: {guess_word}, try again")
             continue
+        guess_number += 1
         verify_result, output = verify_word(guess_word, word)
         print(output)
         if verify_result:
@@ -50,7 +52,6 @@ def play():
                 break
     return word, guess_number
 
-valid_words = load_words()
 guess_count = {}
 while True:
     word, guesses = play()
@@ -59,3 +60,4 @@ while True:
         continue
     else:
         print(f"Scores: {guess_count}")
+        break

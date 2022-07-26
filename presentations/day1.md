@@ -26,6 +26,7 @@ Mark Schmidt
   - Scripting
 - A great **starting point**
 
+![bg right w:500](../assets/python.webp)
 
 --- 
 

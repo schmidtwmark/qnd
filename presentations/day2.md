@@ -49,6 +49,7 @@ print("The difference is " + difference)
     - 5.2, 8.333, 9.6
     - Limited precision (it's weird)
 
+![bg right w:500](../assets/math.jpeg)
     <!-- -->
 
 ---

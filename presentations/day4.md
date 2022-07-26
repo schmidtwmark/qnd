@@ -51,14 +51,16 @@ while True:
     count += 1
 ```
 
+
 <!-- Infinite loop -->
 ---
 
 # Infinite Loops
 
 - This program will never end
-- To exit early, use CTRL + C shortcut
+- To exit early, use CTRL + C shortcut or STOP button
 - Beware of overflowing resources
+![bg right w:500](../assets/infinite_loop.jpeg)
 
 <!-- Python is smarter than most languages with this-->
 ---

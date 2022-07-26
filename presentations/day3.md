@@ -27,14 +27,20 @@ Mark Schmidt
     - New algebra
 - Booleans can either be `True` or `False`
 
-```python
-is_old_enough_to_drive = True
-my_team_won = False
-```
 
 ![bg right w:500](../assets/boole.jpeg)
 
 --- 
+
+# Example
+
+```python
+is_old_enough_to_drive = True
+my_team_won = False
+```
+![bg right w:500](../assets/boolean.jpeg)
+
+---
 
 # Conditions
 
@@ -63,11 +69,13 @@ age = 14
 if age >= 16:
     print("You are old enough to drive a car")
 else:
-    print(f"You'll be old enough in {16-age} years")
+    difference = 16 - age
+    print(f"You'll be old enough in {difference} years")
 ```
 
 <!-- This is where we introduce f-strings for concatenation-->
 <!-- Explain that normal concatenation is fine, but this is preferred among most programmers-->
+<!-- Handles the annoying str thing for you -->
 
 ---
 
@@ -86,44 +94,6 @@ else:
 - What does this output if age is 25?
 - 13?
 - 16? 
-
----
-
-# Error Handling
-
-What happens if I enter 0 for b?
-
-```python
-a = int(input("First number "))
-b = int(input("Second number "))
-
-quot = a / b
-
-print("Quotient is " + str(quot))
-```
-<!-- Crash will occur -->
-
----
-
-# Error Handling
-
-```python
-Traceback (most recent call last):
-  File "main.py", line 7, in <module>
-    quot = a / b
-ZeroDivisionError: division by zero
-```
-
----
-
-# Sanitizing Input
-
-```python
-if b == 0:
-    print("Cannot divide by zero")
-else:
-    ...
-```
 
 ---
 
@@ -150,6 +120,7 @@ Use `if, elif, else` to perform that operation
 ---
 
 # Bonus
+- What happens if you divide by 0?
 - Add exponenentiation (**)
 - Add remainder (%)
 - Add integer division (//)

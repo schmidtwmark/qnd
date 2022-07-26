@@ -9,6 +9,17 @@ Mark Schmidt
 
 --- 
 
+# Recap
+
+- Integers and Floats
+- Strings
+- How to represent truth?
+    - Is a student old enough to drive?
+    - Did my favorite team win last night?
+    - ...
+
+---
+
 # Booleans
 
 - George Boole
@@ -17,8 +28,8 @@ Mark Schmidt
 - Booleans can either be `True` or `False`
 
 ```python
-a = True
-b = False
+is_old_enough_to_drive = True
+my_team_won = False
 ```
 
 ![bg right w:500](../assets/boole.jpeg)
@@ -67,7 +78,7 @@ else:
 ```python
 if age > 18:
     print("You are old enough to vote and drive")
-elif age > 16:
+elif age >= 16:
     print(f"You are old enough to drive and can vote in {18 - age} years")
 else: 
     print(f"You can drive in {16 - age} years")
@@ -119,12 +130,11 @@ else:
 # What do you think this does?
 
 ```python
-if id_num == 5 or full_name = "Mark Schmidt":
-    print("Hello Mr. Schmidt!")
+if hometown == "Chicago" or favorite_team == "Blackhawks":
+    print("Wow, you are a cool guy")
 else:
-    ...
+    print("You have poor taste")
 ```
-
 <!-- You can use and in a similar way -->
 ---
 

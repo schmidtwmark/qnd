@@ -59,7 +59,8 @@ Mark Schmidt
 In **main.py**, write:
 
 ```python
-print("Hello World")
+greeting = "Hello World"
+print(greeting)
 ```
 
 Then tap the **▶️ Run** button on top
@@ -71,11 +72,12 @@ You should see `Hello World` in the console below
 # Hold on, what?
 
 - `print()` is a **function**
-  - A function takes some inputs (between parens) and produces some outputs (nothing in this case)
+  - A function takes some inputs (between parens) and produces some outputs
   - `print(value)` will print the value  
 - `"Hello World"` is a string
   - A string is a list of **characters** between quotes `"`
   - A string can by empty `""`
+- We store the string in a variable called `greeting`
 - Can you change your program to greet yourself? 
     - Hello <your name>!
 

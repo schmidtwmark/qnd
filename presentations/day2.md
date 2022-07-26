@@ -26,15 +26,15 @@ print(sum)
 # What does this do?
 
 ```python
-number = input("Enter a number to be multiplied by 5 ")
+number = input("Enter a number to be subtracted from 5 ")
 
-# Multiply the number by 5
-product = 5 * number
+# Subtract the number from 5
+difference = 5 * number
 
-print("The sum is " + product)
+print("The difference is " + difference)
 ```
 <!-- Note that anything after a # is a comment. Useful for >
-<!-- Gotcha 1: fails to multiply because number is a string>
+<!-- Gotcha 1: fails to subtract because number is a string>
 <!-- Gotcha 2: fails to run until we add str() -->
 <!-- Brief aside on types -->
 ---

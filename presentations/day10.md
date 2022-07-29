@@ -69,6 +69,9 @@ True
 - Allows us to structure data
 
 <!-- Include some dumb JSON meme -->
+
+![bg right w:500](../assets/json.jpeg)
+
 ---
 
 # JSON Example

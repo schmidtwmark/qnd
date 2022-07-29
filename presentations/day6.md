@@ -31,11 +31,14 @@ TODO wordle image
 
 ```python
 def build_greeting(name):
-    return f"Hello, {name}")
+    return f"Hello, {name}"
 
 print(build_greeting("Mr. Schmidt"))
 print(build_greeting("World!"))
 ```
+
+
+![bg right w:500](../assets/python_bite.jpeg)
 
 <!-- Two greets. Draw attention to arguments, def keyword, indention, return keyword -->
 

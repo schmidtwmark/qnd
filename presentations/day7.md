@@ -51,6 +51,8 @@ print(f"My random ice cream is: {random.choice(ice_creams)}")
 - We'll start using `import` a lot more
 - Get access to high quality, well tested code
 
+![bg right w:500](../assets/import.png)
+
 ---
 # Better Coloring
 

@@ -11,11 +11,13 @@ def list_reminders(reminders):
         print(f"{reminder['reminder']} - {reminder['date']} - {reminder['time']}")
 
 def main():
-    with open("reminders.json", "w+") as f:
+    with open("reminders.json", "r") as f:
         try:
-            reminders = json.load(f)
-        except json.decoder.JSONDecodeError:
+            reminders = json.loads(f.read())
+        except json.decoder.JSONDecodeError as e:
             reminders = []
+
+    with open("reminders.json", "w") as f:
         while True:
             command = input("Enter a command: ")
             if command == "h" or command == "help":

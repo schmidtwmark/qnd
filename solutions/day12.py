@@ -1,4 +1,6 @@
 import json
+import requests
+
 
 class Reminder:
     def __init__(self, reminder, date, time):
@@ -11,7 +13,7 @@ class Reminder:
         date = input("Enter a date: ")
         time = input("Enter a time: ")
         return Reminder(reminder, date, time)
-    
+
     def from_json(json):
         return Reminder(json["reminder"], json["date"], json["time"])
 
@@ -21,12 +23,19 @@ class Reminder:
     def to_string(self):
         return f"{self.reminder} - {self.date} - {self.time}"
 
+
 def list_reminders(reminders):
     for reminder in reminders:
         print(reminder.to_string())
+    
+def get_random_reminder(base_url):
+    url = base_url + "/random_reminder"
+    response = requests.get(url)
+    return Reminder.from_json(response.json())
+
 
 def main():
-    reminders = []
+    reminders = [] 
     with open("reminders.json", "r") as f:
         try:
             reminders_json = json.load(f)
@@ -48,6 +57,9 @@ def main():
             reminders.append(Reminder.create_reminder())
         elif command == "list":
             list_reminders(reminders)
+        elif command == "random":
+            reminder = get_random_reminder("http://localhost:8000") 
+            reminders.append(reminder)
         elif command == "quit":
             break
         print()
@@ -56,7 +68,6 @@ def main():
             for reminder in reminders:
                 reminders_json.append(reminder.to_json())
             json.dump(reminders_json, f)
-        
 
 
 if __name__ == "__main__":

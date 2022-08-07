@@ -22,12 +22,12 @@ def get_random_reminder():
 
 @app.route("/get_reminders")
 def get_reminders():
-    user = request.args.get("user")
+    user = request.args.get("username")
     return json.dumps(reminders.get(user, []))
     
 @app.route("/put_reminders", methods=["PUT"])
 def put_reminders():
-    user = request.args.get("user")
+    user = request.args.get("username")
     reminders_for_user = request.get_json()
     reminders[user] = reminders_for_user
     with open("reminders_by_user.json", "w") as f:

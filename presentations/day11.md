@@ -96,5 +96,3 @@ print(f"Your cart is {cart}")
 # Project
 
 - Update Reminders to be class driven
-
----

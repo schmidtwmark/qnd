@@ -27,7 +27,6 @@ Mark Schmidt
     - New algebra
 - Booleans can either be `True` or `False`
 
-
 ![bg right w:500](../assets/boole.jpeg)
 
 --- 

@@ -78,9 +78,10 @@ for flavor, count in flavors:
 
 ---
 
-# Dictionary Continued
+# Dictionary Diagram 
 
-- TODO dictionary diagram
+
+![bg h:400](../assets/dictionary.jpg)
 
 --- 
 

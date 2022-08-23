@@ -23,7 +23,9 @@ Mark Schmidt
 
 Wordle
 
-TODO wordle image
+![bg right w:300](../assets/wordle.jpeg)
+
+<!-- Explain the rules of wordle -->
 
 ---
 

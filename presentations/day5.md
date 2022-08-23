@@ -45,7 +45,33 @@ print(f"My favorite ice cream is {my_favorite}")
 # Memory
 
 - Where does your program store all of its data?
+- How does it store its data?
 
+---
+
+# Bits & Bytes
+
+- A *bit* is either a 1 or a 0
+- A *byte* is 8 bits
+- Booleans represented by a single bit
+- Integers represented by one or more bytes
+- Each character in a string is a byte
+
+![bg right w:500 h:500](../assets/bytes.png)
+
+---
+
+# Address Space
+
+- Each byte in memory has a unique address
+- Use `id()` to get the address
+
+```python
+x = 5
+id(x) # 1407320000
+```
+
+---
 
 # A simple program
 
@@ -56,14 +82,12 @@ team_id = 42
 stanley_cup_wins = [1934, 1938, 1961, 2010, 2013, 2015]
 
 ```
+![bg right 90%](../assets/program_layout.jpg)
 
---- 
-
-# TODO diagram 
 
 ---
 
-# Back to code
+# Back to our first example 
 
 ```python
 ice_cream_flavors = ["Vanilla", "Chocolate", "Cookies and Cream", "Strawberry"]

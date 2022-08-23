@@ -9,9 +9,8 @@ Mark Schmidt
 
 --- 
 
-# Reminders API
 
-- TODO: Insert diagram
+![bg height:100%](../assets/api.jpg)
 
 <!-- Explain how different method types work -->
 ---
@@ -29,9 +28,9 @@ Mark Schmidt
 
 ```python
 
-def send_message(url, message):
+def send_message(url, message, username):
     data = {"message": message}
-    response = requests.post(url, json=data)
+    response = requests.post(url, json=data, params={"username": username})
     return response.json()
 
 ```

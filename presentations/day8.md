@@ -9,6 +9,12 @@ Mark Schmidt
 
 --- 
 
+# Files
+
+- Persistent data storage
+- Share data between programs
+---
+
 # What will this do?
 
 ```python
@@ -20,22 +26,23 @@ f.close()
 
 <!-- What happens if we don't close? -->
 <!-- Why didn't it write out to file? -->
-<!-- Writes are more suggestions than commands-->
+<!-- We'll talk about that "w" flag -->
 <!-- Files have an internal buffer -->
 
 --- 
 
-# TODO buffer diagram
+# Buffers are like buses
+
+![](../assets/bus.png)
 
 
 ---
 
-# Use `with open` to automatically close!
+# Use `with open` to automatically close when the scope ends!
 
 ```python
 with open("output.txt", "w") as f:
     f.write("Note to self!")
-
 ```
 ---
 
@@ -57,6 +64,6 @@ with open("ice_cream_flavors.txt", "r") as f:
 
 # Project
 
-- Write a program that reads in `english_words.txt` and creates a new file `five_letters.txt` containing only 5 letter words
-- Use five_letters.txt in your Wordle game
+- Read `five_letters.txt`
+- Use `five_letters.txt` in your Wordle game
 - Verify that a guess is an English word

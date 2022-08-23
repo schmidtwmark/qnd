@@ -54,8 +54,6 @@ Mark Schmidt
 - Understanding
     - The world is digital!
 
-![bg right w:500](../assets/sheldon.png)
-
 <!-- Even if you're not a computer person or a science person, you might find you enjoy the problem solving aspects! -->
 
 ---

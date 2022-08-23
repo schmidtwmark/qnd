@@ -1,5 +1,6 @@
 import json
 import requests
+import sys
 
 
 class Reminder:
@@ -61,6 +62,7 @@ def main(url):
             print("help - print this help menu")
             print("create - create a new reminder")
             print("list - display all reminders")
+            print("random - generate a random reminder")
             print("quit - quit the program")
         elif command == "create":
             reminders.append(Reminder.create_reminder())
@@ -77,4 +79,5 @@ def main(url):
 
 
 if __name__ == "__main__":
-    main("http://localhost:8000")
+    host = sys.argv[1]
+    main(host)

@@ -129,4 +129,5 @@ def get_weather(city, api_key):
 - Update Reminders to use my API
     - Add a new command `random`
     - Perform a get request and store the generated reminder
+    - url is https://qnd.mrschmidt.repl.co
     - Use try/except to only add generated reminder if successful

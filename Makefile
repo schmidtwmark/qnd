@@ -1,13 +1,15 @@
 output:
 	mkdir -p output/presentations
 
-presentations/%.md: output
-	marp $@ -o output/$(basename $@).pptx --pptx --allow-local-files
+output/presentations/%.pptx: presentations/%.md output
+	marp presentations/$*.md -o $@ --pptx --allow-local-files
 
-plan.md: output
-	marp plan.md -o output/plan.pdf --pdf
+output/plan.pdf: plan.md output
+	marp plan.md -o $@ --pdf
 
-all: presentations/*.md plan.md
+targets := $(wildcard presentations/*.md )
+all: $(patsubst presentations/%.md,output/presentations/%.pptx,$(targets)) output/plan.pdf
 
+.PHONY : clean
 clean:
 	rm -rf output

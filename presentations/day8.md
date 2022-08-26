@@ -24,6 +24,7 @@ f.close()
 
 ```
 
+<!-- -->
 <!-- What happens if we don't close? -->
 <!-- Why didn't it write out to file? -->
 <!-- We'll talk about that "w" flag -->

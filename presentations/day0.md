@@ -38,8 +38,9 @@ Mark Schmidt
 - Fundamentals
     - Tools for success
 - Get feedback
-- Include *everyone*
+- Include *everyone
 
+<!-- -->
 <!-- When I pitched this class, originally it was just for students who wished to learn about CS -->
 ---
 
@@ -54,6 +55,7 @@ Mark Schmidt
 - Understanding
     - The world is digital!
 
+<!-- -->
 <!-- Even if you're not a computer person or a science person, you might find you enjoy the problem solving aspects! -->
 
 ---
@@ -76,4 +78,3 @@ Mark Schmidt
 - Groups of 3
 
 ### BE SPECIFIC
-### I will do EXACTLY what you say!

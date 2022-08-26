@@ -19,6 +19,7 @@ burrito = Order("Burrito", 5.00, ["Beef", "Sour Cream", "Rice"], "Oreo Milkshake
 print(tacos.price)
 ```
 
+<!-- -->
 <!-- What will this print? -->
 <!-- Any guesses on how to print "5.00"? -->
 ---
@@ -47,6 +48,7 @@ class Order:
     
 ```
 
+<!-- -->
 <!-- Draw attention to the special init function -->
 <!-- self parameter -->
 <!-- Is there a problem with our dairy free function? -->

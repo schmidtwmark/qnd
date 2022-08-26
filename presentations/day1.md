@@ -103,6 +103,7 @@ name = "Luna"
 print("Hello" + name)
 ```
 
+<!-- -->
 <!-- Gotcha: will print out "HelloLuna"
 We need to add a space -->
 

@@ -19,6 +19,7 @@ while count < 5:
 
 ```
 
+<!-- -->
 <!-- Introduces += shorthand -->
 
 ---
@@ -38,6 +39,7 @@ while is_running:
     else:
         print(f"Executing command {command}")
 ```
+<!-- -->
 <!-- Introduce break as an alternative-->
 
 ---
@@ -52,6 +54,7 @@ while True:
 ```
 
 
+<!-- -->
 <!-- Infinite loop -->
 ---
 
@@ -62,6 +65,7 @@ while True:
 - Beware of overflowing resources
 ![bg right w:500](../assets/infinite_loop.jpeg)
 
+<!-- -->
 <!-- Python is smarter than most languages with this-->
 ---
 

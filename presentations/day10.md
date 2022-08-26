@@ -57,6 +57,7 @@ Cedar Crest
 True
 ```
 
+<!-- -->
 <!-- Pros: very minimal, only store exactly what we need-->
 <!-- Cons: parsing is relatively complex, no indication what each line means. Easy to get mixed up, challenging to add new fields -->
 
@@ -68,6 +69,7 @@ True
 - Used all over the internet
 - Allows us to structure data
 
+<!-- -->
 <!-- Include some dumb JSON meme -->
 
 ![bg right w:500](../assets/json.jpeg)
@@ -92,6 +94,7 @@ True
 }
 ```
 
+<!-- -->
 <!-- VERY SIMILAR TO PYTHON DICTIONARIES -->
 <!-- This is by design!! -->
 
@@ -121,6 +124,7 @@ with open("ice_cream_flavors.json") as f:
 
 ```
 
+<!-- -->
 <!-- Note: I have to Google this EVERY TIME -->
 
 ---
@@ -131,6 +135,7 @@ with open("ice_cream_flavors.json") as f:
 cookies_and_cream = flavors[0]
 cookies_and_cream["gallons"] -= 1
 ```
+<!-- -->
 
 <!-- What will this do? Will it save the result to our file? -->
 

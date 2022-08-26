@@ -65,6 +65,7 @@ for flavor, count in flavors:
 
 ```
 
+<!-- -->
 <!-- Note that flavor, count is a TUPLE -->
 
 ---

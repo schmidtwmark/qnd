@@ -20,6 +20,7 @@ sum = a + b
 print(sum)
 ```
 
+<!-- -->
 <!-- Should print the number 9 -->
 ---
 
@@ -33,6 +34,7 @@ difference = 5 * number
 
 print("The difference is " + difference)
 ```
+<!-- -->
 <!-- Note that anything after a # is a comment. Useful for >
 <!-- Gotcha 1: fails to subtract because number is a string>
 <!-- Gotcha 2: fails to run until we add str() -->

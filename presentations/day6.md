@@ -25,6 +25,7 @@ Wordle
 
 ![bg right w:300](../assets/wordle.jpeg)
 
+<!-- -->
 <!-- Explain the rules of wordle -->
 
 ---
@@ -42,6 +43,7 @@ print(build_greeting("World!"))
 
 ![bg right w:500](../assets/python_bite.jpeg)
 
+<!-- -->
 <!-- Two greets. Draw attention to arguments, def keyword, indention, return keyword -->
 
 <!-- Show moving `print` into function-->
@@ -57,6 +59,7 @@ print(build_greeting("World!"))
 - Optionally accepts *arguments* 
 - Optionally, returns a value
 
+<!-- -->
 <!-- Print is a function that does not return a value! -->
 <!-- Input is a function that does not require arguments -->
 
@@ -77,6 +80,7 @@ print(f"Ice cream flavors: {ice_cream_flavors}, flavors_reference: {flavors_refe
 ```
 ---
 
+<!-- -->
 <!-- Using '=' creates a new assignment -->
 <!-- Drawing a little diagram here on the whiteboard would be helpful -->
 
@@ -91,6 +95,7 @@ def add_name_to_list(my_list):
     my_list.append("Ada Lovelace")
     print(f"My list is {my_list}")
 ```
+<!-- -->
 <!-- add_5 replaces the value are *replacing* value, but that does not affect my_value -->
 
 ---

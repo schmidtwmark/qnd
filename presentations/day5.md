@@ -18,6 +18,7 @@ for flavor in ice_cream_flavors:
 
 ```
 
+<!-- -->
 <!-- Should iterate through the list and print each option -->
 <!-- Discuss list syntax (brackets, commas) -->
 <!-- Discuss empty list -->
@@ -33,6 +34,7 @@ print(f"My favorite ice cream is {my_favorite}")
 
 ```
 
+<!-- -->
 <!-- Get a show of hands for each option -->
 --- 
 
@@ -106,6 +108,7 @@ print(f"My favorite ice cream is {my_favorite}")
 
 - Any guesses?
 
+<!-- -->
 <!-- Maybe we can concatenate? -->
 <!-- Try it in a repl -->
 

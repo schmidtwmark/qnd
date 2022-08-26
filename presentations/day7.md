@@ -17,6 +17,7 @@ ice_creams = ["Vanilla", "Chocolate", "Cookies and Cream"]
 # How to select a random item from this list?
 ```
 
+<!-- -->
 <!-- If I have a way to generate a random number, I could use it as a list index? -->
 
 <!-- But how to get a random number? -->
@@ -32,6 +33,7 @@ ice_creams = ["Vanilla", "Chocolate", "Cookies and Cream"]
 print(f"My random ice cream is: {random.choice(ice_creams)}")
 ```
 
+<!-- -->
 <!-- Generally, put imports at the top of your file before any of your code -->
 
 <!-- Show more complex example with checking a million generations -->
@@ -66,6 +68,7 @@ print(f"{red_hello} {green_world}")
 
 ```
 
+<!-- -->
 <!-- Note that we can accomplish the same import with import termcolor -->
 
 ---

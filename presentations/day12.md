@@ -82,6 +82,7 @@ def get_weather(city, api_key):
         return None
 ```
 
+<!-- -->
 <!-- If there is an exception in the try block, skip to except phase -->
 <!-- Sometimes, you want to leave this responsibility to the function caller -->
 

@@ -72,6 +72,7 @@ else:
     print(f"You'll be old enough in {difference} years")
 ```
 
+<!-- -->
 <!-- This is where we introduce f-strings for concatenation-->
 <!-- Explain that normal concatenation is fine, but this is preferred among most programmers-->
 <!-- Handles the annoying str thing for you -->
@@ -80,7 +81,6 @@ else:
 
 # elif
 
-<!-- Multiple conditions! -->
 
 ```python
 if age > 18:
@@ -94,6 +94,9 @@ else:
 - 13?
 - 16? 
 
+<!-- -->
+<!-- Multiple conditions! -->
+
 ---
 
 # What do you think this does?
@@ -104,6 +107,7 @@ if hometown == "Chicago" or favorite_team == "Blackhawks":
 else:
     print("You have poor taste")
 ```
+<!-- -->
 <!-- You can use and in a similar way -->
 ---
 

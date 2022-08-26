@@ -12,6 +12,7 @@ Mark Schmidt
 
 ![bg height:100%](../assets/api.jpg)
 
+<!-- -->
 <!-- Explain how different method types work -->
 ---
 
@@ -19,6 +20,7 @@ Mark Schmidt
 
 - Is this API safe?
 
+<!-- -->
 <!-- No protection from someone else overwriting your reminders -->
 <!-- Anyone can read your reminders -->
 
@@ -35,6 +37,7 @@ def send_message(url, message, username):
 
 ```
 
+<!-- -->
 <!-- requests post method is very similar to get -->
 <!-- takes in response -->
 

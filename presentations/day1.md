@@ -11,9 +11,21 @@ Mark Schmidt
 
 # Agenda
 
+- Programming Languages
 - Python
 - Replit
 - Your first (actual) program
+
+---
+
+# Programming Languages
+
+- Many different ways to tell a computer what to do
+- Advantages and disadvantages
+- Fast vs. convenient
+- Simple vs. complex
+
+![bg right 100%](../assets/assembly.png)
 
 ---
 
@@ -35,8 +47,6 @@ Mark Schmidt
 - We need a coding environment
 - **Replit** is an online Integrated Development Environment
 - Skip installation/package management/local device issues 
-- What does REPL mean?
-  - Read Evaluate Print Loop
 
 ---
 
@@ -47,7 +57,7 @@ Mark Schmidt
 3.  Select **Python** as a template
 4.  Title **Hello World**
 5.  Press "Create REPL"
-![bg right:50% w:500](../assets/repl-setup.png)
+![bg right:50% 100%](../assets/repl-setup.png)
 
 ---
 
@@ -72,15 +82,14 @@ You should see `Hello World` in the console below
 
 # Hold on, what?
 
-- `print()` is a **function**
-  - A function takes some inputs (between parens) and produces some outputs
-  - `print(value)` will print the value  
-- `"Hello World"` is a string
+- `"Hello World"` is a **string**
   - A string is a list of **characters** between quotes `"`
   - A string can by empty `""`
 - We store the string in a variable called `greeting`
+- `print()` is a **function**
+  - A function takes some inputs (between parens) and produces some outputs
+  - `print(value)` will print the value  
 - Can you change your program to greet yourself? 
-    - Hello <your name>!
 
 ---
 
@@ -106,6 +115,7 @@ print("Hello" + name)
 <!-- -->
 <!-- Gotcha: will print out "HelloLuna"
 We need to add a space -->
+<!-- + is the concatenation operator -->
 
 ---
 # This program is boring!
@@ -114,6 +124,7 @@ We need to add a space -->
 - Use the `input()` function!
 - Input *optionally* takes in a string to output
 - Waits for user input *in the console*
+- Type your name and press enter key
 
 ```python
 name = input("What is your name?")
@@ -127,4 +138,3 @@ name = input("What is your name?")
 - Ask a user for their name and their favorite emoji. Greet them, and print their favorite emoji three times
 - Print empty lines between each line of output
   - What happens if we pass `""` to `print`?
-- Store the greeting as a variable and print it 3 times

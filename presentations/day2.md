@@ -29,8 +29,7 @@ print(sum)
 ```python
 number = input("Enter a number to be subtracted from 5 ")
 
-# Subtract the number from 5
-difference = 5 * number
+difference = 5 - number
 
 print("The difference is " + difference)
 ```
@@ -52,7 +51,8 @@ print("The difference is " + difference)
     - Limited precision (it's weird)
 
 ![bg right w:500](../assets/math.jpeg)
-    <!-- -->
+<!-- -->
+<!-- Show 0.1 + 0.1 = 0.2, 0.1 + 0.2 => 0.3000000004 -->
 
 ---
 

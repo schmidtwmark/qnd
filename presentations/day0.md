@@ -57,6 +57,7 @@ Mark Schmidt
 
 <!-- -->
 <!-- Even if you're not a computer person or a science person, you might find you enjoy the problem solving aspects! -->
+<!-- Any questions on what we're doing? -->
 
 ---
 

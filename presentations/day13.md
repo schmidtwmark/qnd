@@ -20,6 +20,8 @@ Mark Schmidt
 
 - Is this API safe?
 
+![bg height:100%](../assets/hackerman.jpeg)
+
 <!-- -->
 <!-- No protection from someone else overwriting your reminders -->
 <!-- Anyone can read your reminders -->

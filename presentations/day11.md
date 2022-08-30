@@ -26,10 +26,13 @@ print(tacos.price)
 
 
 
-# Class Benefits
+# Classes and Objects 
 
 - Organize data
 - Encapsulate logic
+- Define a class, use it to create objects
+
+![bg right w:100%](../assets/class.png)
 
 ---
 
@@ -72,6 +75,10 @@ class Cart:
         self.orders.append(order)
 ```
 
+<!-- -->
+<!-- Classes compartmentalize logic -->
+<!-- It's a lot easier to think about a Doordash app if we have a Cart object and an Order object -->
+
 ---
 
 # All Together
@@ -88,12 +95,18 @@ print(f"The total price of your cart is ${cart.total_price()}")
 ```
 ---
 
+<!-- This is OBJECT ORIENTED PROGRAMMING -->
+
 # What will this do?
 
 ```python
 print(f"Your cart is {cart}")
 ```
 ---
+
+<!-- -->
+<!-- Bad news: it just prints a memory address-->
+<!-- Use __repr__ to fix this -->
 
 # Project
 

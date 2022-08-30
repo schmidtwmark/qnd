@@ -13,6 +13,9 @@ Mark Schmidt
 
 - Persistent data storage
 - Share data between programs
+
+![bg right height:60%](../assets/all-files.jpeg)
+
 ---
 
 # What will this do?

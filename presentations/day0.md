@@ -61,7 +61,7 @@ Mark Schmidt
 
 ---
 
-# Programs
+# Program
 
 - A series of instructions for a computer to execute
 - The computer does *exactly* what you tell it to

@@ -75,14 +75,17 @@ for flavor, count in flavors:
 - Sometimes called maps or hashmaps
 - Establish a relationship between *key* and *value*
     - Value can be anything
-    - There are some restrictions on keys
+    - Keys must be unique
+
+![bg right h:400](../assets/dictionary.jpg)
 
 ---
 
-# Dictionary Diagram 
+# Dictionaries
 
+![bg right h:400](../assets/dictionary.jpeg)
 
-![bg h:400](../assets/dictionary.jpg)
+- Lookup with `[]` like a list
 
 --- 
 
@@ -91,6 +94,6 @@ for flavor, count in flavors:
 - Continue Wordle
 - Let the user play repeatedly
 - Use a dictionary to track how many guesses it took for each secret word
-- Print out the dictionary at the end
+- Print out the dictionary at exit
 - Bonus:
     - Multiple word banks for different letter counts

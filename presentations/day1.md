@@ -118,6 +118,14 @@ We need to add a space -->
 <!-- + is the concatenation operator -->
 
 ---
+
+# Debugging
+
+- You will almost never write code perfectly
+
+![bg right:50% 100%](../assets/debugging-meme.jpeg)
+
+---
 # This program is boring!
 
 - It needs to respond to user input

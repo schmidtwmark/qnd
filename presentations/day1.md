@@ -92,19 +92,6 @@ You should see `Hello World` in the console below
 - Can you change your program to greet yourself? 
 
 ---
-
-# Variables 
-
-```python
-greeting = "Hello World!"
-print(greeting)
-```
-- We **assign** the string `"Hello World!"` to the variable `greeting`
-- We **pass** `greeting` to `print` as its input
-- We can **reuse** greeting multiple times
-  - Can you print `"Hello World"` three times?
-
----
 # What will this do?
 
 ```python

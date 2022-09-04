@@ -42,7 +42,7 @@ f.close()
 
 ---
 
-# Use `with open` to automatically close when the scope ends!
+# Use `with open` to automatically close when the scope ends! <!-- Have you talked about scope before this point? -->
 
 ```python
 with open("output.txt", "w") as f:

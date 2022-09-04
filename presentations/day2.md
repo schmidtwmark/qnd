@@ -46,7 +46,7 @@ print("The difference is " + difference)
     - An integer
     - 0, 5, 71, -115, ...
 - **float**
-    - A decimal number
+    - A decimal number. The decimal point "floats"
     - 5.2, 8.333, 9.6
     - Limited precision (it's weird)
 

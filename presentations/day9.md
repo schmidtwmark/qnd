@@ -74,8 +74,8 @@ for flavor, count in flavors:
 
 - Sometimes called maps or hashmaps
 - Establish a relationship between *key* and *value*
-    - Value can be anything
     - Keys must be unique
+    - Value can be anything 
 
 ![bg right h:400](../assets/dictionary.jpg)
 

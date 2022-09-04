@@ -83,7 +83,7 @@ You should see `Hello World` in the console below
 # Hold on, what?
 
 - `"Hello World"` is a **string**
-  - A string is a list of **characters** between quotes `"`
+  - A string is a list (*a string*) of **characters** between quotes `"`
   - A string can by empty `""`
 - We store the string in a variable called `greeting`
 - `print()` is a **function**
@@ -109,7 +109,7 @@ print(greeting)
 
 ```python
 name = "Luna"
-print("Hello" + name)
+print("Hello " + name)
 ```
 
 <!-- -->
@@ -132,7 +132,7 @@ We need to add a space -->
 - Use the `input()` function!
 - Input *optionally* takes in a string to output
 - Waits for user input *in the console*
-- Type your name and press enter key
+- Type your name and press the enter key
 
 ```python
 name = input("What is your name?")

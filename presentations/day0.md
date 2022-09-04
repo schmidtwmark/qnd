@@ -38,7 +38,7 @@ Mark Schmidt
 - Fundamentals
     - Tools for success
 - Get feedback
-- Include *everyone
+- Include *everyone*
 
 <!-- -->
 <!-- When I pitched this class, originally it was just for students who wished to learn about CS -->

@@ -17,6 +17,7 @@ Mark Schmidt
 
 <!-- The internet is a series of tubes! -->
 <!-- There are various complex handshakes and protocols, out of scope for our classj-->
+<!-- All Software engineers agree, it is a wonder anything works at all -->
 
 ---
 

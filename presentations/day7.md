@@ -51,7 +51,7 @@ print(f"My random ice cream is: {random.choice(ice_creams)}")
 # What else to `import`?
 
 - We'll start using `import` a lot more
-- Get access to high quality, well tested code
+- Get access to high quality, well tested code <!-- lmao you're funny. impling there exists high quality code -->
 
 ![bg right w:500](../assets/import.png)
 

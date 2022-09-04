@@ -38,7 +38,7 @@ print(f"My favorite ice cream is {my_favorite}")
 <!-- Get a show of hands for each option -->
 --- 
 
-# Deep Dive: Why do Lists start at zero?
+# Deep Dive: Why do Lists start at zero? <!-- This question is not explicitly answered -->
 
 - First, we have to talk about memory
 

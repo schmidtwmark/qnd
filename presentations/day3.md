@@ -36,6 +36,7 @@ Mark Schmidt
 ```python
 is_old_enough_to_drive = True
 my_team_won = False
+fr_fr_on_god_no_cap = True
 ```
 ![bg right w:500](../assets/boolean.jpeg)
 
@@ -52,7 +53,7 @@ greater = age > 16
 print("Age is greater than 16: " + str(greater))
 ```
 
-- What does this output if I enter 25?
+- What is the output if I enter 25?
 - 13?
 - 16? 
 
@@ -90,7 +91,7 @@ elif age >= 16:
 else: 
     print(f"You can drive in {16 - age} years")
 ```
-- What does this output if age is 25?
+- What is the output if age is 25?
 - 13?
 - 16? 
 

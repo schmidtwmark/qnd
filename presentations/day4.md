@@ -19,6 +19,15 @@ while count < 5:
 
 ```
 
+---
+
+# Loops
+
+- `while` loops
+- `for` loops
+
+![bg right w:500](../assets/loop.jpeg)
+
 <!-- -->
 <!-- Introduces += shorthand -->
 

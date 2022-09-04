@@ -61,9 +61,18 @@ Mark Schmidt
 
 ---
 
+# Questions?
+
+---
+
 # Program
 
 - A series of instructions for a computer to execute
+
+---
+
+# Problem Solving
+
 - The computer does *exactly* what you tell it to
 - Making mistakes and learning is part of the fun!
 

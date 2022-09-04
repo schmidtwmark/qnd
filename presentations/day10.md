@@ -26,7 +26,7 @@ Mark Schmidt
 # Serialization & Deserialization
 
 - Serialization
-    - Take some program data and store it in a form that is easy to transmit or save to disk
+    - Take some program data and store it in a form that is easy to transmit or save
 - Deserialization
     - Turn serialized data into program data
 

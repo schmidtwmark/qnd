@@ -132,7 +132,7 @@ We need to add a space -->
 - Use the `input()` function!
 - Input *optionally* takes in a string to output
 - Waits for user input *in the console*
-- Type your name and press enter key
+- Type your name and press the enter key
 
 ```python
 name = input("What is your name?")

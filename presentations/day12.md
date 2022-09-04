@@ -16,7 +16,8 @@ Mark Schmidt
 ![bg right w:100%](../assets/small_doge.jpeg)
 
 <!-- The internet is a series of tubes! -->
-<!-- There are various complex handshakes and protocols, out of scope for our classj-->
+<!-- There are various complex handshakes and protocols, out of scope for our class-->
+<!-- All software engineers agree it is a miracle anything works at all -->
 
 ---
 

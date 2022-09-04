@@ -89,6 +89,12 @@ stanley_cup_wins = [1934, 1938, 1961, 2010, 2013, 2015]
 
 ---
 
+# Why do Lists start at zero?
+
+- It's a single block of memory
+  - The first element is at the first address
+- It's what lots of other languages do
+---
 # Back to our first example 
 
 ```python
@@ -100,6 +106,7 @@ print(f"My favorite ice cream is {my_favorite}")
 
 ```
 
+<!-- -->
 <!-- Show indices past the end of the list lead to an error -->
 <!-- Show negative indices -->
 

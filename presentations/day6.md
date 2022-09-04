@@ -57,7 +57,7 @@ print(build_greeting("World!"))
 - Key for reuse and organization
 - Reduce copy + pasted code
 - Optionally accepts *arguments* 
-- Optionally, returns a value
+- Optionally returns a value
 
 <!-- -->
 <!-- Print is a function that does not return a value! -->

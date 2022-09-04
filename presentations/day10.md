@@ -26,7 +26,7 @@ Mark Schmidt
 # Serialization & Deserialization
 
 - Serialization
-    - Take some program data and store it in a form that is easy to transmit or save to disk
+    - Take some program data and store it in a form that is easy to transmit or save
 - Deserialization
     - Turn serialized data into program data
 
@@ -34,9 +34,10 @@ Mark Schmidt
 
 # Many Possibilities
 
-- Protobuf
-- XML
+- TXT
 - CSV
+- XML
+- Protobuf <!-- oof ouch -->
 - Custom formats
 
 ---
@@ -107,7 +108,7 @@ True
     - Easy to add new fields 
 - Drawbacks
     - Formatting can be a little tough to get right sometimes
-    - Uses more data than absolutely necessary
+    - Encoding uses more data than absolutely necessary
 
 ---
 

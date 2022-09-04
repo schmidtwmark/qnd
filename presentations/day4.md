@@ -43,6 +43,15 @@ while is_running:
 <!-- Introduce break as an alternative-->
 
 ---
+# Loop types
+
+- `while` loops 
+- `for` loops
+- We will stick with `while` loops for now
+
+![bg right w:500](../assets/loop.jpeg)
+
+---
 
 # Here be dragons!
 

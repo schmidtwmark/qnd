@@ -97,6 +97,15 @@ print(f"The total price of your cart is ${cart.total_price()}")
 
 <!-- This is OBJECT ORIENTED PROGRAMMING -->
 
+# Object Oriented Programming
+
+<!-- I just needed a slide to shitpost -->
+
+![bg right w:100%](../assets/py.jpeg)
+
+---
+
+
 # What will this do?
 
 ```python

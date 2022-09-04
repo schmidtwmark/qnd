@@ -57,7 +57,7 @@ print(build_greeting("World!"))
 - Key for reuse and organization
 - Reduce copy + pasted code
 - Optionally accepts *arguments* 
-- Optionally, returns a value
+- Optionally returns a value
 
 <!-- -->
 <!-- Print is a function that does not return a value! -->
@@ -102,7 +102,7 @@ def add_name_to_list(my_list):
 
 # Project
 
-- Write a `verify_word(guess_word, secret_word)` function that returns a string of emoji
+- Write a `verify_word(guess_word, secret_word)` function that returns a string of 🅱️moji 😂😂😂😂
     - Correct letter in correct place => 🟩
     - Correct letter in wrong place => 🟨
     - Letter not present in word => ⬜️

@@ -41,49 +41,16 @@ print("The temperature in celsius is " + celsius)
 <!-- Brief aside on types -->
 ---
 
-# Binary Deep Dive
+# A Tale of Two Types
 
-- Computers store all data in binary
-- 0s and 1s
-![bg right w:500](../assets/math.jpeg)
-
----
-
-# Binary & Decimal
-
-- Decimal numbers => base 10
-- Deci = 10 
-- Binary numbers => base 2
-- Bi = 2 
+- Integers
+    - int
+    - Whole Numbers
+- Floats
+    - float
+    - Decimal Numbers
 
 ---
-
-# Decimal => Binary Example
-
-205 = 2(100) + 0(10) + 5(1)
-205 = 1(128) + 0(64) + 1(32) + 0(16) + 0(8) + 1(4) + 0(2) + 1(1)
-205 decimal = 10100101 binary
-
----
-# Conversion in Python
-
-```python
-number = 205
-binary = bin(number)
-
-# Use a format string to simplify output
-print(f"Binary representation of {number} is {binary}")
-```
----
-
-# What about fractions?
-
-- Integers can store whole numbers, but not fractions
-- Floats are stored in binary as well, but have a more complex format we won't explore for now
-- The decimal point "floats", so a float can represent very small or very large numbers
-
----
-
 # Floats are weird
 
 

@@ -33,8 +33,8 @@ celsius = (fahrenheit - 32) * 5/9
 
 print("The temperature in celsius is " + celsius)
 ```
-```
-<!-- -->
+
+<!-- >
 <!-- Note that anything after a # is a comment. Useful for >
 <!-- Gotcha 1: fails to subtract because fahrenheit is a string>
 <!-- Gotcha 2: fails to run until we add str() -->

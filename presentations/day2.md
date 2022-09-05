@@ -40,17 +40,59 @@ print("The difference is " + difference)
 <!-- Brief aside on types -->
 ---
 
-# Basic Math
+# Binary Deep Dive
 
-- **int**
-    - An integer
-    - 0, 5, 71, -115, ...
-- **float**
-    - A decimal number
-    - 5.2, 8.333, 9.6
-    - Limited precision (it's weird)
-
+- Computers store all data in binary
+- 0s and 1s
 ![bg right w:500](../assets/math.jpeg)
+
+---
+
+# Binary & Decimal
+
+- Decimal numbers => base 10
+- Deci = 10 
+- Binary numbers => base 2
+- Bi = 2 
+
+---
+
+# Decimal => Binary Example
+
+205 = 2(100) + 0(10) + 5(1)
+205 = 1(128) + 0(64) + 1(32) + 0(16) + 0(8) + 1(4) + 0(2) + 1(1)
+205 decimal = 10100101 binary
+
+---
+# Conversion in Python
+
+```python
+number = 205
+binary = bin(number)
+
+# Use a format string to simplify output
+print(f"Binary representation of {number} is {binary}")
+```
+---
+
+# What about fractions?
+
+- Integers can store whole numbers, but not fractions
+- Floats are stored in binary as well, but have a more complex format we won't explore for now
+- The decimal point "floats", so a float can represent very small or very large numbers
+
+---
+
+# Floats are weird
+
+
+- What will this do?
+- What if `b` is 0.2?
+```python
+a = 0.1
+b = 0.1
+print(f"a + b is {a + b}")
+```
 <!-- -->
 <!-- Show 0.1 + 0.1 = 0.2, 0.1 + 0.2 => 0.3000000004 -->
 
@@ -72,5 +114,6 @@ Compute the sum, print it out!
 2. Also print the product (*)
 3. Also print the quotient (/)
 4. Ask for three numbers!
+5. Print the binary representation of relevant results!
 
 

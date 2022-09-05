@@ -83,7 +83,7 @@ else:
 
 
 ```python
-if age > 18:
+if age >= 18:
     print("You are old enough to vote and drive")
 elif age >= 16:
     print(f"You are old enough to drive and can vote in {18 - age} years")
@@ -123,7 +123,8 @@ Use `if, elif, else` to perform that operation
 ---
 
 # Bonus
-- What happens if you divide by 0?
+
+- Allow user to specify the name OR the symbol ("add" or "+")
 - Add exponenentiation (**)
 - Add remainder (%)
-- Add integer division (//)
+- What happens if you divide by 0?

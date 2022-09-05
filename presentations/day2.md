@@ -81,7 +81,5 @@ Compute the sum, print it out!
 1. Also print the difference (-)
 2. Also print the product (*)
 3. Also print the quotient (/)
-4. Ask for three numbers!
-5. Print the binary representation of relevant results!
 
 

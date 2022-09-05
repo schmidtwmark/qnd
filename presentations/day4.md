@@ -13,8 +13,8 @@ Mark Schmidt
 
 ```python
 count = 0
-while count < 5:
-    print("Hello, World!")
+while count < 3:
+    print(f"Hello, World! Count = {count}")
     count += 1
 
 ```
@@ -57,7 +57,7 @@ while is_running:
 
 ```python
 count = 1
-while True:
+while count > 0:
     print(f"The count is {count}")
     count += 1
 ```

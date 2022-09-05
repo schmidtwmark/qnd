@@ -27,15 +27,16 @@ print(sum)
 # What does this do?
 
 ```python
-number = input("Enter a number to be subtracted from 5 ")
+fahrenheit = input("Enter a Fahrenheit temperature to convert to Celsius: ")
 
-difference = 5 - number
+celsius = (fahrenheit - 32) * 5/9 
 
-print("The difference is " + difference)
+print("The temperature in celsius is " + celsius)
+```
 ```
 <!-- -->
 <!-- Note that anything after a # is a comment. Useful for >
-<!-- Gotcha 1: fails to subtract because number is a string>
+<!-- Gotcha 1: fails to subtract because fahrenheit is a string>
 <!-- Gotcha 2: fails to run until we add str() -->
 <!-- Brief aside on types -->
 ---

@@ -18,14 +18,22 @@ Mark Schmidt
 
 ---
 
+# Machine Code 
+
+- Hard to write and understand
+- Different computer types use different machine code
+![bg right 100%](../assets/assembly.png)
+
+---
+
 # Programming Languages
 
-- Many different ways to tell a computer what to do
-- Advantages and disadvantages
-- Fast vs. convenient
-- Simple vs. complex
-
-![bg right 100%](../assets/assembly.png)
+- Compile to machine code
+- Tradeoffs
+    - Ease of use
+    - Readability
+    - Speed
+    - Memory management
 
 ---
 
@@ -36,7 +44,7 @@ Mark Schmidt
   - Machine learning
   - Web services
   - Scripting
-- A great **starting point**
+- A great starting point
 
 ![bg right w:500](../assets/python.webp)
 

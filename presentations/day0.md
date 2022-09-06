@@ -35,12 +35,13 @@ Mark Schmidt
 
 # What is this class?
 
-- Fundamentals
-    - Tools for success
-- Get feedback
+- 4 week pilot program
+- Focus on fundamentals
 - Include *everyone*
+- Get feedback!
 
 <!-- -->
+<!-- Computer science can be really hard to self-teach -->
 <!-- When I pitched this class, originally it was just for students who wished to learn about CS -->
 ---
 
@@ -49,31 +50,76 @@ Mark Schmidt
 - Career
     - High demand
     - Great benefits
+    - Differentiator for any field
+
+---
+
+# Why CS? 
+
 - Fun
     - Creative problem solving
     - Satisfaction
+    - Art + expression
+
+---
+
+# Why CS?
+
 - Understanding
-    - The world is digital!
+    - The world is digital
+    - You can't be ignorant!
 
 <!-- -->
 <!-- Even if you're not a computer person or a science person, you might find you enjoy the problem solving aspects! -->
-<!-- Any questions on what we're doing? -->
 
 ---
 
 # Questions?
 
+<!-- -->
+<!-- Any questions on what we're doing? -->
+<!-- What's my role at Google like? -->
+<!-- How did I know that Software Engineering ? -->
 ---
 
-# Program
+# Computer Science and Software Engineering
+
+- Computer Science
+    - The study of computers + computation
+- Software Engineering
+    - The practice of writing fast, reliable, and safe programs
+- CS is the theory, SE is the practice
+
+<!-- -->
+<!-- We'll do a bit of both -->
+
+---
+
+# What is a Program?
 
 - A series of instructions for a computer to execute
+- Examples:
+    - Keynote
+    - Google Chrome
+    - iOS, Android, macOS, Windows
+    - Google
 
 ---
 
-# Problem Solving
+# Simple Programs
 
-- The computer does *exactly* what you tell it to
+- Kind of like recipes
+    - Declare some variables
+    - Receive some input
+    - Do some math
+    - Display some output
+    - Repeat as necessary 
+---
+
+# In Practice 
+
+- Computers are dumb
+- It does *exactly* what you tell it to do
 - Making mistakes and learning is part of the fun!
 
 
@@ -81,9 +127,9 @@ Mark Schmidt
 
 --- 
 
-# Activity
+# Your First Program
 
-- Write a program to make a PB + J sandwich
+- Write a "program" to make a PB + J sandwich
 - I will execute it
 - Groups of 3
 

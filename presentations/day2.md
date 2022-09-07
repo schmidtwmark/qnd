@@ -11,9 +11,14 @@ Mark Schmidt
 
 # Agenda
 
+- Recap
 - Basic Math
 - Funny Business
 - Project
+
+---
+
+# Recap
 
 ---
 

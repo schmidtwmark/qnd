@@ -139,6 +139,6 @@ name = input("What is your name?")
 # Extra Challenges
 
 - Print the greeting 3 times
-- Ask a user for their name and their favorite emoji. Print out a greeting with both!
+- Ask a user for their name and their favorite color. Print each out 3 times.
 - Print empty lines between each line of output
   - What happens if we pass `""` to `print`?

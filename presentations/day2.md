@@ -9,15 +9,23 @@ Mark Schmidt
 
 ---
 
+# Agenda
+
+- Basic Math
+- Funny Business
+- Project
+
+---
+
 # What does this do?
 
 ```python
 a = 5
 b = 4
 
-sum = a + b
+result = a + b
 
-print(sum)
+print(result)
 ```
 
 <!-- -->
@@ -50,6 +58,8 @@ print("The temperature in celsius is " + celsius)
     - float
     - Decimal Numbers
 
+![bg right w:500](../assets/math.jpeg)
+
 ---
 # Floats are weird
 
@@ -66,7 +76,7 @@ print(f"a + b is {a + b}")
 
 ---
 
-# Project Time
+# Project
 
 Make a **calculator**
 
@@ -76,7 +86,7 @@ Compute the sum, print it out!
 
 --- 
 
-# Bonus Challenges
+# Extra Challenges
 
 1. Also print the difference (-)
 2. Also print the product (*)

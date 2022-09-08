@@ -13,10 +13,12 @@ Mark Schmidt
 
 - Integers and Floats
 - Strings
-- How to represent truth?
-    - Is a student old enough to drive?
-    - Did my favorite team win last night?
-    - ...
+
+--- 
+# How to represent truth?
+- Is a student old enough to drive?
+- Did my favorite team win last night?
+- ...
 
 ---
 
@@ -43,13 +45,13 @@ my_team_won = False
 
 # Conditions
 
-`>`, `<`, `<=`, `>=`, `==`
+`>`, `<`, `<=`, `>=`, `==`, `!=`
 
 ```python
 age = input("How old are you? ")
 greater = age > 16
 
-print("Age is greater than 16: " + str(greater))
+print("You are old enough to drive: " + str(greater))
 ```
 
 - What is the output if I enter 25?
@@ -125,6 +127,5 @@ Use `if, elif, else` to perform that operation
 # Bonus
 
 - Allow user to specify the name OR the symbol ("add" or "+")
-- Add exponenentiation (**)
-- Add remainder (%)
+- Add Exponents (**)
 - What happens if you divide by 0?

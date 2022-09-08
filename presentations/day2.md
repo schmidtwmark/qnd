@@ -37,7 +37,7 @@ print(result)
 <!-- Should print the number 9 -->
 ---
 
-# What does this do?
+# Temperature Conversion
 
 ```python
 fahrenheit = input("Enter a Fahrenheit temperature to convert to Celsius: ")
@@ -54,7 +54,7 @@ print("The temperature in celsius is " + celsius)
 <!-- Brief aside on types -->
 ---
 
-# A Tale of Two Types
+# Two Types
 
 - Integers
     - int
@@ -63,7 +63,6 @@ print("The temperature in celsius is " + celsius)
     - float
     - Decimal Numbers
 
-![bg right w:500](../assets/math.jpeg)
 
 ---
 # Floats are weird
@@ -75,7 +74,9 @@ print("The temperature in celsius is " + celsius)
 a = 0.1
 b = 0.1
 print(f"a + b is {a + b}")
+
 ```
+![bg right w:500](../assets/math.jpeg)
 <!-- -->
 <!-- Show 0.1 + 0.1 = 0.2, 0.1 + 0.2 => 0.3000000004 -->
 

@@ -16,9 +16,10 @@ Mark Schmidt
 
 --- 
 # How to represent truth?
-- Is a student old enough to drive?
+
+- Is a user old enough to drive?
 - Did my favorite team win last night?
-- ...
+- Is dark mode enabled?
 
 ---
 
@@ -38,6 +39,7 @@ Mark Schmidt
 ```python
 is_old_enough_to_drive = True
 my_team_won = False
+dark_mode_enabled = True
 ```
 ![bg right w:500](../assets/boolean.jpeg)
 

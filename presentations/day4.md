@@ -9,13 +9,20 @@ Mark Schmidt
 
 --- 
 
+# Recap
+
+- Guess My Number
+- Nested Ifs
+
+---
+
 # What does this do?
 
 ```python
 count = 0
 while count < 3:
     print(f"Hello, World! Count = {count}")
-    count += 1
+    count = count + 1
 
 ```
 
@@ -58,8 +65,9 @@ while is_running:
 ```python
 count = 1
 while count > 0:
-    print(f"The count is {count}")
-    count += 1
+    print(f"Hello, World! Count = {count}")
+    count = count + 1
+
 ```
 
 
@@ -80,10 +88,8 @@ while count > 0:
 
 # Today's Task
 
-- Update your calculator to use a program loop
-
-- Bonus:
-    - Maintain a "running total", 
-    - Accept +=, -=, etc
+- Update Guess My Number to use a program loop
+- Keep track of # of guesses, print it
+- Do the same for Calculator
 
 

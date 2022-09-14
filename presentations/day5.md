@@ -16,6 +16,19 @@ Mark Schmidt
 
 ---
 
+# What's Next?
+
+Wordle
+- Very fun game
+- Very simple
+
+![bg right w:300](../assets/wordle.jpeg)
+
+<!-- -->
+<!-- Explain the rules of wordle -->
+<!-- Multi-day process -->
+---
+
 # What does this output?
 ```python
 ice_cream_flavors = ["Chocolate", "Vanilla", "Cookies and Cream", "Strawberry"]
@@ -65,7 +78,6 @@ print(f"My favorite ice cream is {my_favorite}")
 
 <!-- -->
 <!-- Show indices past the end of the list lead to an error -->
-<!-- Show negative indices -->
 
 --- 
 
@@ -89,20 +101,10 @@ print(my_string[0]) # Prints "H"
 print(my_string[6]) # Prints "W"
 if "W" in my_string:
     print("W is in my string!")
+print(f"My string is {len(my_string)} characters long")
 
 ```
 
----
-
-# What's Next?
-
-Wordle
-
-![bg right w:300](../assets/wordle.jpeg)
-
-<!-- -->
-<!-- Explain the rules of wordle -->
-<!-- Multi-day process -->
 
 ---
 

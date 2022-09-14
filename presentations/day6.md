@@ -11,11 +11,8 @@ Mark Schmidt
 
 # Recap 
 
-- Strings, Input, and Output
-- Math
-- If, else, booleans
-- Loops
-- Lists
+- Wordle
+- Lists and Strings
 
 --- 
 

@@ -9,6 +9,13 @@ Mark Schmidt
 
 --- 
 
+# Recap
+
+- While Loops
+- Guess My Number
+
+---
+
 # What does this output?
 ```python
 ice_cream_flavors = ["Chocolate", "Vanilla", "Cookies and Cream", "Strawberry"]
@@ -38,64 +45,14 @@ print(f"My favorite ice cream is {my_favorite}")
 <!-- Get a show of hands for each option -->
 --- 
 
-# Deep Dive: Why do Lists start at zero?
-
-- First, we have to talk about memory
-
----
-
-# Memory
-
-- Where does your program store all of its data?
-- How does it store its data?
-
----
-
-# Bits & Bytes
-
-- A *bit* is either a 1 or a 0
-- A *byte* is 8 bits
-- Booleans represented by a single bit
-- Integers represented by one or more bytes
-- Each character in a string is a byte
-
-![bg right w:500 h:500](../assets/bytes.png)
-
----
-
-# Address Space
-
-- Each byte in memory has a unique address
-- Use `id()` to get the address
-
-```python
-x = 5
-id(x) # 1407320000
-```
-
----
-
-# A simple program
-
-```python
-team_name = "Chicago Blackhawks"
-team_id = 42
-
-stanley_cup_wins = [1934, 1938, 1961, 2010, 2013, 2015]
-
-```
-![bg right 90%](../assets/program_layout.jpg)
-
-
----
-
 # Why do Lists start at zero?
 
 - It's a single block of memory
   - The first element is at the first address
 - It's what lots of other languages do
+
 ---
-# Back to our first example 
+# What does this do?
 
 ```python
 ice_cream_flavors = ["Vanilla", "Chocolate", "Cookies and Cream", "Strawberry"]
@@ -111,29 +68,49 @@ print(f"My favorite ice cream is {my_favorite}")
 <!-- Show negative indices -->
 
 --- 
-# How can we add elements to a list?
 
-- Any guesses?
+# List Contains
 
-<!-- -->
-<!-- Maybe we can concatenate? -->
-<!-- Try it in a repl -->
+- How to check if a list contains an item?
 
---- 
-# Let's Google it!
-
-- Software engineering is:
-    - 10% knowing what to do
-    - 90% knowing what to Google
-    
-- shh don't tell anyone
-
-![bg right w:500](../assets/googling.jpeg)
+```python
+if "Chocolate" in favorite_ice_cream_flavors:
+    print("Yum!")
+```
 
 ---
 
+# Strings are Lists!
+
+```python
+
+my_string = "Hello, World!"
+print(my_string[0]) # Prints "H"
+print(my_string[6]) # Prints "W"
+if "W" in my_string:
+    print("W is in my string!")
+
+```
+
+---
+
+# What's Next?
+
+Wordle
+
+![bg right w:300](../assets/wordle.jpeg)
+
+<!-- -->
+<!-- Explain the rules of wordle -->
+<!-- Multi-day process -->
+
+---
+
+
 # Project
 
-- For each calculation, append the result to a list
-- Update your calculator with a history command
-- When the user enters History, print out the entire history contents
+- Create a simple Wordle program
+  - Have a single secret word
+  - Receive guesses from user in a loop
+  - Print out emoji representing correct characters
+

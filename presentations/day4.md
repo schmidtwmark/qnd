@@ -82,8 +82,4 @@ while count > 0:
 
 - Update your calculator to use a program loop
 
-- Bonus:
-    - Maintain a "running total", 
-    - Accept +=, -=, etc
-
 

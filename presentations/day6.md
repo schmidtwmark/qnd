@@ -19,16 +19,6 @@ Mark Schmidt
 
 --- 
 
-# What's Next?
-
-Wordle
-
-![bg right w:300](../assets/wordle.jpeg)
-
-<!-- -->
-<!-- Explain the rules of wordle -->
-
----
 
 # What does this output?
 
@@ -49,6 +39,28 @@ print(build_greeting("World!"))
 <!-- Show moving `print` into function-->
 
 <!-- This is a contrived example -->
+
+---
+# How can we add elements to a list?
+
+- Any guesses?
+
+<!-- -->
+<!-- Maybe we can concatenate? -->
+<!-- Try it in a repl -->
+
+--- 
+# Let's Google it!
+
+- Software engineering is:
+    - 10% knowing what to do
+    - 90% knowing what to Google
+    
+- shh don't tell anyone
+
+![bg right w:500](../assets/googling.jpeg)
+
+---
 
 ---
 

@@ -45,9 +45,6 @@ print(multiply_string("🔥"))
 ```
 
 <!-- -->
-<!-- Two greets. Draw attention to arguments, def keyword, indention, return keyword -->
-
-<!-- Show moving `print` into function-->
 
 <!-- This is a contrived example -->
 
@@ -60,21 +57,20 @@ def add_5(value):
     value = value + 5
     print(f"Value is {value}")
 
-v = 10
-add_5(v)
-print(f"v is {v}")
+number = 10
+add_5(number)
+print(f"number is {number}")
 ```
 <!-- -->
 <!-- add_5 replaces the value are *replacing* value, but that does not affect my_value -->
 
 ---
 
-# List Mutability
+# What about this?
 
 ```python
-
 def add_name_to_list(my_list):
-    my_list.append("Ada Lovelace")
+    my_list.append("Luna")
     print(f"My list is {my_list}")
 
 my_list = ["Mr. Schmidt"]

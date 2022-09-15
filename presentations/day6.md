@@ -16,51 +16,6 @@ Mark Schmidt
 
 --- 
 
-
-# What does this output?
-
-```python
-def build_greeting(name):
-    return f"Hello, {name}"
-
-print(build_greeting("Mr. Schmidt"))
-print(build_greeting("World!"))
-```
-
-
-![bg right w:500](../assets/python_bite.jpeg)
-
-<!-- -->
-<!-- Two greets. Draw attention to arguments, def keyword, indention, return keyword -->
-
-<!-- Show moving `print` into function-->
-
-<!-- This is a contrived example -->
-
----
-# How can we add elements to a list?
-
-- Any guesses?
-
-<!-- -->
-<!-- Maybe we can concatenate? -->
-<!-- Try it in a repl -->
-
---- 
-# Let's Google it!
-
-- Software engineering is:
-    - 10% knowing what to do
-    - 90% knowing what to Google
-    
-- shh don't tell anyone
-
-![bg right w:500](../assets/googling.jpeg)
-
----
-
----
-
 # Functions
 
 - Key for reuse and organization
@@ -74,24 +29,29 @@ print(build_greeting("World!"))
 
 ---
 
-# Mutability
+# What does this output?
 
 ```python
-ice_cream_flavors = ["Chocolate", "Vanilla"]
-flavors_reference = ice_cream_flavors # assign a new name to the same object
-flavors_reference.append("Cookie Dough")
-print(f"Ice cream flavors: {ice_cream_flavors}, flavors_reference: {flavors_reference}")
+def multiply_string(string):
+    output = ""
+    count = 0
+    while count < 3:
+        output += string
+        count += 1
+    return output
 
-# Set flavors_reference to a new object
-# Leave old object intact
-flavors_reference = ["Strawberry"]
-print(f"Ice cream flavors: {ice_cream_flavors}, flavors_reference: {flavors_reference}")
+print(multiply_string("🚀"))
+print(multiply_string("🔥"))
 ```
----
 
 <!-- -->
-<!-- Using '=' creates a new assignment -->
-<!-- Drawing a little diagram here on the whiteboard would be helpful -->
+<!-- Two greets. Draw attention to arguments, def keyword, indention, return keyword -->
+
+<!-- Show moving `print` into function-->
+
+<!-- This is a contrived example -->
+
+---
 
 # What does this do?
 
@@ -100,25 +60,46 @@ def add_5(value):
     value = value + 5
     print(f"Value is {value}")
 
-def add_name_to_list(my_list):
-    my_list.append("Ada Lovelace")
-    print(f"My list is {my_list}")
+v = 10
+add_5(v)
+print(f"v is {v}")
 ```
 <!-- -->
 <!-- add_5 replaces the value are *replacing* value, but that does not affect my_value -->
 
 ---
 
+# List Mutability
+
+```python
+
+def add_name_to_list(my_list):
+    my_list.append("Ada Lovelace")
+    print(f"My list is {my_list}")
+
+my_list = ["Mr. Schmidt"]
+add_name_to_list(my_list)
+print(f"My list is {my_list}")
+```
+
+---
+
 # Project
 
-- Write a `verify_word(guess_word, secret_word)` function that returns a string of emoji
-    - Correct letter in correct place => 🟩
-    - Correct letter in wrong place => 🟨
-    - Letter not present in word => ⬜️
-- Hints
-    - `for i in range(0, len(guess_word)):`
-    - `guess_letter = guess_word[i]`
-    - `if guess_letter in word `
+- Continue Wordle
+- Move guess grading to a function
+```python
+def grade_guess(guess, secret):
+    index = 0
+    output = ""
+    ...
+    return output
+```
 
+---
 
+# Wordle Improvements
 
+- Track number of guesses
+- Display number of guesses on win
+- Require five letter word

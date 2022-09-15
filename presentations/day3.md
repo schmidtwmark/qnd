@@ -103,11 +103,11 @@ else:
 
 ---
 
-# What do you think this does?
+# Not just numbers!
 
 ```python
 if hometown == "Chicago" or favorite_team == "Blackhawks":
-    print("Wow, you are a cool guy")
+    print("Wow, you are a cool person")
 else:
     print("You have poor taste")
 ```

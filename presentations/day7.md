@@ -83,8 +83,9 @@ print(f"{red_hello} {green_world}")
 # Project
 
 - Use `random` to select a random word from a list of secret words
-- Give the user several guesses
 - https://tinyurl.com/wordle-qnd
 - Bonus:
     - Use `termcolor` to color each letter appropriately
     - Ensure guess is 5 letters long
+
+![bg right w:500](../assets/frame.png)

@@ -9,6 +9,14 @@ Mark Schmidt
 
 --- 
 
+# Agenda
+
+- Recap
+  - Functions
+- Randomization
+- Packages
+---
+
 # Randomization
 
 ```python
@@ -59,10 +67,10 @@ print(f"My random ice cream is: {random.choice(ice_creams)}")
 # Better Coloring
 
 ```python
-from termcolor import colored
+import termcolor 
 
-red_hello = colored("hello", "red")
-green_world = colored("world", "green")
+red_hello = termcolor.colored("hello", "red")
+green_world = termcolor.colored("world", "green")
 
 print(f"{red_hello} {green_world}")
 
@@ -75,10 +83,10 @@ print(f"{red_hello} {green_world}")
 # Project
 
 - Use `random` to select a random word from a list of secret words
-- Use `termcolor` to color each letter appropriately
 - Give the user several guesses
 - Bonus:
+    - Use `termcolor` to color each letter appropriately
     - Ensure guess is 5 letters long
-    - Track which letters are not used, display valid letters to user before their guess
+
 
 

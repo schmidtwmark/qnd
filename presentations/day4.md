@@ -11,7 +11,7 @@ Mark Schmidt
 
 # Recap
 
-- Guess My Number
+- Calculator
 - Nested Ifs
 
 ---
@@ -88,8 +88,6 @@ while count > 0:
 
 # Today's Task
 
-- Update Guess My Number to use a program loop
-- Keep track of # of guesses, print it
-- Do the same for Calculator
+- Guess My Number
 
 

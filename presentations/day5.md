@@ -115,4 +115,6 @@ print(f"My string is {len(my_string)} characters long")
   - Have a single secret word
   - Receive guesses from user in a loop
   - Print out emoji representing correct characters
+  - https://tinyurl.com/qnd-wordle-1
 
+![bg right w:300](../assets/wordle-1.png)

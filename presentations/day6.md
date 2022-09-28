@@ -9,93 +9,84 @@ Mark Schmidt
 
 --- 
 
-# Recap 
+# Agenda
 
-- Wordle
-- Lists and Strings
+- Recap
+  - Wordle
+  - Lists and Strings
+- Randomization
+- Packages
+---
 
+# Randomization
+
+```python
+ice_creams = ["Vanilla", "Chocolate", "Cookies and Cream"]
+
+# How to select a random item from this list?
+```
+
+<!-- -->
+<!-- If I have a way to generate a random number, I could use it as a list index? -->
+
+<!-- But how to get a random number? -->
+
+---
+
+# Introducing `import` 
+
+```python
+import random 
+ice_creams = ["Vanilla", "Chocolate", "Cookies and Cream"]
+
+print(f"My random ice cream is: {random.choice(ice_creams)}")
+```
+
+<!-- -->
+<!-- Generally, put imports at the top of your file before any of your code -->
+
+<!-- Show more complex example with checking a million generations -->
 --- 
 
-# Functions
+# Why do I need to `import`?
 
-- Key for reuse and organization
-- Reduce copy + pasted code
-- Optionally accepts *arguments* 
-- Optionally returns a value
-
-<!-- -->
-<!-- Print is a function that does not return a value! -->
-<!-- Input is a function that does not require arguments -->
+- Why isn't this code just included by default?
+    - May not be present on certain machines
+    - More inputs => more work for Python on startup
+- Replit will manage your packages for you
 
 ---
 
-# What does this output?
+# What else to `import`?
+
+- We'll start using `import` a lot more
+- Get access to high quality, well tested code
+
+![bg right w:500](../assets/import.png)
+
+---
+# Better Coloring
 
 ```python
-def multiply_string(string):
-    output = ""
-    count = 0
-    while count < 3:
-        output += string
-        count += 1
-    return output
+import termcolor 
 
-print(multiply_string("🚀"))
-print(multiply_string("🔥"))
+red_hello = termcolor.colored("hello", "red")
+green_world = termcolor.colored("world", "green")
+
+print(f"{red_hello} {green_world}")
+
 ```
 
 <!-- -->
-
-<!-- This is a contrived example -->
-
----
-
-# What does this do?
-
-```python
-def add_5(value):
-    value = value + 5
-    print(f"Value is {value}")
-
-number = 10
-add_5(number)
-print(f"number is {number}")
-```
-<!-- -->
-<!-- add_5 replaces the value are *replacing* value, but that does not affect my_value -->
+<!-- Note that we can accomplish the same import with import termcolor -->
 
 ---
-
-# What about this?
-
-```python
-def add_name_to_list(my_list):
-    my_list.append("Luna")
-    print(f"My list is {my_list}")
-
-my_list = ["Mr. Schmidt"]
-add_name_to_list(my_list)
-print(f"My list is {my_list}")
-```
-
----
-
 # Project
 
-- Continue Wordle
-- Move guess grading to a function
-```python
-def grade_guess(guess, secret):
-    index = 0
-    output = ""
-    ...
-    return output
-```
+- Use `random` to select a random word from a list of secret words
+- https://tinyurl.com/qnd-wordle-2
+- Bonus:
+    - Use `termcolor` to color each letter appropriately
+    - Ensure guess is 5 letters long
 
----
-
-# Wordle Improvements
-
-- Track number of guesses
-- Display number of guesses on win
-- Require five letter word
+![bg right w:500](../assets/wordle-2.png)

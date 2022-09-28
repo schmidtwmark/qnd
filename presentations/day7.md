@@ -12,80 +12,85 @@ Mark Schmidt
 # Agenda
 
 - Recap
-  - Functions
-- Randomization
-- Packages
----
-
-# Randomization
-
-```python
-ice_creams = ["Vanilla", "Chocolate", "Cookies and Cream"]
-
-# How to select a random item from this list?
-```
-
-<!-- -->
-<!-- If I have a way to generate a random number, I could use it as a list index? -->
-
-<!-- But how to get a random number? -->
+    - Wordle
+    - Randomization
+    - Packages
+- Files
 
 ---
 
-# Introducing `import` 
+# Files
 
-```python
-import random 
-ice_creams = ["Vanilla", "Chocolate", "Cookies and Cream"]
+- Persistent data storage
+- Share data between programs
 
-print(f"My random ice cream is: {random.choice(ice_creams)}")
-```
-
-<!-- -->
-<!-- Generally, put imports at the top of your file before any of your code -->
-
-<!-- Show more complex example with checking a million generations -->
 --- 
 
-# Why do I need to `import`?
-
-- Why isn't this code just included by default?
-    - May not be present on certain machines
-    - More inputs => more work for Python on startup
-- Replit will manage your packages for you
-
----
-
-# What else to `import`?
-
-- We'll start using `import` a lot more
-- Get access to high quality, well tested code
-
-![bg right w:500](../assets/import.png)
-
----
-# Better Coloring
+# What will this do?
 
 ```python
-import termcolor 
-
-red_hello = termcolor.colored("hello", "red")
-green_world = termcolor.colored("world", "green")
-
-print(f"{red_hello} {green_world}")
+f = open("output.txt", "w")
+f.write("Note to self!")
+f.close()
 
 ```
 
 <!-- -->
-<!-- Note that we can accomplish the same import with import termcolor -->
+<!-- What happens if we don't close? -->
+<!-- Why didn't it write out to file? -->
+<!-- We'll talk about that "w" flag -->
+<!-- Files have an internal buffer -->
+
+--- 
+
+# Buffers are like buses
+
+![](../assets/bus.png)
+
 
 ---
+
+# `with open`
+
+- Automatically close when the scope ends!
+
+```python
+with open("output.txt", "w") as f:
+    f.write("Note to self!")
+```
+---
+
+# Reading 
+
+```python
+my_flavors = []
+with open("ice_cream_flavors.txt", "r") as f:
+    for flavor in f.readlines():
+        print(f"Flavor: {flavor}")
+        my_flavors.append(flavor)
+
+# Do something with my_flavors...
+
+```
+
+
+---
+
+# Oops, all files!
+- Everything is a file!
+- You've been using files all along!
+
+![bg right height:60%](../assets/all-files.jpeg)
+
+---
+
 # Project
 
-- Use `random` to select a random word from a list of secret words
-- https://tinyurl.com/wordle-qnd
-- Bonus:
-    - Use `termcolor` to color each letter appropriately
-    - Ensure guess is 5 letters long
+- Read `five_letters.txt`
+- Use `five_letters.txt` in your Wordle game
+- Verify that a guess is an English word
+- replit.com/@mrschmidt/fiveletters
+- tinyurl.com/qnd-wordle-3
 
-![bg right w:500](../assets/frame.png)
+
+![bg right w:500](../assets/qnd-wordle-3.png)

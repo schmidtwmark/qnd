@@ -9,91 +9,93 @@ Mark Schmidt
 
 --- 
 
-# Ballot Box 
+# Recap 
 
-```python
+- Wordle
+- Lists and Strings
 
-while True:
-    flavor = input("Enter your favorite ice cream, or q to quit")
-    if flavor == "q":
-        break
+--- 
 
-    # TODO: save the flavors in a structure of some kind
+# Functions
 
-# TODO display the top flavors
+- Key for reuse and organization
+- Reduce copy + pasted code
+- Optionally accepts *arguments* 
+- Optionally returns a value
 
-```
-
----
-
-# Ballot Box
-
-```python
-chocolate = 0
-vanilla = 0
-while True:
-    flavor = input("Enter your favorite ice cream, or q to quit")
-    if flavor == "q":
-        break
-    elif flavor == "chocolate":
-        chocolate += 1
-    elif flavor == "vanilla":
-        vanilla += 1
-
-print(f"Chocolate: {chocolate}")
-print(f"Vanilla: {vanilla}")
-```
-
+<!-- -->
+<!-- Print is a function that does not return a value! -->
+<!-- Input is a function that does not require arguments -->
 
 ---
 
-# Ballot Box 
+# What does this output?
 
 ```python
+def multiply_string(string):
+    output = ""
+    count = 0
+    while count < 3:
+        output += string
+        count += 1
+    return output
 
-flavors = {} # Create an empty dictionary
-while True:
-    flavor = input("Enter your favorite ice cream, or q to quit")
-    if flavor == "q":
-        break
-    if flavor not in flavors:
-        flavors[flavor] = 0
-    flavors[flavor] += 1
-
-for flavor, count in flavors:
-    print(f"There are {count} votes for {flavor}")
-
+print(multiply_string("🚀"))
+print(multiply_string("🔥"))
 ```
 
 <!-- -->
-<!-- Note that flavor, count is a TUPLE -->
+
+<!-- This is a contrived example -->
 
 ---
 
-# Dictionaries
+# What does this do?
 
-- Sometimes called maps or hashmaps
-- Establish a relationship between *key* and *value*
-    - Keys must be unique
-    - Value can be anything
+```python
+def add_5(value):
+    value = value + 5
+    print(f"Value is {value}")
 
-![bg right h:400](../assets/dictionary.jpg)
+number = 10
+add_5(number)
+print(f"number is {number}")
+```
+<!-- -->
+<!-- add_5 replaces the value are *replacing* value, but that does not affect my_value -->
 
 ---
 
-# Dictionaries
+# What about this?
 
-![bg right h:400](../assets/dictionary.jpeg)
+```python
+def add_name_to_list(my_list):
+    my_list.append("Luna")
+    print(f"My list is {my_list}")
 
-- Lookup with `[]` like a list
+my_list = ["Mr. Schmidt"]
+add_name_to_list(my_list)
+print(f"My list is {my_list}")
+```
 
---- 
+---
 
 # Project
 
 - Continue Wordle
-- Let the user play repeatedly
-- Use a dictionary to track how many guesses it took for each secret word
-- Print out the dictionary at exit
-- Bonus:
-    - Multiple word banks for different letter counts
+- Move guess grading to a function
+```python
+def grade_guess(guess, secret):
+    index = 0
+    output = ""
+    ...
+    return output
+```
+
+---
+
+# Wordle Improvements
+
+- Track number of guesses
+- Display number of guesses on win
+- Require five letter word

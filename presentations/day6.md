@@ -33,6 +33,14 @@ ice_creams = ["Vanilla", "Chocolate", "Cookies and Cream"]
 
 ---
 
+# Google It
+
+- Software Engineering is 90% Googling, 10% knowing what to google
+
+![bg right w:600](../assets/googling.jpeg)
+
+---
+
 # Introducing `import` 
 
 ```python

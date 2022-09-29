@@ -43,13 +43,6 @@ f.close()
 
 --- 
 
-# Buffers are like buses
-
-![](../assets/bus.png)
-
-
----
-
 # `with open`
 
 - Automatically close when the scope ends!
@@ -58,21 +51,6 @@ f.close()
 with open("output.txt", "w") as f:
     f.write("Note to self!")
 ```
----
-
-# Reading 
-
-```python
-my_flavors = []
-with open("ice_cream_flavors.txt", "r") as f:
-    for flavor in f.readlines():
-        print(f"Flavor: {flavor}")
-        my_flavors.append(flavor)
-
-# Do something with my_flavors...
-
-```
-
 
 ---
 

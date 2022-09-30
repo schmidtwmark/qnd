@@ -4,96 +4,78 @@ theme: gaia
 class: invert
 ---
 
-# QND Computer Science Day 8
+# QND Computer Science Day 9
 Mark Schmidt
 
 --- 
 
-# Ballot Box 
+# Recap 
 
-```python
-
-while True:
-    flavor = input("Enter your favorite ice cream, or q to quit")
-    if flavor == "q":
-        break
-
-    # TODO: save the flavors in a structure of some kind
-
-# TODO display the top flavors
-
-```
-
----
-
-# Ballot Box
-
-```python
-chocolate = 0
-vanilla = 0
-while True:
-    flavor = input("Enter your favorite ice cream, or q to quit")
-    if flavor == "q":
-        break
-    elif flavor == "chocolate":
-        chocolate += 1
-    elif flavor == "vanilla":
-        vanilla += 1
-
-print(f"Chocolate: {chocolate}")
-print(f"Vanilla: {vanilla}")
-```
-
-
----
-
-# Ballot Box 
-
-```python
-
-flavors = {} # Create an empty dictionary
-while True:
-    flavor = input("Enter your favorite ice cream, or q to quit")
-    if flavor == "q":
-        break
-    if flavor not in flavors:
-        flavors[flavor] = 0
-    flavors[flavor] += 1
-
-for flavor, count in flavors:
-    print(f"There are {count} votes for {flavor}")
-
-```
-
-<!-- -->
-<!-- Note that flavor, count is a TUPLE -->
-
----
-
-# Dictionaries
-
-- Sometimes called maps or hashmaps
-- Establish a relationship between *key* and *value*
-    - Keys must be unique
-    - Value can be anything
-
-![bg right h:400](../assets/dictionary.jpg)
-
----
-
-# Dictionaries
-
-![bg right h:400](../assets/dictionary.jpeg)
-
-- Lookup with `[]` like a list
+- Wordle
+- Files
 
 --- 
 
-# Project
+# Code Cleanliness
 
-- Continue Wordle
-- Let the user play repeatedly
-- Use a dictionary to track how many guesses it took for each secret word
-- Print out the dictionary at exit
-- Bonus:
-    - Multiple word banks for different letter counts
+- Someone else might read your code one day
+- Comments
+- Variable names
+- Organization and spacing
+
+![bg right w:500](../assets/psychopath.jpeg)
+
+<!-- -->
+<!-- Print is a function that does not return a value! -->
+<!-- Input is a function that does not require arguments -->
+
+---
+
+# Functions!
+
+- You've used functions already
+- `print("something")`
+- `input("prompt")`
+- `open("file", "w")`
+- `random.choice([1, 2, 3])`
+- We can make our own!
+---
+
+# What does this output?
+
+```python
+def multiply_string(string):
+    output = ""
+    for i in range(3):
+        output += string
+    return output
+
+print(multiply_string("🚀"))
+print(multiply_string("🔥"))
+```
+
+<!-- -->
+
+<!-- This is a contrived example -->
+
+---
+
+# Wordle Rubric
+
+- Random word from word bank
+- Repeatedly ask for guesses
+- Grade with emoji or termcolor
+- Accept only valid English words
+- Exit when the user guesses correctly
+- Add some comments to your code
+- Bonus
+    - Allow only 6 guesses
+    - Use functions!
+---
+
+# Wordle 
+
+- tinyurl.com/five-letters
+- tinyurl.com/qnd-wordle-3
+
+![bg right w:500](../assets/qnd-wordle-3.png)

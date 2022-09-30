@@ -12,16 +12,18 @@ Mark Schmidt
 # Recap 
 
 - Wordle
-- Lists and Strings
 
 --- 
 
-# Functions
+# Code Cleanliness
 
-- Key for reuse and organization
-- Reduce copy + pasted code
-- Optionally accepts *arguments* 
-- Optionally returns a value
+- Good code vs. bad code
+- Someone else might read your code one day
+- Comments
+- Variable names
+- Organization and spacing
+
+![bg right w:500](../assets/psychopath.jpeg)
 
 <!-- -->
 <!-- Print is a function that does not return a value! -->
@@ -29,15 +31,23 @@ Mark Schmidt
 
 ---
 
+# Functions!
+
+- You've used functions already
+- `print("something")`
+- `input("prompt")`
+- `open("file", "w")`
+- `random.choice([1, 2, 3])`
+- We can make our own!
+---
+
 # What does this output?
 
 ```python
 def multiply_string(string):
     output = ""
-    count = 0
-    while count < 3:
+    for i in range(3):
         output += string
-        count += 1
     return output
 
 print(multiply_string("🚀"))
@@ -50,52 +60,22 @@ print(multiply_string("🔥"))
 
 ---
 
-# What does this do?
+# Wordle Rubric
 
-```python
-def add_5(value):
-    value = value + 5
-    print(f"Value is {value}")
-
-number = 10
-add_5(number)
-print(f"number is {number}")
-```
-<!-- -->
-<!-- add_5 replaces the value are *replacing* value, but that does not affect my_value -->
-
+- Random word from word bank
+- Repeatedly ask for guesses
+- Grade with emoji or termcolor
+- Accept only valid English words
+- Exit when the user guesses correctly
+- Add some comments to your code
+- Bonus
+    - Allow only 6 guesses
+    - Use functions!
 ---
 
-# What about this?
+# Wordle 
 
-```python
-def add_name_to_list(my_list):
-    my_list.append("Luna")
-    print(f"My list is {my_list}")
+- tinyurl.com/five-letters
+- tinyurl.com/qnd-wordle-3
 
-my_list = ["Mr. Schmidt"]
-add_name_to_list(my_list)
-print(f"My list is {my_list}")
-```
-
----
-
-# Project
-
-- Continue Wordle
-- Move guess grading to a function
-```python
-def grade_guess(guess, secret):
-    index = 0
-    output = ""
-    ...
-    return output
-```
-
----
-
-# Wordle Improvements
-
-- Track number of guesses
-- Display number of guesses on win
-- Require five letter word
+![bg right w:500](../assets/qnd-wordle-3.png)

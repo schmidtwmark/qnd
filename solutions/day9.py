@@ -1,63 +1,42 @@
-import random
-from termcolor import colored
+def send_message(my_username):
+    target = input("Enter the target username: ")
+    message = input("Enter the message: ")
+    message = {"author": my_username, "target": target, "message": message}
+    # TODO send message to target
+    print(f"Sending message {message}") # TODO remove
 
-
-def verify_word(guess_word, secret_word):
-    correct = True
-    output = ""
-    for i in range(len(guess_word)):
-        if guess_word[i] == secret_word[i]:
-            output += colored(guess_word[i], "green")
-        elif guess_word[i] in secret_word:
-            output += colored(guess_word[i], "yellow")
-            correct = False
-        else:
-            output += guess_word[i]
-            correct = False
-    return correct, output
-
-
-def get_random_word():
-    word_list = ["apple", "pears", "tombs", "train"]
-    return random.choice(word_list)
-
-
-
-def load_words():
-    with open("five_letter_words.txt") as f:
-        words = f.read().splitlines()
-    return words
-
-def play():
-    valid_words = load_words()
-    guess_number = 0
-    word = get_random_word()
-    print(
-        "Welcome to Wordle! I have a secret word, you have 6 chances to guess it")
-    while guess_number < 6:
-        guess_word = input("Enter a guess: ")
-        if guess_word not in valid_words:
-            print(f"Invalid word: {guess_word}, try again")
-            continue
-        guess_number += 1
-        verify_result, output = verify_word(guess_word, word)
-        print(output)
-        if verify_result:
-            print(f"You win in {guess_number} tries!")
-            break
-        else:
-            guess_number += 1
-            if guess_number == 6:
-                print("You lose!")
-                break
-    return word, guess_number
-
-guess_count = {}
-while True:
-    word, guesses = play()
-    guess_count[word] = guesses
-    if input("Play again? (y/n): ") == "y":
-        continue
+def display_messages(messages):
+    if len(messages) == 0:
+        print("No messages")
     else:
-        print(f"Scores: {guess_count}")
-        break
+        for message in messages:
+            print(f"{message['author']}: {message['message']}")
+
+def get_inbox(my_username):
+    inbox_request = {"user": my_username}
+    print(f"Sending inbox request {inbox_request}") # TODO remove
+    inbox = [] # TODO fetch messages for user
+    display_messages(inbox)
+
+def get_messages(my_username):
+    other = input("Enter the other username: ")
+    messages_request = {"me": my_username, "other": other}
+    print(f"Sending messages request {messages_request}") # TODO remove
+    messages = [] # TODO return all messages between me and other
+    display_messages(messages)
+    
+me = input("Welcome to the Messages App! Enter your username: ")
+running = True
+while running:
+    command = input("Enter a command: ")
+    if command == "send":
+        send_message(me)
+    elif command == "inbox":
+        get_inbox(me)
+    elif command == "get messages":
+        get_messages(me)
+    elif command == "exit" or command == "quit":
+        running = False
+    else:
+        print(f"Unknown command {command}")
+    print() # Print an empty line to make space

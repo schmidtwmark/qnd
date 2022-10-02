@@ -11,7 +11,7 @@ Mark Schmidt
 
 # Final Project
 
-- Daily Reminders => Personal Assistant
+- Messages => Personal Assistant
 
 ![bg right height:70%](../assets/final-project.jpeg)
 
@@ -19,6 +19,7 @@ Mark Schmidt
 
 # Personal Assistant
 
+- Messages
 - At least one of:
     - Weather
     - Sports
@@ -26,7 +27,7 @@ Mark Schmidt
     - Crypto
     - Top Songs of the Day
     - News Report
-- Any other ideas?
+- Another of the above, or something else pending approval
 
 ---
 # Weather
@@ -95,8 +96,5 @@ print(f"One share of Google is worth ${price}")
 - Extra Credit:
     - Lookup the user's location and display news around them
 
----
 
-# Anything else?
 
-- I'll help you figure out other APIs

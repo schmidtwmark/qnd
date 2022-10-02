@@ -67,8 +67,8 @@ with open("output.txt", "w") as f:
 - Read `five_letters.txt`
 - Use `five_letters.txt` in your Wordle game
 - Verify that a guess is an English word
-- replit.com/@mrschmidt/fiveletters
+- tinyurl.com/five-letters
 - tinyurl.com/qnd-wordle-3
 
 
-![bg right w:500](../assets/qnd-wordle-3.png)
+![bg right w:400](../assets/qnd-wordle-3.png)

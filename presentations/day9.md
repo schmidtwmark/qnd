@@ -4,25 +4,24 @@ theme: gaia
 class: invert
 ---
 
-# QND Computer Science Day 8
+# QND Computer Science Day 9
 Mark Schmidt
 
---- 
+# Agenda
 
-# Ballot Box 
+- Recap
+- Introduce project
+- Dictionaries + JSON
 
-```python
+---
 
-while True:
-    flavor = input("Enter your favorite ice cream, or q to quit")
-    if flavor == "q":
-        break
+# Project
 
-    # TODO: save the flavors in a structure of some kind
-
-# TODO display the top flavors
-
-```
+- Messages
+  - Send a message to a friend
+  - View your inbox
+  - View conversations
+- A lot to learn!
 
 ---
 
@@ -44,13 +43,11 @@ print(f"Chocolate: {chocolate}")
 print(f"Vanilla: {vanilla}")
 ```
 
-
 ---
 
 # Ballot Box 
 
 ```python
-
 flavors = {} # Create an empty dictionary
 while True:
     flavor = input("Enter your favorite ice cream, or q to quit")
@@ -85,15 +82,36 @@ for flavor, count in flavors:
 
 ![bg right h:400](../assets/dictionary.jpeg)
 
-- Lookup with `[]` like a list
-
+- Lookup and insert with `[]`
+- Use `in` to check if a key exists
 --- 
 
-# Project
+# Complex Data
 
-- Continue Wordle
-- Let the user play repeatedly
-- Use a dictionary to track how many guesses it took for each secret word
-- Print out the dictionary at exit
-- Bonus:
-    - Multiple word banks for different letter counts
+```python
+message = {
+    "sender": "mrschmidt",
+    "recipient": "luna",
+    "text": "Do you want a treat?"
+}
+
+# send the message
+
+print(f"Message from {message['sender']} to {message['recipient']}: {message['text']}")
+```
+
+---
+
+# JSON
+
+- JavaScript Object Notation
+- Send data between applications
+- JSON is easy to translate to and from Python dictionaries
+
+---
+
+
+# Today
+
+- Create app skeleton
+- Build requests

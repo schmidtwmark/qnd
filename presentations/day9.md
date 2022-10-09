@@ -109,6 +109,6 @@ print(f"Message from {message['author']} to {message['target']}: {message['text'
 
 - Create app skeleton
 - Build requests
-- tinyurl.com/messages-day9
+- tinyurl.com/messages-day9-qr
 
 ![bg right h:400](../assets/messages-day9-qr.png)

@@ -13,7 +13,7 @@ Mark Schmidt
 
 - Recap
 - Introduce project
-- Dictionaries + JSON
+- Dictionaries
 
 ---
 
@@ -92,23 +92,15 @@ for flavor, count in flavors:
 
 ```python
 message = {
-    "sender": "mrschmidt",
-    "recipient": "luna",
+    "author": "mrschmidt",
+    "target": "luna",
     "text": "Do you want a treat?"
 }
 
 # send the message
 
-print(f"Message from {message['sender']} to {message['recipient']}: {message['text']}")
+print(f"Message from {message['author']} to {message['target']}: {message['text']}")
 ```
-
----
-
-# JSON
-
-- JavaScript Object Notation
-- Send data between applications
-- JSON is easy to translate to and from Python dictionaries
 
 ---
 
@@ -117,3 +109,6 @@ print(f"Message from {message['sender']} to {message['recipient']}: {message['te
 
 - Create app skeleton
 - Build requests
+- tinyurl.com/messages-day9
+
+![bg right h:400](../assets/messages-day9-qr.png)

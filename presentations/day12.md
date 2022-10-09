@@ -9,127 +9,92 @@ Mark Schmidt
 
 --- 
 
-# The Internet
+# Final Project
 
-- How does it work?
+- Messages => Personal Assistant
 
-![bg right w:100%](../assets/small_doge.jpeg)
-
-<!-- The internet is a series of tubes! -->
-<!-- There are various complex handshakes and protocols, out of scope for our class-->
-<!-- All software engineers agree it is a miracle anything works at all -->
+![bg right height:70%](../assets/final-project.jpeg)
 
 ---
 
-# API
+# Personal Assistant
 
-- Application Programming Interface
-- How does your program talk to the outside world?
+- Messages
+- At least one of:
+    - Weather
+    - Sports
+    - Stocks
+    - Crypto
+    - Top Songs of the Day
+    - News Report
+- Another of the above, or something else pending approval
+
+---
+# Weather
+
+- Use OpenWeatherMap API
+- You'll need to get an API key (easy)
+- Extra Credit:
+    - Display different emoji for different weather conditions
+
+---
+# Sports
+
+- Use my public API
+- `https://livescoresapi.mrschmidt.repl.co/sport/golf`
+- Supported sports:
+    - `golf`, `baseball`, `hockey`, `college-football`, `football`, `college-basketball`, `basketball`, `all`
+- Use `teams/{sport}` endpoint to fetch team details
+- Extra Credit
+    - Use provided team colors in output with `termcolor` package
+
 
 ---
 
-# An Example
+# Stocks
 
+- Use `yfinance` python package to fetch stock data
+- Just a few lines of code!
 ```python
-import requests
+import yfinance as yf
 
-def get_weather(city, api_key):
-    url = "http://api.openweathermap.org/data/2.5/weather"
-    params = {"q": city, "appid": api_key}
-    response = requests.get(url, params=params)
-    return response.json()
-
+google = yf.Ticker("GOOG")  # Fetches data
+info = google.info  # Dictionary with many options
+price = info["currentPrice"]  # Get the current price
+print(f"One share of Google is worth ${price}")
 ```
-
-<!-- What will this do? -->
-<!-- Why do I need to import requests? -->
+- Extra Credit:
+    - Use Matplotlib to show a stock graph
 
 ---
 
-# What happens when something goes wrong?
+# Crypto
 
-- No internet connection
-- Invalid API
-- Can't find the requested city
+- Use `yfinance`
+    - A little bit different path than stocks
+- Use `cryptocompare`
+    - Dedicated crypto library
 
-
-
----
-
-# No internet
-
-```
-Traceback (most recent call last):
-...
-socket.gaierror: [Errno 8] nodename nor servname provided, or not known
-
-```
-
-<!-- Fails to connect at all! Throws an exception -->
-
----
-
-# try/except
-
-```python
-def get_weather(city, api_key):
-    url = "http://api.openweathermap.org/data/2.5/weather"
-    params = {"q": city, "appid": api_key}
-    try:
-        response = requests.get(url, params=params)
-        return response.json()
-    except Exception as e:
-        print(f"Error: {e}")
-        return None
-```
+- Extra Credit:
+    - Use Matplotlib to show a stock graph
 
 <!-- -->
-<!-- If there is an exception in the try block, skip to except phase -->
-<!-- Sometimes, you want to leave this responsibility to the function caller -->
+<!-- Important to note that crypto is a scam-->
 
 ---
+# Spotify Top Songs
 
-# API Key / Missing City
-
-```
-{'cod': '400', 'message': 'Nothing to geocode'}
-```
-
-- Common Error Codes
-    - 200: Success
-    - 400: Bad Request
-    - 404: Not Found
-    - 500: Internal Server Error
----
-
-# Handling error codes
-
-```python
-def get_weather(city, api_key):
-    url = "http://api.openweathermap.org/data/2.5/weather"
-    params = {"q": city, "appid": api_key}
-    try:
-        response = requests.get(url, params=params)
-        output = response.json()
-        if response.status_code == 200:
-            return output 
-        else:
-            print("Error: {}".format(output["message"]))
-            return None
-        return response.json()
-    except Exception as e:
-        print(f"Error: {e}")
-        return None
-```
+- Use `spotipy` to fetch Spotify data
+- Rather involved authentication process
+- Don't do this one first
 
 ---
+# News 
+
+- Use `newsapi.org` to fetch news data
+- Has a JSON API or a python package
+- Extra Credit:
+    - Lookup the user's location and display news around them
 
 
 
-# Project
-
-- Update Reminders to use my API
-    - Add a new command `random`
-    - Perform a get request and store the generated reminder
-    - url is https://qnd.mrschmidt.repl.co
-    - Use try/except to only add generated reminder if successful

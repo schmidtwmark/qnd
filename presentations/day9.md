@@ -32,14 +32,17 @@ Mark Schmidt
 ```python
 chocolate = 0
 vanilla = 0
-while True:
-    flavor = input("Enter your favorite ice cream, or q to quit")
+is_running = True
+while is_running:
+    flavor = input("Enter your favorite ice cream, or 'q' to quit: ")
     if flavor == "q":
-        break
+        is_running = False
     elif flavor == "chocolate":
         chocolate += 1
     elif flavor == "vanilla":
         vanilla += 1
+    else:
+        print("Invalid flavor")
 
 print(f"Chocolate: {chocolate}")
 print(f"Vanilla: {vanilla}")
@@ -50,17 +53,18 @@ print(f"Vanilla: {vanilla}")
 # Ballot Box 
 
 ```python
-flavors = {} # Create an empty dictionary
-while True:
-    flavor = input("Enter your favorite ice cream, or q to quit")
+votes = {} # Create an empty dictionary
+is_running = True
+while is_running:
+    flavor = input("Enter your favorite ice cream, or q to quit: ")
     if flavor == "q":
-        break
-    if flavor not in flavors:
-        flavors[flavor] = 0
-    flavors[flavor] += 1
+       is_running = False 
+    else:
+        if flavor not in votes:
+            votes[flavor] = 0
+        votes[flavor] += 1
 
-for flavor, count in flavors:
-    print(f"There are {count} votes for {flavor}")
+print(votes)
 
 ```
 
@@ -73,8 +77,6 @@ for flavor, count in flavors:
 
 - Sometimes called maps or hashmaps
 - Establish a relationship between *key* and *value*
-    - Keys must be unique
-    - Value can be anything
 
 ![bg right h:400](../assets/dictionary.jpg)
 
@@ -82,10 +84,10 @@ for flavor, count in flavors:
 
 # Dictionaries
 
-![bg right h:400](../assets/dictionary.jpeg)
-
+- Create with `{}`
 - Lookup and insert with `[]`
 - Use `in` to check if a key exists
+- What happens if you try to access something that does not exist?
 --- 
 
 # Complex Data

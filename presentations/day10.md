@@ -81,7 +81,25 @@ Mark Schmidt
 
 - A lot like using a browser!
 - We need to know what URL to connect to
+- Follow the API
 
+---
+
+# What's an API?
+
+- **A**pplication **P**rogramming **I**nterface
+- Describes inputs and outputs
+- Send a request to an API and receive a response
+
+
+---
+
+# Weather API
+
+```json
+{"q": "Chicago", "api_key": "xaj345lk;bhasf23452"}
+```
+- Send JSON to `openweathermap`, it will give us a JSON representation of the weather
 ---
 
 # Use the `requests` library
@@ -89,10 +107,11 @@ Mark Schmidt
 ```python
 import requests
 
-url = "http://api.openweathermap.org/data/2.5/weather"
-params = {"q": city, "appid": api_key} 
-response = requests.get(url, params=params)
-return response.json()
+def get_weather(city, api_key):
+    url = "http://api.openweathermap.org/data/2.5/weather"
+    params = {"q": city, "appid": api_key} 
+    response = requests.get(url, params=params)
+    return response.json()
 
 ```
 
@@ -105,85 +124,34 @@ return response.json()
 - DELETE
 - LIST
 
----
 
 ---
 
-# What happens when something goes wrong?
+# Messages App
 
-- No internet connection
-- Invalid API
-- Can't find the requested city
-
+`send` -> POST
+```json
+{"text": "Hello!", "author": "mrschmidt", "target": "luna"}
+```
+`inbox` -> GET
+```json
+{"target": "mrschmidt"}
+```
+`messages` -> GET
+```json
+{"me": "mrschmidt", "other": "luna"}
+```
 
 
 ---
 
-# No internet
+# Security
 
-```
-Traceback (most recent call last):
-...
-socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+- This is not secure
+- Don't try to hack it or ruin it for others
+- White hat hacking
 
-```
-
-<!-- Fails to connect at all! Throws an exception -->
-
----
-
-# try/except
-
-```python
-def get_weather(city, api_key):
-    url = "http://api.openweathermap.org/data/2.5/weather"
-    params = {"q": city, "appid": api_key}
-    try:
-        response = requests.get(url, params=params)
-        return response.json()
-    except Exception as e:
-        print(f"Error: {e}")
-        return None
-```
-
-<!-- -->
-<!-- If there is an exception in the try block, skip to except phase -->
-<!-- Sometimes, you want to leave this responsibility to the function caller -->
-
----
-
-# API Key / Missing City
-
-```
-{'cod': '400', 'message': 'Nothing to geocode'}
-```
-
-- Common Error Codes
-    - 200: Success
-    - 400: Bad Request
-    - 404: Not Found
-    - 500: Internal Server Error
----
-
-# Handling error codes
-
-```python
-def get_weather(city, api_key):
-    url = "http://api.openweathermap.org/data/2.5/weather"
-    params = {"q": city, "appid": api_key}
-    try:
-        response = requests.get(url, params=params)
-        output = response.json()
-        if response.status_code == 200:
-            return output 
-        else:
-            print("Error: {}".format(output["message"]))
-            return None
-        return response.json()
-    except Exception as e:
-        print(f"Error: {e}")
-        return None
-```
+![bg right h:500](../assets/hackerman.jpeg)
 
 ---
 

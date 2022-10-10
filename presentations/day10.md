@@ -154,6 +154,13 @@ return response.json()
 
 ---
 
+# A Warning
+
+- Keep it school appropriate
+- I log message send addresses
+
+---
+
 # Project
 
 - Actually send messages!

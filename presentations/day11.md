@@ -13,7 +13,6 @@ Mark Schmidt
 
 - Recap
 - GET requests
-- Error handling
 - Displaying things nicely
 
 ---
@@ -75,26 +74,6 @@ socket.gaierror: [Errno 8] nodename nor servname provided, or not known
 
 ---
 
-# try/except
-
-```python
-def get_weather(city, api_key):
-    url = "http://api.openweathermap.org/data/2.5/weather"
-    params = {"q": city, "appid": api_key}
-    try:
-        response = requests.get(url, params=params)
-        return response.json()
-    except Exception as e:
-        print(f"Error: {e}")
-        return None
-```
-
-<!-- -->
-<!-- If there is an exception in the try block, skip to except phase -->
-<!-- Sometimes, you want to leave this responsibility to the function caller -->
-
----
-
 # API Key / Missing City
 
 ```
@@ -108,26 +87,6 @@ def get_weather(city, api_key):
     - 500: Internal Server Error
 ---
 
-# Handling error codes
-
-```python
-def get_weather(city, api_key):
-    url = "http://api.openweathermap.org/data/2.5/weather"
-    params = {"q": city, "appid": api_key}
-    try:
-        response = requests.get(url, params=params)
-        output = response.json()
-        if response.status_code == 200:
-            return output 
-        else:
-            print("Error: {}".format(output["message"]))
-            return None
-        return response.json()
-    except Exception as e:
-        print(f"Error: {e}")
-        return None
-```
----
 
 # Project
 

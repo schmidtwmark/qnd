@@ -11,9 +11,8 @@ Mark Schmidt
 
 # Final Project
 
-- Messages => Personal Assistant
+- Messages ➡️ Personal Assistant
 
-![bg right height:70%](../assets/final-project.jpeg)
 
 ---
 
@@ -25,10 +24,40 @@ Mark Schmidt
     - Sports
     - Stocks
     - Crypto
-    - Top Songs of the Day
-    - News Report
+    - Spotify Top Songs
+    - Wordle
 - Another of the above, or something else pending approval
 
+---
+
+# Let's Make a Deal
+
+- You have all next week to work on this
+- This class is work time
+- You have plenty of things to do
+    - If you finish the main 3 items, add more to your personal assistant!
+    - Impress me!
+
+---
+
+# Carrot
+
+- If everyone is on task, I will make cookies
+- Some reviews of my cookies:
+    - "Incredible"
+    - "The best cookies I've ever had"
+    - "What is your secret?"
+
+---
+
+# Stick
+
+- Many more lectures and daily projects
+    - Classes
+    - Error handling
+    - Files
+    - Advanced loops
+- Final exam
 ---
 # Weather
 
@@ -45,8 +74,6 @@ Mark Schmidt
 - Supported sports:
     - `golf`, `baseball`, `hockey`, `college-football`, `football`, `college-basketball`, `basketball`, `all`
 - Use `teams/{sport}` endpoint to fetch team details
-- Extra Credit
-    - Use provided team colors in output with `termcolor` package
 
 
 ---
@@ -63,8 +90,6 @@ info = google.info  # Dictionary with many options
 price = info["currentPrice"]  # Get the current price
 print(f"One share of Google is worth ${price}")
 ```
-- Extra Credit:
-    - Use Matplotlib to show a stock graph
 
 ---
 
@@ -72,29 +97,26 @@ print(f"One share of Google is worth ${price}")
 
 - Use `yfinance`
     - A little bit different path than stocks
-- Use `cryptocompare`
-    - Dedicated crypto library
 
-- Extra Credit:
-    - Use Matplotlib to show a stock graph
 
 <!-- -->
 <!-- Important to note that crypto is a scam-->
 
 ---
-# Spotify Top Songs
+# Spotify Top Songs 
 
-- Use `spotipy` to fetch Spotify data
-- Rather involved authentication process
-- Don't do this one first
+- Use Spotipy
+- Rather involved but VERY cool
+
+--- 
+
+# Wordle
+
+- You already did Wordle!
+- Just copy it over!
 
 ---
-# News 
 
-- Use `newsapi.org` to fetch news data
-- Has a JSON API or a python package
-- Extra Credit:
-    - Lookup the user's location and display news around them
+# Resources
 
-
-
+- markschmidt.io/final-project

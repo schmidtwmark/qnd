@@ -117,6 +117,5 @@ print(f"One share of Google is worth ${price}")
 
 ---
 
-# Resources
 
-- markschmidt.io/final-project
+# markschmidt.io/qnd-final-project

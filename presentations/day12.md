@@ -38,21 +38,20 @@ Mark Schmidt
     - If you finish the main 3 items, add more to your personal assistant!
     - Impress me!
 
+
 ---
 
 # Carrot
 
 - If everyone is on task, I will make cookies
-- Some reviews of my cookies:
-    - "Incredible"
-    - "The best cookies I've ever had"
-    - "What is your secret?"
+
+![bg right:50% 100%](../assets/cookie.jpeg)
 
 ---
 
 # Stick
 
-- Many more lectures and daily projects
+- More lectures and daily projects
     - Classes
     - Error handling
     - Files
@@ -117,5 +116,11 @@ print(f"One share of Google is worth ${price}")
 
 ---
 
+# Ascii Art
 
-# markschmidt.io/qnd-final-project
+- Fetch ascii art from https://ascii-art.mrschmidt.repl.co/random
+
+
+# Requirements & Details
+
+![bg width:400](../assets/final-project-qr.png)

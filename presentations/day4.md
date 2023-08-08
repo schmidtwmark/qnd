@@ -18,13 +18,16 @@ Mark Schmidt
 
 # What does this do?
 
-```python
-count = 0
-while count < 3:
-    print(f"Hello, World! Count = {count}")
+```swift
+var count = 0
+while count < 3 {
+    print("Hello, World, count = \(count)")
     count = count + 1
+}
 
 ```
+
+<!-- Two new things-- var and while-->
 
 ---
 
@@ -40,26 +43,6 @@ while count < 3:
 
 ---
 
-# Loops!
-
-- Super important in computer science
-- Useful for repeating actions
-- More interactive programs!
-
-```python
-is_running = True
-while is_running:
-    command = input("Please enter a command: ")
-    if command == "q" or command == "quit":
-        is_running = False 
-    else:
-        print(f"Executing command {command}")
-```
-<!-- -->
-<!-- Introduce break as an alternative-->
-
----
-
 # Here be dragons!
 
 ```python
@@ -70,17 +53,36 @@ while count > 0:
 
 ```
 
-
-<!-- -->
-<!-- Infinite loop -->
----
-
 # Infinite Loops
 
 - This program will never end
 - To exit early, use CTRL + C shortcut or STOP button
 - Beware of overflowing resources
 ![bg right w:500](../assets/infinite_loop.jpeg)
+
+# Loops!
+
+```swift
+var running = true
+while running {
+    print("Enter a number")
+    let firstNumber = Int(readLine()!)!
+
+    print("Enter another number") 
+    let secondNumber = Int(readLine()!)!
+
+    print("Enter a command")
+    if command == "q" || command == "quit" {
+        running = false
+    } else if command == "add" {
+        ...
+    }
+}
+```
+<!-- -->
+
+---
+
 
 <!-- -->
 <!-- Python is smarter than most languages with this-->

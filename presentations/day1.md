@@ -11,10 +11,20 @@ Mark Schmidt
 
 # Agenda
 
+- Learning philosophy
 - Programming Languages
 - Python
 - Replit
 - Your first (actual) program
+
+---
+
+# Learning Philosophy
+
+- You will not master everything today
+- You will (probably) be lost
+- That's okay!
+- Practice, practice, practice
 
 ---
 
@@ -28,7 +38,7 @@ Mark Schmidt
 
 # Programming Languages
 
-- Compile to machine code
+- *Compile* to machine code
 - Tradeoffs
     - Ease of use
     - Readability
@@ -37,16 +47,13 @@ Mark Schmidt
 
 ---
 
-# Python
+# Swift
 
-- **Simple**, batteries included language
-- Used by real engineers!
-  - Machine learning
-  - Web services
-  - Scripting
-- A great starting point
+- Programming Language created by Apple
+- Used for creating iOS and macOS applications
+- Simple and modern!
 
-![bg right w:500](../assets/python.webp)
+![bg right w:500](../assets/swift.jpeg)
 
 --- 
 
@@ -62,77 +69,94 @@ Mark Schmidt
 
 1. Create an account (use your Google account)
 2.  Press "+" in the top right
-3.  Select **Python** as a template
+3.  Select **Swift** as a template
 4.  Title **Hello World**
 5.  Press "Create REPL"
 ![bg right:50% 100%](../assets/repl-setup.png)
 
----
-
-![bg w: 70%](../assets/repl-screen.png)
 
 ---
 
 # Hello World!
 
-In **main.py**, write:
+In **main.swift**, we already have:
 
-```python
-greeting = "Hello World"
-print(greeting)
+```swift
+print("hello from Swift!")
 ```
 
 Then tap the **▶️ Run** button on top
 
-You should see `Hello World` in the console below
+You should see `hello from Swift!` in the console below
 
 ---
 
-# Hold on, what?
+# Repitition and Variables
 
-- `"Hello World"` is a **string**
-  - A string is a list of **characters** between quotes `"`
-  - A string can by empty `""`
-- We store the string in a variable called `greeting`
-- `print()` is a **function**
-  - A function takes some inputs (between parens) and produces some outputs
-  - `print(value)` will print the value  
-- Can you change your program to greet yourself? 
-
----
-# What will this do?
-
-```python
-name = "Luna"
-print("Hello" + name)
+```swift
+print("hello from Swift!")
+print("hello from Swift!")
+print("hello from Swift!")
 ```
 
-<!-- -->
-<!-- Gotcha: will print out "HelloLuna"
-We need to add a space -->
-<!-- + is the concatenation operator -->
+--- 
+# Variables
+
+- *Declare* variables with `let`
+- Just like in math, replaces the variable with a value
+- Read it as "Let greeting equal ..."
+
+```swift
+let greeting = "hello from Swift!"
+print(greeting)
+print(greeting)
+print(greeting)
+```
 
 ---
+# Concatenation
 
-# Debugging
+- Combine variables together!
 
-- You will almost never write code perfectly
-
-![bg right:50% 100%](../assets/debugging-meme.jpeg)
-
+```swift
+let greeting = "Hello "
+let name = "Mr. Schmidt"
+print(greeting + name)
+```
 ---
+
 # This program is boring!
 
 - It needs to respond to user input
-- Use the `input()` function!
-- Input *optionally* takes in a string to output
-- Waits for user input *in the console*
-- Type your name and press the enter key
+- Use the `readLine` function!
+- Waits for the user to type in the console and press Enter
+- Stores the value in a variable
 
-```python
-name = input("What is your name?")
+```swift
+print("What is your name?")
+let name = readLine()!
+...
 ```
 - Use concatenation to greet the user!
+
+---
+
+# One More Thing
+
+- Comments + Spacing
+- Empty lines can be ignored
+- Anything after a `//` is ignored by the program
+
+```swift
+// Ask the user for their name
+print("What is your name?")
+let name = readLine()!
+
+// Note the space after Hello
+let greeting = "Hello "
+print(greeting + name)
+```
+
 
 ---
 

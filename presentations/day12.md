@@ -9,6 +9,13 @@ Mark Schmidt
 
 --- 
 
+# Agenda
+
+- Recap
+- Final Project
+
+---
+
 # Final Project
 
 - Messages ➡️ Personal Assistant
@@ -41,21 +48,22 @@ Mark Schmidt
 
 ---
 
-# Carrot
+# `if on_task:`
 
-- If everyone is on task, I will make cookies
+- I will make cookies
 
 ![bg right:50% 100%](../assets/cookie.jpeg)
 
 ---
 
-# Stick
+# `else:`
 
 - More lectures and daily projects
     - Classes
     - Error handling
     - Files
     - Advanced loops
+    - Nullability
 - Final exam
 ---
 # Weather
@@ -116,9 +124,6 @@ print(f"One share of Google is worth ${price}")
 
 ---
 
-# Ascii Art
-
-- Fetch ascii art from https://ascii-art.mrschmidt.repl.co/random
 
 
 # Requirements & Details

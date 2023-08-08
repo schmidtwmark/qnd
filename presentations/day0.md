@@ -15,7 +15,6 @@ Mark Schmidt
     - Introduction
     - What is this class?
     - Why should you care?
-    - The Basics
     - Activity
 
 ---
@@ -80,18 +79,6 @@ Mark Schmidt
 <!-- Any questions on what we're doing? -->
 <!-- What's my role at Google like? -->
 <!-- How did I know that Software Engineering ? -->
----
-
-# Computer Science and Software Engineering
-
-- Computer Science
-    - The study of computers + computation
-- Software Engineering
-    - The practice of writing fast, reliable, and safe programs
-- CS is the theory, SE is the practice
-
-<!-- -->
-<!-- We'll do a bit of both -->
 
 ---
 

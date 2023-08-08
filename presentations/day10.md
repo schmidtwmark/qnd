@@ -114,14 +114,6 @@ return response.json()
 
 ```
 
----
-
-# Different Request Types
-
-- GET
-- POST
-- DELETE
-- LIST
 
 
 ---

@@ -24,6 +24,15 @@ Mark Schmidt
 
 ---
 
+# Different Request Types
+
+- GET
+- POST
+- DELETE
+- LIST
+
+---
+
 # GET Requests
 
 - Get information from a server

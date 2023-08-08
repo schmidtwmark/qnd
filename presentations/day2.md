@@ -24,56 +24,61 @@ Mark Schmidt
 
 # What does this do?
 
-```python
-a = 5
-b = 4
+```swift
+let a = 5
+let b = 4
 
-result = a + b
+let result = a + b
 
 print(result)
 ```
 
-<!-- -->
-<!-- Should print the number 9 -->
----
+# The Square Calculator
 
-# Temperature Conversion
+- Ask the user for a number
+- Square it and print the result
 
-```python
-fahrenheit = input("Enter a Fahrenheit temperature to convert to Celsius: ")
+```swift
+print("Enter a number to square: ")
+let number = readLine()!
 
-celsius = (fahrenheit - 32) * 5/9 
+print(number * number)
 
-print("The temperature in celsius is " + celsius)
 ```
 
-<!-- >
-<!-- Note that anything after a # is a comment. Useful for >
-<!-- Gotcha 1: fails to subtract because fahrenheit is a string>
-<!-- Gotcha 2: fails to run until we add str() -->
-<!-- Brief aside on types -->
 ---
 
-# Two Types
+# Types
 
+- Strings
+  - Any text
+  - Can be empty
+  - Put in quotes
+  - Can be combined with other strings
 - Integers
-    - int
-    - Whole Numbers
-- Floats
-    - float
-    - Decimal Numbers
-
+  - A number with no decimal
 
 ---
-# Floats are weird
+
+# The Square Calculator (fixed)
+
+```swift
+print("Enter a number to square: ")
+let numberString = readLine()!
+let number = Int(numberString)!
+
+print(number * number)
+```
+
+---
+# Decimals
 
 
 - What will this do?
-- What if `b` is 0.2?
-```python
-a = 0.1
-b = 0.1
-print(f"a + b is {a + b}")
+```swift
+let a = 0.1
+let b = 0.1
+print(a + b)
 
 ```
 ![bg right w:500](../assets/math.jpeg)
@@ -82,11 +87,34 @@ print(f"a + b is {a + b}")
 
 ---
 
+# Surely this hasn't caused problems!
+
+- Banks deal with decimals a lot!
+
+```swift
+let myBalance = 200.20
+let purchasePrice = 100.20
+let finalBalance = myBalance - purchasePrice
+print(finalBalance)
+```
+
+---
+
+# Types
+
+- Strings
+- Ints
+- Floats
+  - Store decimal values
+  - Imprecise (be careful!)
+
+---
+
 # Project
 
 Make a **calculator**
 
-Use `input()` twice to get two numbers
+Use `readLine()` twice to get two numbers
 
 Compute the sum, print it out!
 
@@ -97,5 +125,7 @@ Compute the sum, print it out!
 1. Also print the difference (-)
 2. Also print the product (*)
 3. Also print the quotient (/)
+4. Use `Floats` instead of ints
+5. What happens if we divide by zero?
 
 

@@ -20,14 +20,17 @@ Mark Schmidt
 
 # Combining Booleans
 
-```python
-if health < 0 or time_remaining < 0:
+```swift
+if health < 0 || time_remaining < 0 {
     print("Game Over")
+}
 
-...
+//...
 
-if operator == "+" or operator == "add":
-    print(f"The sum is {a + b}")
+if op == "+" || op == "add" {
+    let sum = a + b
+    print("The sum is " + String(sum))
+}
 
 
 ```
@@ -36,30 +39,38 @@ if operator == "+" or operator == "add":
 
 # And
 
-```python
-if username == "admin" and password == "password":
+- Use &&
+
+```swift
+if username == "admin" && password == "password" {
     print("Welcome, admin!")
+}
 
 ...
 
-if day == "Monday" and time == "9:00":
+if day == "Monday" and time == "9:00" {
     print("It's time for class!")
+}
 ```
 
 ---
 
-# Nested If
+# String Interpolation
 
+- A fancy name for a simple thing
+- Write ` "Sum is " + String(sum)` is annoying
+- Programmers are lazy!
+- Insert code inside a string
 
-![bg right w:500](../assets/nesting.jpg)
-
-```python
-elif operator == "/":
-    if b == 0:
-        print("Cannot divide by zero!")
-    else:
-        print(f"The quotient is {a / b}")
+```swift
+let sum = a + b
+print("Sum is " + String(sum))
+// Same as 
+print("Sum is \(sum)")
+// same as
+print("Sum is \(a + b)")
 ```
+
 ---
 
 # Calculator Improvements
@@ -67,8 +78,9 @@ elif operator == "/":
 - Invalid operators
     - use `else`
 - Accept "+" or "add"
-    - use `or`
+    - use `||`
 - What happens if we divide by zero?
-    - Nested `if`
+    - Guard using `&&` at the top
 - Exponentiation
     - `**`
+- Use String Interpolation `\(sum)`

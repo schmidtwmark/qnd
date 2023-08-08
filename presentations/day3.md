@@ -36,10 +36,11 @@ Mark Schmidt
 
 # Example
 
-```python
-is_old_enough_to_drive = True
-my_team_won = False
-dark_mode_enabled = True
+```swift
+let isOldEnoughToDrive = true
+let myTeamWon = false 
+let darkModeEnabled = true
+...
 ```
 ![bg right w:500](../assets/boolean.jpeg)
 
@@ -47,72 +48,73 @@ dark_mode_enabled = True
 
 # Conditions
 
-`>`, `<`, `<=`, `>=`, `==`, `!=`
+`>`, `<`
 
-```python
-age = input("How old are you? ")
-greater = age > 16
+```swift
+print("How old are you?")
+let ageString = readLine()!
+let age = Int(ageString)!
 
-print("You are old enough to drive: " + str(greater))
+let greater = age > 16
+
+print("You are old enough to drive: " + String(greater))
 ```
 
-- What is the output if I enter 25?
-- 13?
-- 16? 
+---
+
+# Equality
+
+```swift
+let secret_password = "my awesome password"
+print("Enter your password:")
+let password = readLine()!
+
+let correct = password == secret_password
+
+print("Correct password? " + String(correct))
+```
 
 ---
 
 # if else
 
-What do you think this will print out?
+- Booleans let us control what happens in our code
 
-```python
-age = 14
+```swift
+let secret_password = "my awesome password"
+print("Enter your password:")
+let password = readLine()!
 
-if age >= 16:
-    print("You are old enough to drive a car")
-else:
-    difference = 16 - age
-    print(f"You'll be old enough in {difference} years")
+if password == secret_password {
+    print("Correct password!")
+} else {
+    print("Incorrect password!")
+}
 ```
-
-<!-- -->
-<!-- This is where we introduce f-strings for concatenation-->
-<!-- Explain that normal concatenation is fine, but this is preferred among most programmers-->
-<!-- Handles the annoying str thing for you -->
-
 ---
 
-# elif
+# else if
 
+- Check multiple conditions in a row
 
-```python
-if age >= 18:
-    print("You are old enough to vote and drive")
-elif age >= 16:
-    print(f"You are old enough to drive and can vote in {18 - age} years")
-else: 
-    print(f"You can drive in {16 - age} years")
+```swift
+let secret_password = "my awesome password"
+let ultra_secret_password = "my other awesome password"
+print("Enter your password:")
+let password = readLine()!
+
+if password == secret_password {
+    print("Correct password!")
+} else if password == my_ultra_secret_password {
+    print("Ah, you guessed my super secret password!")    
+} else {
+    print("Incorrect password!")
+}
 ```
-- What is the output if age is 25?
-- 13?
-- 16? 
 
 <!-- -->
 <!-- Multiple conditions! -->
 
----
-
-# Not just numbers!
-
-```python
-if hometown == "Chicago" or favorite_team == "Blackhawks":
-    print("Wow, you are a cool person")
-else:
-    print("You have poor taste")
-```
-<!-- -->
-<!-- You can use and in a similar way -->
 ---
 
 # Project 
@@ -122,12 +124,12 @@ Extend our calculator from yesterday
 Ask the user to choose an operation using `input`
 Add, subtract, multiply, divide
 
-Use `if, elif, else` to perform that operation
+Use `if, else if, else` to perform that operation
 
 ---
 
 # Bonus
 
-- Allow user to specify the name OR the symbol ("add" or "+")
 - Add Exponents (**)
 - What happens if you divide by 0?
+  - Can we protect against dividing by zero?

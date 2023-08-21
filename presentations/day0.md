@@ -34,8 +34,10 @@ Mark Schmidt
 
 # Why am I here?
 
+- CS is a great opportunity
 - 4 Weeks of intro to Computer Science
 - CS is for everyone!
+- Have an open mind
 
 
 
@@ -80,9 +82,11 @@ Mark Schmidt
 
 # Questions?
 
+
 <!-- -->
 <!-- Any questions on what we're doing? -->
 <!-- What's my role at Google like? -->
+<!-- What are my hot takes on recent technology developments >
 <!-- How did I know that Software Engineering was right for me? -->
 
 ---

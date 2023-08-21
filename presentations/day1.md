@@ -13,8 +13,8 @@ Mark Schmidt
 
 - Learning philosophy
 - Programming Languages
-- Python
-- Replit
+- Swift
+- Tools
 - Your first (actual) program
 
 ---
@@ -39,11 +39,7 @@ Mark Schmidt
 # Programming Languages
 
 - *Compile* to machine code
-- Tradeoffs
-    - Ease of use
-    - Readability
-    - Speed
-    - Memory management
+- Many, many different languages
 
 ---
 
@@ -57,6 +53,15 @@ Mark Schmidt
 
 --- 
 
+# My Website
+
+- Everything you need is at [markschmidt.io/qnd]()
+- Presentation slides
+- Code links
+- **Livestream**
+
+---
+
 # Replit
 
 - We need a coding environment
@@ -67,11 +72,12 @@ Mark Schmidt
 
 # Setup
 
-1. Create an account (use your Google account)
-2.  Press "+" in the top right
-3.  Select **Swift** as a template
-4.  Title **Hello World**
-5.  Press "Create REPL"
+1. Go to Replit.com
+2. Create an account (use your Google account)
+3.  Press "+" in the top right
+4.  Select **Swift** as a template
+5.  Title **Hello World**
+6.  Press "Create REPL"
 ![bg right:50% 100%](../assets/repl-setup.png)
 
 
@@ -91,9 +97,31 @@ You should see `hello from Swift!` in the console below
 
 ---
 
-# Repitition and Variables
+# Strings
+
+- A sequence of characters
+- Characters
+  - Letters, numbers, punctuation, emoji 🚀🚀🚀
+- Always between quotation marks `""`
+---
+
+# The Print Function
+
+- `print("Hello 🦀🦀🦀")`
+- Prints the provided string to the console output
+- Add emoji with `control` + `command` + `spacebar`
+- We will see many, many other functions
+- `function(input1, input2, input3...)`
+
+---
+
+# Repitition
+
+- Our program can have multiple lines!
 
 ```swift
+print("Hello 🦀🦀🦀")
+print("Hello 🦀🦀🦀")
 print("hello from Swift!")
 print("hello from Swift!")
 print("hello from Swift!")
@@ -107,7 +135,7 @@ print("hello from Swift!")
 - Read it as "Let greeting equal ..."
 
 ```swift
-let greeting = "hello from Swift!"
+let greeting = "Hello 🦀🦀🦀!"
 print(greeting)
 print(greeting)
 print(greeting)
@@ -128,16 +156,16 @@ print(greeting + name)
 # This program is boring!
 
 - It needs to respond to user input
-- Use the `readLine` function!
+- Use the `readLine()!` function!
+  - Note the `!`
 - Waits for the user to type in the console and press Enter
 - Stores the value in a variable
 
 ```swift
 print("What is your name?")
 let name = readLine()!
-...
 ```
-- Use concatenation to greet the user!
+- Use concatenation to say hello!
 
 ---
 

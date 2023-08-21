@@ -9,92 +9,112 @@ Mark Schmidt
 
 --- 
 
-# Agenda
+# Recap
 
-- Recap
-  - Wordle
-  - Lists and Strings
-- Randomization
-- Packages
+- While Loops
+- Guess My Number
+
 ---
 
-# Randomization
+# What's Next?
 
-```python
-ice_creams = ["Vanilla", "Chocolate", "Cookies and Cream"]
+Wordle
+- Very fun game
+- Very simple
 
-# How to select a random item from this list?
+![bg right w:300](../assets/wordle.jpeg)
+
+<!-- -->
+<!-- Explain the rules of wordle -->
+<!-- Multi-day process -->
+---
+
+# What does this output?
+```swift
+let ice_cream_flavors = ["Chocolate", "Vanilla", "Cookies and Cream", "Strawberry"]
+
+for flavor in ice_cream_flavors {
+    print("The flavor is \(flavor)")
+}
 ```
 
 <!-- -->
-<!-- If I have a way to generate a random number, I could use it as a list index? -->
-
-<!-- But how to get a random number? -->
-
+<!-- Should iterate through the list and print each option -->
+<!-- Discuss list syntax (brackets, commas) -->
+<!-- Discuss empty list -->
 ---
 
-# Google It
+# What does this output?
 
-- Software Engineering is 90% Googling, 10% knowing what to google
+```swift
+let ice_cream_flavors = ["Vanilla", "Chocolate", "Cookies and Cream", "Strawberry"]
 
-![bg right w:600](../assets/googling.jpeg)
+let my_favorite = ice_cream_flavors[2]
+print("My favorite flavor is \(my_favorite)")
 
----
-
-# Introducing `import` 
-
-```python
-import random 
-ice_creams = ["Vanilla", "Chocolate", "Cookies and Cream"]
-
-print(f"My random ice cream is: {random.choice(ice_creams)}")
 ```
 
 <!-- -->
-<!-- Generally, put imports at the top of your file before any of your code -->
-
-<!-- Show more complex example with checking a million generations -->
+<!-- Get a show of hands for each option -->
 --- 
 
-# Why do I need to `import`?
+# Why do Lists start at zero?
 
-- Why isn't this code just included by default?
-    - May not be present on certain machines
-    - More inputs => more work for Python on startup
-- Replit will manage your packages for you
-
----
-
-# What else to `import`?
-
-- We'll start using `import` a lot more
-- Get access to high quality, well tested code
-
-![bg right w:500](../assets/import.png)
+- It's a single block of memory
+  - The first element is at the first address
+- It's what lots of other languages do
 
 ---
-# Better Coloring
+# What happens when we change 2 to 4?
 
-```python
-import termcolor 
+```swift
+let ice_cream_flavors = ["Vanilla", "Chocolate", "Cookies and Cream", "Strawberry"]
+                          // 0          1             2                   3 
 
-red_hello = termcolor.colored("hello", "red")
-green_world = termcolor.colored("world", "green")
+let my_favorite = ice_cream_flavors[2]
+print("My favorite flavor is \(my_favorite)")
 
-print(f"{red_hello} {green_world}")
 
 ```
 
 <!-- -->
-<!-- Note that we can accomplish the same import with import termcolor -->
+<!-- Show indices past the end of the list lead to an error -->
+
+--- 
+
+# List Contains
+
+- How to check if a list contains an item?
+
+```swift
+if favorite_ice_cream_flavors.contains("Chocolate") {
+    print("Yum!")
+}
+```
 
 ---
+
+# Strings are Lists!
+
+```swift
+
+let my_string = "Hello, World!"
+print(my_string[0]) // Prints "H"
+print(my_string[6]) // Prints "W"
+if my_string.contains("W") {
+    print("W is in my string!")
+}
+
+```
+---
+
+
 # Project
 
-- Use `random` to select a random word from a list of secret words
-- https://tinyurl.com/qnd-wordle-2
-- Bonus:
-    - Use `termcolor` to color each letter appropriately
-    - Ensure guess is 5 letters long
+- Create a simple Wordle program
+  - Have a single secret word
+  - Receive guesses from user in a loop
+  - Print out emoji representing correct characters
+  - https://tinyurl.com/qnd-wordle-1
 
-![bg right w:500](../assets/wordle-2.png)
+![bg right w:300](../assets/wordle-1.png)

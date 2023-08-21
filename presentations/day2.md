@@ -20,6 +20,11 @@ Mark Schmidt
 
 # Recap
 
+- Strings
+- `print(string)`
+- `readLine()!`
+- `let` variables
+
 ---
 
 # What does this do?
@@ -32,6 +37,7 @@ let result = a + b
 
 print(result)
 ```
+---
 
 # The Square Calculator
 
@@ -43,7 +49,6 @@ print("Enter a number to square: ")
 let number = readLine()!
 
 print(number * number)
-
 ```
 
 ---
@@ -51,7 +56,7 @@ print(number * number)
 # Types
 
 - Strings
-  - Any text
+  - Sequence of characters
   - Can be empty
   - Put in quotes
   - Can be combined with other strings
@@ -87,7 +92,7 @@ print(a + b)
 
 ---
 
-# Surely this hasn't caused problems!
+# This has caused a lot of problems
 
 - Banks deal with decimals a lot!
 
@@ -114,7 +119,7 @@ print(finalBalance)
 
 Make a **calculator**
 
-Use `readLine()` twice to get two numbers
+Use `readLine()` twice to get two integers 
 
 Compute the sum, print it out!
 
@@ -127,5 +132,3 @@ Compute the sum, print it out!
 3. Also print the quotient (/)
 4. Use `Floats` instead of ints
 5. What happens if we divide by zero?
-
-

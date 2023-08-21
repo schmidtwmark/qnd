@@ -11,85 +11,76 @@ Mark Schmidt
 
 # Recap
 
+- Booleans
+- `if`
 - Calculator
-- Nested Ifs
+
 
 ---
 
-# What does this do?
+# Combining Booleans
 
 ```swift
-var count = 0
-while count < 3 {
-    print("Hello, World, count = \(count)")
-    count = count + 1
+if health < 0 || time_remaining < 0 {
+    print("Game Over")
 }
 
-```
+//...
 
-<!-- Two new things-- var and while-->
+if op == "+" || op == "add" {
+    let sum = a + b
+    print("The sum is " + String(sum))
+}
 
----
-
-# Loops
-
-- `while` loops
-- `for` loops
-
-![bg right w:500](../assets/loop.jpeg)
-
-<!-- -->
-<!-- Introduces += shorthand -->
-
----
-
-# Here be dragons!
-
-```python
-count = 1
-while count > 0:
-    print(f"Hello, World! Count = {count}")
-    count = count + 1
 
 ```
 
-# Infinite Loops
+--- 
 
-- This program will never end
-- To exit early, use CTRL + C shortcut or STOP button
-- Beware of overflowing resources
-![bg right w:500](../assets/infinite_loop.jpeg)
+# And
 
-# Loops!
+- Use &&
 
 ```swift
-var running = true
-while running {
-    print("Enter a number")
-    let firstNumber = Int(readLine()!)!
+if username == "admin" && password == "password" {
+    print("Welcome, admin!")
+}
 
-    print("Enter another number") 
-    let secondNumber = Int(readLine()!)!
+...
 
-    print("Enter a command")
-    if command == "q" || command == "quit" {
-        running = false
-    } else if command == "add" {
-        ...
-    }
+if day == "Monday" and time == "9:00" {
+    print("It's time for class!")
 }
 ```
-<!-- -->
 
 ---
 
+# String Interpolation
 
-<!-- -->
-<!-- Python is smarter than most languages with this-->
+- A fancy name for a simple thing
+- Write ` "Sum is " + String(sum)` is annoying
+- Programmers are lazy!
+- Insert code inside a string
+
+```swift
+let sum = a + b
+print("Sum is " + String(sum))
+// Same as 
+print("Sum is \(sum)")
+// same as
+print("Sum is \(a + b)")
+```
+
 ---
 
-# Today's Task
+# Calculator Improvements
 
-- Guess My Number
-
-
+- Invalid operators
+    - use `else`
+- Accept "+" or "add"
+    - use `||`
+- What happens if we divide by zero?
+    - Guard using `&&` at the top
+- Exponentiation
+    - `**`
+- Use String Interpolation `\(sum)`

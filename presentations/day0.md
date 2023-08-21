@@ -110,3 +110,9 @@ Mark Schmidt
 ![bg right w:500](../assets/pbj.png)
 
 # BE SPECIFIC
+
+---
+
+# ROUND TWO
+
+- Let's fix our problems together

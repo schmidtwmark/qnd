@@ -30,12 +30,12 @@ Wordle
 ---
 
 # What does this output?
-```python
-ice_cream_flavors = ["Chocolate", "Vanilla", "Cookies and Cream", "Strawberry"]
+```swift
+let ice_cream_flavors = ["Chocolate", "Vanilla", "Cookies and Cream", "Strawberry"]
 
-for flavor in ice_cream_flavors:
-    print("The flavor is " + flavor)
-
+for flavor in ice_cream_flavors {
+    print("The flavor is \(flavor)")
+}
 ```
 
 <!-- -->
@@ -46,11 +46,11 @@ for flavor in ice_cream_flavors:
 
 # What does this output?
 
-```python
-ice_cream_flavors = ["Vanilla", "Chocolate", "Cookies and Cream", "Strawberry"]
+```swift
+let ice_cream_flavors = ["Vanilla", "Chocolate", "Cookies and Cream", "Strawberry"]
 
-my_favorite = ice_cream_flavors[2]
-print(f"My favorite ice cream is {my_favorite}")
+let my_favorite = ice_cream_flavors[2]
+print("My favorite flavor is \(my_favorite)")
 
 ```
 
@@ -65,13 +65,14 @@ print(f"My favorite ice cream is {my_favorite}")
 - It's what lots of other languages do
 
 ---
-# What does this do?
+# What happens when we change 2 to 4?
 
-```python
-ice_cream_flavors = ["Vanilla", "Chocolate", "Cookies and Cream", "Strawberry"]
+```swift
+let ice_cream_flavors = ["Vanilla", "Chocolate", "Cookies and Cream", "Strawberry"]
+                          // 0          1             2                   3 
 
-my_favorite = ice_cream_flavors[4]
-print(f"My favorite ice cream is {my_favorite}")
+let my_favorite = ice_cream_flavors[2]
+print("My favorite flavor is \(my_favorite)")
 
 
 ```
@@ -85,27 +86,26 @@ print(f"My favorite ice cream is {my_favorite}")
 
 - How to check if a list contains an item?
 
-```python
-if "Chocolate" in favorite_ice_cream_flavors:
+```swift
+if favorite_ice_cream_flavors.contains("Chocolate") {
     print("Yum!")
+}
 ```
 
 ---
 
 # Strings are Lists!
 
-```python
+```swift
 
-my_string = "Hello, World!"
-print(my_string[0]) # Prints "H"
-print(my_string[6]) # Prints "W"
-if "W" in my_string:
+let my_string = "Hello, World!"
+print(my_string[0]) // Prints "H"
+print(my_string[6]) // Prints "W"
+if my_string.contains("W") {
     print("W is in my string!")
-print(f"My string is {len(my_string)} characters long")
+}
 
 ```
-
-
 ---
 
 

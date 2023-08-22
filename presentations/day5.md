@@ -31,15 +31,29 @@ while count < 3 {
 
 ---
 
+# `var`
+
+```swift
+var count = 0
+```
+- Read as "set variable count to 0"
+```swift
+count = count + 1
+```
+- Read as "set count to count + 1"
+
+- `let` cannot be changed
+- `var` can
+---
+
 # Loops
 
 - `while` loops
-- `for` loops
+- `for loops`
 
 ![bg right w:500](../assets/loop.jpeg)
 
 <!-- -->
-<!-- Introduces += shorthand -->
 
 ---
 
@@ -86,6 +100,7 @@ while running {
 
 # Today's Task
 
-- Guess My Number
+- Add a `while` loop to the calculator
+- Finish the calculator!
 
 

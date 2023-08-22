@@ -25,6 +25,7 @@ Mark Schmidt
 - You will (probably) be lost
 - That's okay!
 - Practice, practice, practice
+- Help each other!
 
 ---
 

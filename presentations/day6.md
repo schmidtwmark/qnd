@@ -12,109 +12,59 @@ Mark Schmidt
 # Recap
 
 - While Loops
-- Guess My Number
+- Calculator
 
 ---
 
 # What's Next?
 
-Wordle
-- Very fun game
-- Very simple
+- Guess My Number
+  - Generate a random number
+  - Ask the user to guess the number
+  - Tell the user if their guess is too high, too low, or correct
 
-![bg right w:300](../assets/wordle.jpeg)
-
-<!-- -->
-<!-- Explain the rules of wordle -->
-<!-- Multi-day process -->
+<!-- We've already covered everything except generating a random number -->
 ---
 
-# What does this output?
-```swift
-let ice_cream_flavors = ["Chocolate", "Vanilla", "Cookies and Cream", "Strawberry"]
+# Random Number Generation
 
-for flavor in ice_cream_flavors {
-    print("The flavor is \(flavor)")
-}
-```
-
-<!-- -->
-<!-- Should iterate through the list and print each option -->
-<!-- Discuss list syntax (brackets, commas) -->
-<!-- Discuss empty list -->
----
-
-# What does this output?
-
-```swift
-let ice_cream_flavors = ["Vanilla", "Chocolate", "Cookies and Cream", "Strawberry"]
-
-let my_favorite = ice_cream_flavors[2]
-print("My favorite flavor is \(my_favorite)")
-
-```
-
-<!-- -->
-<!-- Get a show of hands for each option -->
---- 
-
-# Why do Lists start at zero?
-
-- It's a single block of memory
-  - The first element is at the first address
-- It's what lots of other languages do
-
----
-# What happens when we change 2 to 4?
-
-```swift
-let ice_cream_flavors = ["Vanilla", "Chocolate", "Cookies and Cream", "Strawberry"]
-                          // 0          1             2                   3 
-
-let my_favorite = ice_cream_flavors[2]
-print("My favorite flavor is \(my_favorite)")
-
-
-```
-
-<!-- -->
-<!-- Show indices past the end of the list lead to an error -->
-
---- 
-
-# List Contains
-
-- How to check if a list contains an item?
-
-```swift
-if favorite_ice_cream_flavors.contains("Chocolate") {
-    print("Yum!")
-}
-```
+- You don't need to memorize everything!
+- Let's google it
 
 ---
 
-# Strings are Lists!
+# Random Number Generation
 
 ```swift
-
-let my_string = "Hello, World!"
-print(my_string[0]) // Prints "H"
-print(my_string[6]) // Prints "W"
-if my_string.contains("W") {
-    print("W is in my string!")
-}
-
+let number = Int.random(in: 1..<100)
+print(number)
 ```
+
+- How would I change the range to be between -100 and 1000?
 ---
 
+# New Things
 
-# Project
+- `.` is called a dot
+  - Access functions, variables of a type or variable
+  - `Int.random` gets the `random` function from the `Int` type
+- `..< ` creates an exclusive (open) range
+- `...` creates an inclusive (closed) range
 
-- Create a simple Wordle program
-  - Have a single secret word
-  - Receive guesses from user in a loop
-  - Print out emoji representing correct characters
-  - https://tinyurl.com/qnd-wordle-1
+---
 
-![bg right w:300](../assets/wordle-1.png)
+# Guess My Number
+
+- Walk through it together
+- OR, try it on your own!
+
+---
+
+# Extra Challenges
+
+- Use `print()` to add empty lines to your output
+- If the user is off by more than 10, print a different message
+  - Calculate the difference
+  - Add more `else if` blocks
+
+

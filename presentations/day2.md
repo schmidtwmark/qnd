@@ -7,128 +7,82 @@ class: invert
 # QND Computer Science Day 2
 Mark Schmidt
 
----
-
-# Agenda
-
-- Recap
-- Basic Math
-- Funny Business
-- Project
-
----
+--- 
 
 # Recap
 
+- Website
+- Replit
 - Strings
-- `print(string)`
-- `readLine()!`
-- `let` variables
+- Print
+- Variables
 
 ---
 
-# What does this do?
+# Concatenation
+
+- `+`
+- Combine two strings together
 
 ```swift
-let a = 5
-let b = 4
+let greeting = "Hello"
+let name = "Luna 🐕"
 
-let result = a + b
-
-print(result)
-```
----
-
-# The Square Calculator
-
-- Ask the user for a number
-- Square it and print the result
-
-```swift
-print("Enter a number to square: ")
-let number = readLine()!
-
-print(number * number)
+print(greeting + name)
 ```
 
 ---
 
-# Types
+# Multiple Concatenation
 
-- Strings
-  - Sequence of characters
-  - Can be empty
-  - Put in quotes
-  - Can be combined with other strings
-- Integers
-  - A number with no decimal
-
----
-
-# The Square Calculator (fixed)
+- You can repeat concatenation as much as you want
+- Remember to put quotes around strings
+- Variables do not have quotes
 
 ```swift
-print("Enter a number to square: ")
-let numberString = readLine()!
-let number = Int(numberString)!
-
-print(number * number)
+let greeting = "Hello"
+print("🦀" + "🦕" + greeting)
 ```
-
 ---
-# Decimals
 
+# Reading Input
 
-- What will this do?
-```swift
-let a = 0.1
-let b = 0.1
-print(a + b)
-
-```
-![bg right w:500](../assets/math.jpeg)
-<!-- -->
-<!-- Show 0.1 + 0.1 = 0.2, 0.1 + 0.2 => 0.3000000004 -->
+- Use `readLine()!`
+- Another function! 
+- Gets input from the console, stores it in a variable
+- Note the exclamation point!
+  - `readLine()` can have an error--`!` tells Swift we don't care
 
 ---
 
-# This has caused a lot of problems
+# Spacing
 
-- Banks deal with decimals a lot!
-
-```swift
-let myBalance = 200.20
-let purchasePrice = 100.20
-let finalBalance = myBalance - purchasePrice
-print(finalBalance)
-```
+- Empty lines are ignored by Swift
+- Use this to group things together!
 
 ---
 
-# Types
+# Comments
 
-- Strings
-- Ints
-- Floats
-  - Store decimal values
-  - Imprecise (be careful!)
+- Comments are ignored by the program
+- Anything after a `//` is ignored
 
 ---
 
 # Project
 
-Make a **calculator**
+- Make a chat program!
+- Ask the user questions
+- Provide an answer, referencing what they said (5 things)
 
-Use `readLine()` twice to get two integers 
+```swift
+// Ask for a name and greet the user
+print("What is your name?")
+let name = readLine()!
+print("Hello " + name + ", my name is Mr. Schmidt")
 
-Compute the sum, print it out!
-
---- 
-
-# Extra Challenges
-
-1. Also print the difference (-)
-2. Also print the product (*)
-3. Also print the quotient (/)
-4. Use `Floats` instead of ints
-5. What happens if we divide by zero?
+// Ask for a favorite color
+print("What is your favorite color?")
+let color = readLine()!
+print("I also like " + color + ", but my favorite is blue")
+```

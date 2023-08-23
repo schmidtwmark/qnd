@@ -7,129 +7,128 @@ class: invert
 # QND Computer Science Day 3
 Mark Schmidt
 
---- 
+---
+
+# Agenda
+
+- Recap
+- Basic Math
+- Funny Business
+- Project
+
+---
 
 # Recap
 
-- Integers and Floats
 - Strings
-
---- 
-# How to represent truth?
-
-- Is a user old enough to drive?
-- Did my favorite team win last night?
-- Is dark mode enabled?
+- `print(string)`
+- `readLine()!`
+- `let` variables
 
 ---
 
-# Booleans
-
-- George Boole
-    - In 1854 wrote *The Laws of Thought*
-    - New algebra
-- Booleans can either be `True` or `False`
-
-![bg right w:500](../assets/boole.jpeg)
-
---- 
-
-# Example
+# What does this do?
 
 ```swift
-let isOldEnoughToDrive = true
-let myTeamWon = false 
-let darkModeEnabled = true
-...
+let a = 5
+let b = 4
+
+let result = a + b
+
+print(result)
 ```
-![bg right w:500](../assets/boolean.jpeg)
-
 ---
 
-# Conditions
+# The Square Calculator
 
-`>`, `<`
+- Ask the user for a number
+- Square it and print the result
 
 ```swift
-print("How old are you?")
-let ageString = readLine()!
-let age = Int(ageString)!
+print("Enter a number to square: ")
+let number = readLine()!
 
-let greater = age > 16
-
-print("You are old enough to drive: " + String(greater))
+print(number * number)
 ```
 
 ---
 
-# Equality
+# Types
 
-```swift
-let secret_password = "my awesome password"
-print("Enter your password:")
-let password = readLine()!
-
-let correct = password == secret_password
-
-print("Correct password? " + String(correct))
-```
+- Strings
+  - Sequence of characters
+  - Can be empty
+  - Put in quotes
+  - Can be combined with other strings
+- Integers
+  - A number with no decimal
 
 ---
 
-# if else
-
-- Booleans let us control what happens in our code
+# The Square Calculator (fixed)
 
 ```swift
-let secret_password = "my awesome password"
-print("Enter your password:")
-let password = readLine()!
+print("Enter a number to square: ")
+let numberString = readLine()!
+let number = Int(numberString)!
 
-if password == secret_password {
-    print("Correct password!")
-} else {
-    print("Incorrect password!")
-}
+print(number * number)
 ```
+
 ---
+# Decimals
 
-# else if
 
-- Check multiple conditions in a row
-
+- What will this do?
 ```swift
-let secret_password = "my awesome password"
-let ultra_secret_password = "my other awesome password"
-print("Enter your password:")
-let password = readLine()!
+let a = 0.1
+let b = 0.1
+print(a + b)
 
-if password == secret_password {
-    print("Correct password!")
-} else if password == my_ultra_secret_password {
-    print("Ah, you guessed my super secret password!")    
-} else {
-    print("Incorrect password!")
-}
 ```
-
+![bg right w:500](../assets/math.jpeg)
 <!-- -->
-<!-- Multiple conditions! -->
+<!-- Show 0.1 + 0.1 = 0.2, 0.1 + 0.2 => 0.3000000004 -->
 
 ---
 
-# Project 
+# This has caused a lot of problems
 
-Extend our calculator from yesterday
+- Banks deal with decimals a lot!
 
-Ask the user to choose an operation using `input`
-Add, subtract, multiply, divide
-
-Use `if, else if, else` to perform that operation
+```swift
+let myBalance = 200.20
+let purchasePrice = 100.20
+let finalBalance = myBalance - purchasePrice
+print(finalBalance)
+```
 
 ---
 
-# Bonus
+# Types
 
-- Add Exponents (**)
-- What happens if you divide by 0?
-  - Can we protect against dividing by zero?
+- Strings
+- Ints
+- Floats
+  - Store decimal values
+  - Imprecise (be careful!)
+
+---
+
+# Project
+
+Make a **calculator**
+
+Use `readLine()` twice to get two integers 
+
+Compute the sum, print it out!
+
+--- 
+
+# Extra Challenges
+
+1. Also print the difference (-)
+2. Also print the product (*)
+3. Also print the quotient (/)
+4. Use `Floats` instead of ints
+5. What happens if we divide by zero?

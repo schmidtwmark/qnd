@@ -8,3 +8,10 @@ class: invert
 Mark Schmidt
 
 --- 
+
+# Recap
+
+- Guess My Number
+- `if let`
+
+---

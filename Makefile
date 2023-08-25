@@ -6,6 +6,7 @@ output/presentations/%.pptx: presentations/%.md output
 
 output/presentations-pdfs/%.pdf: presentations/%.md output
 	marp presentations/$*.md -o $@ --pdf --allow-local-files
+	cp output/presentations-pdfs/$*.pdf /Users/markschmidt/Developer/website/presentation-pdfs/
 
 output/plan.pdf: plan.md output
 	marp plan.md -o $@ --pdf

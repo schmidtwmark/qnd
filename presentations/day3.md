@@ -7,128 +7,97 @@ class: invert
 # QND Computer Science Day 3
 Mark Schmidt
 
----
-
-# Agenda
-
-- Recap
-- Basic Math
-- Funny Business
-- Project
-
----
+--- 
 
 # Recap
 
 - Strings
-- `print(string)`
+- Variables
+- Concatenation
+- `print()`
 - `readLine()!`
-- `let` variables
+- Chat
 
 ---
 
-# What does this do?
+# Today
 
-```swift
-let a = 5
-let b = 4
+- How can we make programs more interactive?
 
-let result = a + b
-
-print(result)
-```
 ---
 
-# The Square Calculator
+# `if` statements
 
-- Ask the user for a number
-- Square it and print the result
+- Execute different code based on a condition
 
 ```swift
-print("Enter a number to square: ")
-let number = readLine()!
-
-print(number * number)
+print("What is the best ice cream flavor?")
+let answer = readLine()!
+if answer == "Cookies and cream" {
+    print("Correct, oreos in ice cream is the best")
+} else {
+    print("Wrong, " + answer + " is not the best")
+}
 ```
 
----
-
-# Types
-
-- Strings
-  - Sequence of characters
-  - Can be empty
-  - Put in quotes
-  - Can be combined with other strings
-- Integers
-  - A number with no decimal
+<!-- Things to note: if/else keyword, double equals sign, brackets, indentation -->
 
 ---
 
-# The Square Calculator (fixed)
+# `else if`
 
+- What if there are multiple branches?
+- You can have as many `else if`s as you want!
 ```swift
-print("Enter a number to square: ")
-let numberString = readLine()!
-let number = Int(numberString)!
-
-print(number * number)
-```
-
----
-# Decimals
-
-
-- What will this do?
-```swift
-let a = 0.1
-let b = 0.1
-print(a + b)
-
-```
-![bg right w:500](../assets/math.jpeg)
-<!-- -->
-<!-- Show 0.1 + 0.1 = 0.2, 0.1 + 0.2 => 0.3000000004 -->
-
----
-
-# This has caused a lot of problems
-
-- Banks deal with decimals a lot!
-
-```swift
-let myBalance = 200.20
-let purchasePrice = 100.20
-let finalBalance = myBalance - purchasePrice
-print(finalBalance)
+print("What is the best ice cream flavor?")
+let answer = readLine()!
+if answer == "Cookies and cream" {
+    print("Correct, oreos in ice cream is the best")
+} else if answer == "Chocolate" {
+    print("Chocolate is good, but it's not quite the best")
+} else {
+    print("Wrong, " + answer + " is not the best")
+}
 ```
 
 ---
 
-# Types
+# Nested Ifs
 
-- Strings
-- Ints
-- Floats
-  - Store decimal values
-  - Imprecise (be careful!)
+- You can put if statements inside of other if statements
+
+```swift
+...
+if answer == "Cookies and cream" {
+    print("Correct, oreos in ice cream is the best")
+    print("Waffle cones or sugar cones?")
+    let cones = readLine()!
+    if cones == "Waffle cones" {
+        print("Come on, who doesn't love a fresh waffle cone?") 
+    } else {
+        print("WRONG")
+    }
+}
+...
+```
+
+<!-- Show nested -->
+---
+
+# Zork / Adventure
+
+- Text based games
+- Before computer graphics
+- https://www.colossalcave3d.com/play-the-original-text-adventure/
+![bg right h:400](../assets/adventure.png)
 
 ---
 
-# Project
+# Make Your Own
 
-Make a **calculator**
-
-Use `readLine()` twice to get two integers 
-
-Compute the sum, print it out!
-
---- 
-
-# Extra Challenges
-
-1. Also print the difference (-)
-2. Also print the product (*)
-3. Also print the quotient (/)
-4. Use `Floats` instead of ints
-5. What happens if we divide by zero?
+- Give the user some story and a simple choice
+- Use nested `if` statements to print what happens next
+- Be creative!
+  - You can do a quiz (or extend your quiz)
+- *keep it appropriate*
+- https://replit.com/@mrschmidt/Adventure#main.swift

@@ -84,12 +84,11 @@ if answer == "Cookies and cream" {
 <!-- Show nested -->
 ---
 
-# Zork / Adventure
+# Assignment
 
-- Text based games
-- Before computer graphics
-- https://www.colossalcave3d.com/play-the-original-text-adventure/
-![bg right h:400](../assets/adventure.png)
+- Extend your quiz!
+- Use `else if`
+- Have at least 2 layers of `if` statements (3 questions total)
 
 ---
 

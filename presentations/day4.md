@@ -7,128 +7,99 @@ class: invert
 # QND Computer Science Day 3
 Mark Schmidt
 
----
-
-# Agenda
-
-- Recap
-- Basic Math
-- Funny Business
-- Project
-
----
+--- 
 
 # Recap
 
-- Strings
-- `print(string)`
-- `readLine()!`
-- `let` variables
+- `if`
+- `else if`
+- `else`
 
 ---
 
-# What does this do?
+# Today
+
+- Nested Ifs
+- Video Games
+- Making a video game
+
+---
+
+
+# Nested Ifs
+
+- You can put if statements inside of other if statements
 
 ```swift
-let a = 5
-let b = 4
-
-let result = a + b
-
-print(result)
-```
----
-
-# The Square Calculator
-
-- Ask the user for a number
-- Square it and print the result
-
-```swift
-print("Enter a number to square: ")
-let number = readLine()!
-
-print(number * number)
+...
+if answer == "Cookies and cream" {
+    print("Correct, oreos in ice cream is the best")
+    print("Waffle cones or sugar cones?")
+    let cones = readLine()!
+    if cones == "Waffle cones" {
+        print("Come on, who doesn't love a fresh waffle cone?") 
+    } else {
+        print("WRONG")
+    }
+}
+...
 ```
 
+<!-- Show nested -->
 ---
 
-# Types
+# Video Games
 
-- Strings
-  - Sequence of characters
-  - Can be empty
-  - Put in quotes
-  - Can be combined with other strings
-- Integers
-  - A number with no decimal
+- What games are you currently playing?
 
 ---
 
-# The Square Calculator (fixed)
+# Video Games 
 
-```swift
-print("Enter a number to square: ")
-let numberString = readLine()!
-let number = Int(numberString)!
-
-print(number * number)
-```
-
----
-# Decimals
-
-
-- What will this do?
-```swift
-let a = 0.1
-let b = 0.1
-print(a + b)
-
-```
-![bg right w:500](../assets/math.jpeg)
-<!-- -->
-<!-- Show 0.1 + 0.1 = 0.2, 0.1 + 0.2 => 0.3000000004 -->
+- What is the oldest game you've ever played?
 
 ---
 
-# This has caused a lot of problems
+# Zork 
 
-- Banks deal with decimals a lot!
+- Text based games
+- Before computer graphics
+- https://classicreload.com/zork-i.html
 
-```swift
-let myBalance = 200.20
-let purchasePrice = 100.20
-let finalBalance = myBalance - purchasePrice
-print(finalBalance)
-```
+![bg right w:500](../assets/zork.jpeg)
 
 ---
 
-# Types
+# Narrative Fiction
 
-- Strings
-- Ints
-- Floats
-  - Store decimal values
-  - Imprecise (be careful!)
+- Still developed today!
+- Hugely influential
+
+![bg right w:500](../assets/starfield.webp)
+
 
 ---
 
-# Project
+# My Example
 
-Make a **calculator**
+- https://replit.com/@mrschmidt/Adventure#main.swift
+- Escaping quotes with `\"`
+- Nested Ifs
+- Empty print statements
 
-Use `readLine()` twice to get two integers 
+---
 
-Compute the sum, print it out!
+# Flowchart
 
---- 
+![bg width: 80%](../assets/flowchart.png)
 
-# Extra Challenges
+---
 
-1. Also print the difference (-)
-2. Also print the product (*)
-3. Also print the quotient (/)
-4. Use `Floats` instead of ints
-5. What happens if we divide by zero?
+# Make Your Own
+
+- Give the user some story and a simple choice
+- Use nested `if` statements to print what happens next
+- You can have more than 2 options at each choice!
+- 3 choices total
+- Be creative!
+- *Keep it appropriate*

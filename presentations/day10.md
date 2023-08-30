@@ -4,54 +4,103 @@ theme: gaia
 class: invert
 ---
 
-# QND Computer Science Day 8
+# QND Computer Science Day 6
 Mark Schmidt
 
 --- 
 
 # Recap
 
-- Guess My Number
-- Dot Syntax
-- Ranges
+- Calculator
+- Nested Ifs
 
 ---
 
-# Error Handling
+# What does this do?
 
-- `!`
-  - Crash the program if there is a problem
-  - Sometimes that is okay!
-
---- 
-
-# How to not crash?
-
-- use `if let`
 ```swift
-// It's okay to crash if there is a problem reading from console
-let numberString = readLine()!
-if let number = Int(numberString) {
-    print("The number is \(number)")
-    // Do stuff with the number
-} else {
-    print("Invalid number \(numberString)")
+var count = 0
+while count < 3 {
+    print("Hello, World, count = \(count)")
+    count = count + 1
+}
+
+```
+
+<!-- Two new things-- var and while-->
+
+---
+
+# `var`
+
+```swift
+var count = 0
+```
+- Read as "set variable count to 0"
+```swift
+count = count + 1
+```
+- Read as "set count to count + 1"
+
+- `let` cannot be changed
+- `var` can
+---
+
+# Loops
+
+- `while` loops
+- `for loops`
+
+![bg right w:500](../assets/loop.jpeg)
+
+<!-- -->
+
+---
+
+# Here be dragons!
+
+```python
+count = 1
+while count > 0:
+    print(f"Hello, World! Count = {count}")
+    count = count + 1
+
+```
+---
+
+# Infinite Loops
+
+- This program will never end
+- To exit early, use CTRL + C shortcut or STOP button
+- Beware of overflowing resources
+![bg right w:500](../assets/infinite_loop.jpeg)
+
+---
+# Loops!
+
+```swift
+var running = true
+while running {
+    print("Enter a number")
+    let firstNumber = Int(readLine()!)!
+
+    print("Enter another number") 
+    let secondNumber = Int(readLine()!)!
+
+    print("Enter a command")
+    if command == "q" || command == "quit" {
+        running = false
+    } else if command == "add" {
+        ...
+    }
 }
 ```
 
 ---
 
-# Default Value
+# Today's Task
 
-- Use `??` to provide a default value
+- Add a `while` loop to the calculator
+- Finish the calculator!
 
-```swift
-let numberString = readLine()!
-let number = Int(numberString) ?? 0
-print("The number is \(number)")
-```
-
----
-
-# Let's update Guess My Number!
 

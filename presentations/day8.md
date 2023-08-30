@@ -4,103 +4,132 @@ theme: gaia
 class: invert
 ---
 
-# QND Computer Science Day 6
+# QND Computer Science Day 4
 Mark Schmidt
 
 --- 
 
 # Recap
 
-- Calculator
-- Nested Ifs
+- Integers and Floats
+- Strings
+
+--- 
+# How to represent truth?
+
+- Is a user old enough to drive?
+- Did my favorite team win last night?
+- Is dark mode enabled?
 
 ---
 
-# What does this do?
+# Booleans
+
+- George Boole
+    - In 1854 wrote *The Laws of Thought*
+    - New algebra
+- Booleans can either be `True` or `False`
+
+![bg right w:500](../assets/boole.jpeg)
+
+--- 
+
+# Example
 
 ```swift
-var count = 0
-while count < 3 {
-    print("Hello, World, count = \(count)")
-    count = count + 1
+let isOldEnoughToDrive = true
+let myTeamWon = false 
+let darkModeEnabled = true
+...
+```
+![bg right w:500](../assets/boolean.jpeg)
+
+---
+
+# Conditions
+
+`>`, `<`
+
+```swift
+print("How old are you?")
+let ageString = readLine()!
+let age = Int(ageString)!
+
+let greater = age > 16
+
+print("You are old enough to drive: " + String(greater))
+```
+
+---
+
+# Equality
+
+```swift
+let secret_password = "my awesome password"
+print("Enter your password:")
+let password = readLine()!
+
+let correct = password == secret_password
+
+print("Correct password? " + String(correct))
+```
+
+---
+
+# if else
+
+- Booleans let us control what happens in our code
+
+```swift
+let secret_password = "my awesome password"
+print("Enter your password:")
+let password = readLine()!
+
+if password == secret_password {
+    print("Correct password!")
+} else {
+    print("Incorrect password!")
 }
-
 ```
-
-<!-- Two new things-- var and while-->
-
 ---
 
-# `var`
+# else if
+
+- Check multiple conditions in a row
 
 ```swift
-var count = 0
+let secret_password = "my awesome password"
+let ultra_secret_password = "my other awesome password"
+print("Enter your password:")
+let password = readLine()!
+
+if password == secret_password {
+    print("Correct password!")
+} else if password == my_ultra_secret_password {
+    print("Ah, you guessed my super secret password!")    
+} else {
+    print("Incorrect password!")
+}
 ```
-- Read as "set variable count to 0"
-```swift
-count = count + 1
-```
-- Read as "set count to count + 1"
-
-- `let` cannot be changed
-- `var` can
----
-
-# Loops
-
-- `while` loops
-- `for loops`
-
-![bg right w:500](../assets/loop.jpeg)
 
 <!-- -->
+<!-- Multiple conditions! -->
 
 ---
 
-# Here be dragons!
+# Project 
 
-```python
-count = 1
-while count > 0:
-    print(f"Hello, World! Count = {count}")
-    count = count + 1
+Extend our calculator from yesterday
 
-```
----
+Ask the user to choose an operation using `input`
+Add, subtract, multiply, divide
 
-# Infinite Loops
-
-- This program will never end
-- To exit early, use CTRL + C shortcut or STOP button
-- Beware of overflowing resources
-![bg right w:500](../assets/infinite_loop.jpeg)
-
----
-# Loops!
-
-```swift
-var running = true
-while running {
-    print("Enter a number")
-    let firstNumber = Int(readLine()!)!
-
-    print("Enter another number") 
-    let secondNumber = Int(readLine()!)!
-
-    print("Enter a command")
-    if command == "q" || command == "quit" {
-        running = false
-    } else if command == "add" {
-        ...
-    }
-}
-```
+Use `if, else if, else` to perform that operation
 
 ---
 
-# Today's Task
+# Bonus
 
-- Add a `while` loop to the calculator
-- Finish the calculator!
-
-
+- Add Exponents (**)
+- What happens if you divide by 0?
+  - Can we protect against dividing by zero?

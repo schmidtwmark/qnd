@@ -4,67 +4,83 @@ theme: gaia
 class: invert
 ---
 
-# QND Computer Science Day 7
+# QND Computer Science Day 5
 Mark Schmidt
 
 --- 
 
 # Recap
 
-- While Loops
+- Booleans
+- `if`
 - Calculator
 
----
-
-# What's Next?
-
-- Guess My Number
-  - Generate a random number
-  - Ask the user to guess the number
-  - Tell the user if their guess is too high, too low, or correct
-
-<!-- We've already covered everything except generating a random number -->
----
-
-# Random Number Generation
-
-- You don't need to memorize everything!
-- Let's google it
 
 ---
 
-# Random Number Generation
+# Combining Booleans
 
 ```swift
-let number = Int.random(in: 1..<100)
-print(number)
+if health < 0 || time_remaining < 0 {
+    print("Game Over")
+}
+
+//...
+
+if op == "+" || op == "add" {
+    let sum = a + b
+    print("The sum is " + String(sum))
+}
+
+
 ```
 
-- How would I change the range to be between -100 and 1000?
+--- 
+
+# And
+
+- Use &&
+
+```swift
+if username == "admin" && password == "password" {
+    print("Welcome, admin!")
+}
+
+...
+
+if day == "Monday" and time == "9:00" {
+    print("It's time for class!")
+}
+```
+
 ---
 
-# New Things
+# String Interpolation
 
-- `.` is called a dot
-  - Access functions, variables of a type or variable
-  - `Int.random` gets the `random` function from the `Int` type
-- `..< ` creates an exclusive (open) range
-- `...` creates an inclusive (closed) range
+- A fancy name for a simple thing
+- Write ` "Sum is " + String(sum)` is annoying
+- Programmers are lazy!
+- Insert code inside a string
+
+```swift
+let sum = a + b
+print("Sum is " + String(sum))
+// Same as 
+print("Sum is \(sum)")
+// same as
+print("Sum is \(a + b)")
+```
 
 ---
 
-# Guess My Number
+# Calculator Improvements
 
-- Walk through it together
-- OR, try it on your own!
-
----
-
-# Extra Challenges
-
-- Use `print()` to add empty lines to your output
-- If the user is off by more than 10, print a different message
-  - Calculate the difference
-  - Add more `else if` blocks
-
-
+- Invalid operators
+    - use `else`
+- Accept "+" or "add"
+    - use `||`
+- What happens if we divide by zero?
+    - Guard using `&&` at the top
+- Exponentiation
+    - `**`
+- Use String Interpolation `\(sum)`

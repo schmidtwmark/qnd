@@ -4,83 +4,131 @@ theme: gaia
 class: invert
 ---
 
-# QND Computer Science Day 5
+# QND Computer Science Day 3
 Mark Schmidt
 
---- 
+---
+
+# Agenda
+
+- Recap
+- Basic Math
+- Funny Business
+- Project
+
+---
 
 # Recap
 
-- Booleans
-- `if`
-- Calculator
-
+- Strings
+- `print(string)`
+- `readLine()!`
+- `let` variables
 
 ---
 
-# Combining Booleans
+# What does this do?
 
 ```swift
-if health < 0 || time_remaining < 0 {
-    print("Game Over")
-}
+let a = 5
+let b = 4
 
-//...
+let result = a + b
 
-if op == "+" || op == "add" {
-    let sum = a + b
-    print("The sum is " + String(sum))
-}
+print(result)
+```
+---
 
+# The Square Calculator
+
+- Ask the user for a number
+- Square it and print the result
+
+```swift
+print("Enter a number to square: ")
+let number = readLine()!
+
+print(number * number)
+```
+
+---
+
+# Types
+
+- Strings
+  - Sequence of characters
+  - Can be empty
+  - Put in quotes
+  - Can be combined with other strings
+- Integers
+  - A number with no decimal
+
+---
+
+# The Square Calculator (fixed)
+
+```swift
+print("Enter a number to square: ")
+let numberString = readLine()!
+let number = Int(numberString)!
+
+print(number * number)
+```
+
+---
+# Decimals
+
+
+- What will this do?
+```swift
+let a = 0.1
+let b = 0.1
+print(a + b)
 
 ```
+![bg right w:500](../assets/math.jpeg)
+<!-- -->
+<!-- Show 0.1 + 0.1 = 0.2, 0.1 + 0.2 => 0.3000000004 -->
+
+---
+
+# This has caused a lot of problems
+
+- Banks deal with decimals a lot!
+
+```swift
+let myBalance = 200.20
+let purchasePrice = 100.20
+let finalBalance = myBalance - purchasePrice
+print(finalBalance)
+```
+
+---
+
+# Types
+
+- Strings
+- Ints
+- Floats
+  - Store decimal values
+  - Imprecise (be careful!)
+
+---
+
+# Project
+
+Make a **calculator**
+
+Use `readLine()` twice to get two integers 
+
+Compute the sum, print it out!
 
 --- 
 
-# And
+# Extra Challenges
 
-- Use &&
-
-```swift
-if username == "admin" && password == "password" {
-    print("Welcome, admin!")
-}
-
-...
-
-if day == "Monday" and time == "9:00" {
-    print("It's time for class!")
-}
-```
-
----
-
-# String Interpolation
-
-- A fancy name for a simple thing
-- Write ` "Sum is " + String(sum)` is annoying
-- Programmers are lazy!
-- Insert code inside a string
-
-```swift
-let sum = a + b
-print("Sum is " + String(sum))
-// Same as 
-print("Sum is \(sum)")
-// same as
-print("Sum is \(a + b)")
-```
-
----
-
-# Calculator Improvements
-
-- Invalid operators
-    - use `else`
-- Accept "+" or "add"
-    - use `||`
-- What happens if we divide by zero?
-    - Guard using `&&` at the top
-- Exponentiation
-    - `**`
-- Use String Interpolation `\(sum)`
+1. Also print the difference (-)
+2. Also print the product (*)
+3. Also print the quotient (/)
+4. Use `Floats` instead of ints
+5. What happens if we divide by zero?

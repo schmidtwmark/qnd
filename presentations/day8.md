@@ -11,19 +11,49 @@ Mark Schmidt
 
 # Agenda
 
-- Recap
+- Computer History (brief)
+- An Unbelievable Fact
 - Basic Math
-- Funny Business
 - Project
 
 ---
 
-# Recap
+# Math
 
-- Strings
-- `print(string)`
-- `readLine()!`
-- `let` variables
+- Early computers were made for math!
+- Codebreaking
+- Artillery Range Tables
+- Aerodynamics
+
+![bg right w:500](../assets/hopper.webp)
+
+---
+
+# Early Computers
+
+- Before the machines, computer was a job!
+- Largely held by women
+- Margaret Hamilton with her Apollo Lunar Lander program
+
+![bg right w:500](../assets/hamilton.jpg)
+
+---
+
+# Computer Programming
+
+- Transitioning to physical computers was slow
+- Women computers took advantage and gained engineering roles
+- Judith Love Cohen
+
+![bg right w:500](../assets/cohen.jpeg)
+
+---
+
+# Math and Computers Today
+
+- Computers are constantly doing math
+- Building modern programs requires a ton of math
+- Video Games require the most complex math
 
 ---
 
@@ -119,11 +149,20 @@ print(finalBalance)
 
 Make a **calculator**
 
-Use `readLine()` twice to get two integers 
+- Use `readLine()!` twice to get two integers 
+- Don't forget `Int()!`
 
 Compute the sum, print it out!
 
 --- 
+
+# Calculator Improvements
+
+- Use `readLine()!` again to get an operation
+- Add, Subtract, Multiply, Divide
+- Use `if` to handle the operation
+
+---
 
 # Extra Challenges
 

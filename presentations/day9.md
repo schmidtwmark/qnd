@@ -18,6 +18,21 @@ Mark Schmidt
 
 ---
 
+# Combining Ints and Strings
+
+- Does not work
+```swift
+let sum = 5 + 10
+`print("The sum is " + sum)`
+```
+- Have to convert Int -> String
+```swift
+let sum = 5 + 10
+`print("The sum is " + String(sum))`
+```
+
+---
+
 # `if` / `else if` / `else`
 
 - Ask the user for an operation

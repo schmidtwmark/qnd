@@ -4,132 +4,75 @@ theme: gaia
 class: invert
 ---
 
-# QND Computer Science Day 4
+# QND Computer Science Day 9
 Mark Schmidt
 
 --- 
 
 # Recap
 
-- Integers and Floats
-- Strings
+- Integers
+- Floats
+- Calculator Project
 
---- 
-# How to represent truth?
-
-- Is a user old enough to drive?
-- Did my favorite team win last night?
-- Is dark mode enabled?
 
 ---
 
-# Booleans
+# `if` / `else if` / `else`
 
-- George Boole
-    - In 1854 wrote *The Laws of Thought*
-    - New algebra
-- Booleans can either be `True` or `False`
-
-![bg right w:500](../assets/boole.jpeg)
-
---- 
-
-# Example
-
-```swift
-let isOldEnoughToDrive = true
-let myTeamWon = false 
-let darkModeEnabled = true
-...
-```
-![bg right w:500](../assets/boolean.jpeg)
+- Ask the user for an operation
+- Add
+- Subtract
+- Multiply
+- Divide
+- Use `else` to handle error!
 
 ---
 
-# Conditions
+# Improvements!
 
-`>`, `<`
-
-```swift
-print("How old are you?")
-let ageString = readLine()!
-let age = Int(ageString)!
-
-let greater = age > 16
-
-print("You are old enough to drive: " + String(greater))
-```
+- String interpolation
+- `if let`
 
 ---
 
-# Equality
+# String Interpolation
+
+- A fancy name for a simple thing
+- Write ` "Sum is " + String(sum)` is annoying
+- Programmers are lazy!
+- Insert code inside a string
 
 ```swift
-let secret_password = "my awesome password"
-print("Enter your password:")
-let password = readLine()!
-
-let correct = password == secret_password
-
-print("Correct password? " + String(correct))
-```
-
----
-
-# if else
-
-- Booleans let us control what happens in our code
-
-```swift
-let secret_password = "my awesome password"
-print("Enter your password:")
-let password = readLine()!
-
-if password == secret_password {
-    print("Correct password!")
-} else {
-    print("Incorrect password!")
-}
+let sum = a + b
+print("Sum is " + String(sum))
+// Same as 
+print("Sum is \(sum)")
+// same as
+print("Sum is \(a + b)")
 ```
 ---
 
-# else if
+# `if let`
 
-- Check multiple conditions in a row
-
+- Handle errors!
+- Replaces `!`
 ```swift
-let secret_password = "my awesome password"
-let ultra_secret_password = "my other awesome password"
-print("Enter your password:")
-let password = readLine()!
-
-if password == secret_password {
-    print("Correct password!")
-} else if password == my_ultra_secret_password {
-    print("Ah, you guessed my super secret password!")    
-} else {
-    print("Incorrect password!")
+if let firstNumber = Int(firstNumberString) {
+    // Use firstNumber inside these braces
 }
 ```
 
-<!-- -->
-<!-- Multiple conditions! -->
-
 ---
 
-# Project 
+# Calculator Improvements
 
-Extend our calculator from yesterday
-
-Ask the user to choose an operation using `input`
-Add, subtract, multiply, divide
-
-Use `if, else if, else` to perform that operation
-
----
-
-# Bonus
-
-- Add Exponents (**)
-- What happens if you divide by 0?
-  - Can we protect against dividing by zero?
+- Exponentiation
+    - `**`
+- Accept "+" or "add"
+    - use `||`
+- What happens if we divide by zero?
+   - use nested if/else
+- Use String Interpolation `"The sum is \(sum)"`
+- Invalid numbers
+  - Use `if let`

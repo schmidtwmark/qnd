@@ -32,7 +32,7 @@ Mark Schmidt
 # Improvements!
 
 - String interpolation
-- `if let`
+- Nested ifs (again)
 
 ---
 
@@ -53,14 +53,18 @@ print("Sum is \(a + b)")
 ```
 ---
 
-# `if let`
+# Nested Ifs Again
 
-- Handle errors!
-- Replaces `!`
 ```swift
-if let firstNumber = Int(firstNumberString) {
-    // Use firstNumber inside these braces
+if  operation == "divide" {
+    if secondNumber == 0 {
+        print("Can't divide by zero!")
+    } else {
+        let quotient = firstNumber / secondNumber
+        print("Quotient is \(quotient)")
+    }
 }
+
 ```
 
 ---
@@ -69,10 +73,8 @@ if let firstNumber = Int(firstNumberString) {
 
 - Exponentiation
     - `**`
-- Accept "+" or "add"
+- Accept "+" or "add" or "Add"
     - use `||`
 - What happens if we divide by zero?
    - use nested if/else
 - Use String Interpolation `"The sum is \(sum)"`
-- Invalid numbers
-  - Use `if let`

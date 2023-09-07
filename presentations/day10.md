@@ -4,30 +4,25 @@ theme: gaia
 class: invert
 ---
 
-# QND Computer Science Day 6
+# QND Computer Science Day 10
 Mark Schmidt
 
 --- 
 
-# Recap
+# Agenda
 
-- Calculator
-- Nested Ifs
+- Recap
+- Loops
+- `var` variables
+- Booleans (you've been using them already)
+- Making a game!
 
 ---
 
-# What does this do?
+# Recap
 
-```swift
-var count = 0
-while count < 3 {
-    print("Hello, World, count = \(count)")
-    count = count + 1
-}
+- Calculator
 
-```
-
-<!-- Two new things-- var and while-->
 
 ---
 
@@ -57,22 +52,38 @@ count = count + 1
 
 ---
 
+# Repeating code
+
+```swift
+var count = 1
+while count < 5 {
+    print("Hello, World! Count = \(count)")
+    count = count + 1
+}
+
+```
+
+
+---
+
 # Here be dragons!
 
-```python
-count = 1
-while count > 0:
-    print(f"Hello, World! Count = {count}")
+```swift
+var count = 1
+while count > 0 {
+    print("Hello, World! Count = \(count)")
     count = count + 1
+}
 
 ```
 ---
 
 # Infinite Loops
 
+- "Why isn't my program running?"
 - This program will never end
-- To exit early, use CTRL + C shortcut or STOP button
-- Beware of overflowing resources
+- To exit early, use STOP button
+- Beware of overflowing resources!
 ![bg right w:500](../assets/infinite_loop.jpeg)
 
 ---
@@ -100,7 +111,7 @@ while running {
 
 # Today's Task
 
-- Add a `while` loop to the calculator
-- Finish the calculator!
+- Guess My Number Game
+
 
 

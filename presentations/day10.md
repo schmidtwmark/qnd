@@ -87,6 +87,21 @@ while count > 0 {
 ![bg right w:500](../assets/infinite_loop.jpeg)
 
 ---
+
+# Booleans
+
+- `true` or `false`
+- We've already used them!
+- Result of any kind of comparison
+  - `==`
+  - `!=`
+  - `>`
+  - `<`
+  - `>=`
+  - `<=`
+
+---
+
 # Loops!
 
 ```swift

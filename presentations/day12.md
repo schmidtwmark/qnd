@@ -4,7 +4,7 @@ theme: gaia
 class: invert
 ---
 
-# QND Computer Science Day 11
+# QND Computer Science Day 12
 Mark Schmidt
 
 --- 
@@ -27,6 +27,26 @@ Wordle
 <!-- -->
 <!-- Explain the rules of wordle -->
 <!-- Multi-day process -->
+
+---
+
+# This Week
+
+- Monday: Wordle
+- Tuesday: Wordle
+- Wednesday: Wordle (grading!)
+- Thursday: iOS Apps
+- Friday: Last Day!
+
+---
+
+# Last Day
+
+- If EVERYONE finishes Wordle, I'll make cookies
+- Else, you'll have a final exam
+
+![bg right](../assets/cookie.jpeg)
+
 ---
 
 # What does this output?
@@ -114,7 +134,7 @@ if my_string.contains("W") {
 - Create a simple Wordle program
   - Have a single secret word
   - Receive guesses from user in a loop
-  - Print out emoji representing correct characters
+  - Print out colored string for each guess 
   - https://tinyurl.com/qnd-wordle-1
 
 ![bg right w:300](../assets/wordle-1.png)

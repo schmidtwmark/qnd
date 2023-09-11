@@ -135,6 +135,4 @@ if my_string.contains("W") {
   - Have a single secret word
   - Receive guesses from user in a loop
   - Print out colored string for each guess 
-  - https://tinyurl.com/qnd-wordle-1
 
-![bg right w:300](../assets/wordle-1.png)

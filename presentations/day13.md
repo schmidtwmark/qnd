@@ -55,20 +55,6 @@ let secret = wordBank.getRandomElement()! // Choose a random word
 
 ---
 
-# Validate Word Length
-
-- Use `.count`
-- Note that it does NOT have `()` at the end
-
-```swift
-let guess = readLine()!
-if guess.count != secret.count {
-  print("Not the same length!")
-  continue // Give the user a chance to guess again
-}
-```
-
----
 
 # Validate Word is a Real Word
 
@@ -88,7 +74,7 @@ if !validWords.contains(guess) {
 ---
 
 # Get to it!
+
 - Guess Count
 - Random word
-- Validate word length
 - Validate word is a real word

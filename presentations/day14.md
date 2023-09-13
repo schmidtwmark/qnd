@@ -56,7 +56,7 @@ while playing {
 - Create a list of words
 ```swift
 var wordBank = ["apple", "maple", "trees", "stare"]
-let secret = wordBank.getRandomElement()! // Choose a random word
+let secret = wordBank.randomElement()! // Choose a random word
 ```
 
 ---

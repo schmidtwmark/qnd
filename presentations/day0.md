@@ -34,16 +34,28 @@ Mark Schmidt
 
 # Why am I here?
 
-- CS is a great opportunity
-- 4 Weeks of intro to Computer Science
+- Computer Science can be hard to self-teach
 - CS is for everyone!
 - Have an open mind
 
-
-
 <!-- -->
 <!-- Computer science can be really hard to self-teach -->
+
 <!-- When I pitched this class, originally it was just for students who wished to learn about CS -->
+
+---
+
+# What will we be doing?
+
+- 4 Weeks of intro to Computer Science
+    - Swift
+- Games
+- Choose Your Own Adventure
+- Wordle
+- iPhone App
+- **No homework!**
+
+
 ---
 
 # Why CS
@@ -72,8 +84,9 @@ Mark Schmidt
 # Why CS?
 
 - Understanding
-    - The world is digital
-    - You can't be ignorant!
+- Massive changes coming
+    - AI
+    - AR / VR
 
 <!-- -->
 <!-- Even if you're not a computer person or a science person, you might find you enjoy the problem solving aspects! -->
@@ -82,11 +95,10 @@ Mark Schmidt
 
 # Questions?
 
-
 <!-- -->
 <!-- Any questions on what we're doing? -->
 <!-- What's my role at Google like? -->
-<!-- What are my hot takes on recent technology developments >
+<!-- What are my hot takes on recent technology developments -->
 <!-- How did I know that Software Engineering was right for me? -->
 
 ---

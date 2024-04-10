@@ -86,15 +86,15 @@ Mark Schmidt
 
 # Hello World!
 
-In **main.swift**, we already have:
+Type the following into the code editor:
 
 ```swift
-print("hello from Swift!")
+print("Hello World!")
 ```
 
 Then tap the **▶️ Run** button on top
 
-You should see `hello from Swift!` in the console below
+You should see `Hello World!` in the console below
 
 ---
 

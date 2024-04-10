@@ -1,0 +1,531 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Tue Apr  9 20:20:24 2024
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+RUBY_VERSION = 3.1.2
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+CPPFLAGS = -I/opt/homebrew/opt/openssl@3/include
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/Shared/qnd
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# environment
+MATRIX_LIB = /Users/markschmidt/Developer/rpi-rgb-led-matrix/lib/
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /opt/homebrew/anaconda3/bin:/usr/local/anaconda3/bin:/Users/markschmidt/.gem/ruby/3.1.2/bin:/opt/rubies/ruby-3.1.2/lib/ruby/gems/3.1.0/bin:/opt/rubies/ruby-3.1.2/bin:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.1.2/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/markschmidt/.cargo/bin:/Users/markschmidt/Developer/flutter/bin:/Users/markschmidt/Developer/arm-unknown-linux-gnueabihf/bin/:/Users/markschmidt/.cargo/bin:/Applications
+# environment
+ 
+ELECTRON_RUN_AS_NODE = 1
+# environment
+LDFLAGS = -L/opt/homebrew/opt/openssl@3/lib
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.3Ql52nPRd1/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /Users/Shared/qnd
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+GEM_HOME = /Users/markschmidt/.gem/ruby/3.1.2
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/share/man:/Applications/Xcode.app/Contents/Developer/usr/share/man:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/markschmidt
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/markschmidt/Library/Application Support/Code/CachedData/5c3e652f63e798a5ac2f31ffd0d863669328dc4c
+# environment
+LOGNAME = markschmidt
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+AOC_TOKEN = session=53616c7465645f5faef3d4e0977da5c476b3d7f80f0c0a0bad3a6b2acd5980caadfcb8b37136ad116c7faeaa0a85f2aaa3d8f7a971b214a355519d085a25e68c
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+GEM_PATH = /Users/markschmidt/.gem/ruby/3.1.2:/opt/rubies/ruby-3.1.2/lib/ruby/gems/3.1.0
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# environment
+RUBY_ROOT = /opt/rubies/ruby-3.1.2
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = markschmidt
+# makefile
+.DEFAULT_GOAL := output
+# environment
+RUBY_ENGINE = ruby
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `Makefile', line 17)
+targets := presentations/day0.md presentations/day1.md presentations/day10.md presentations/day11.md presentations/day12.md presentations/day13.md presentations/day14.md presentations/day15.md presentations/day16.md presentations/day2.md presentations/day3.md presentations/day4.md presentations/day5.md presentations/day6.md presentations/day7.md presentations/day8.md presentations/day9.md
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# environment
+OPENSSL_DIR = /opt/homebrew/opt/openssl@3
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/1v/18tyqqrd4gg2fzl628qsb_f80000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/markschmidt/Library/Application Support/Code/1.88-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.224477234.224477240
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+GEM_ROOT = /opt/rubies/ruby-3.1.2/lib/ruby/gems/3.1.0
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 3315
+# variable set hash-table stats:
+# Load=76/1024=7%, Rehash=0, Collisions=2/103=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777234, inode 17224330): 16 files, no impossibilities.
+# presentations (device 16777234, inode 17232261): 22 files, no impossibilities.
+
+# 38 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+output/presentations/%.pptx: presentations/%.md output
+#  commands to execute (from `Makefile', line 5):
+	marp presentations/$*.md -o $@ --pptx --allow-local-files
+	
+
+output/presentations-pdfs/%.pdf: presentations/%.md output
+#  commands to execute (from `Makefile', line 8):
+	marp presentations/$*.md -o $@ --pdf --allow-local-files
+	cp output/presentations-pdfs/$*.pdf /Users/markschmidt/Developer/website/presentation-pdfs/
+	
+
+# 2 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+plan.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations-pdfs/day0.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations-pdfs/day7.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+presentations/day0.md:
+#  Implicit rule search has been done.
+#  Last modified 2024-04-09 20:20:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+output/presentations/day0.pptx: presentations/day0.md output
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `day0'
+#  Last modified 2024-04-08 22:08:05
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := output/presentations/day0.pptx
+# automatic
+# % := 
+# automatic
+# * := day0
+# automatic
+# + := presentations/day0.md output
+# automatic
+# | := 
+# automatic
+# < := presentations/day0.md
+# automatic
+# ^ := presentations/day0.md output
+# automatic
+# ? := presentations/day0.md
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+#  commands to execute (from `Makefile', line 5):
+	marp presentations/$*.md -o $@ --pptx --allow-local-files
+	
+
+# Not a target:
+output/presentations/day7.pptx:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: output/presentations/day0.pptx output/presentations/day1.pptx output/presentations/day10.pptx output/presentations/day11.pptx output/presentations/day12.pptx output/presentations/day13.pptx output/presentations/day14.pptx output/presentations/day15.pptx output/presentations/day16.pptx output/presentations/day2.pptx output/presentations/day3.pptx output/presentations/day4.pptx output/presentations/day5.pptx output/presentations/day6.pptx output/presentations/day7.pptx output/presentations/day8.pptx output/presentations/day9.pptx output/plan.pdf output/plan-v2.pdf output/presentations-pdfs/day0.pdf output/presentations-pdfs/day1.pdf output/presentations-pdfs/day10.pdf output/presentations-pdfs/day11.pdf output/presentations-pdfs/day12.pdf output/presentations-pdfs/day13.pdf output/presentations-pdfs/day14.pdf output/presentations-pdfs/day15.pdf output/presentations-pdfs/day16.pdf output/presentations-pdfs/day2.pdf output/presentations-pdfs/day3.pdf output/presentations-pdfs/day4.pdf output/presentations-pdfs/day5.pdf output/presentations-pdfs/day6.pdf output/presentations-pdfs/day7.pdf output/presentations-pdfs/day8.pdf output/presentations-pdfs/day9.pdf
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations-pdfs/day1.pdf:
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+output/plan.pdf: plan.md output
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 12):
+	marp plan.md -o $@ --pdf
+	
+
+# Not a target:
+output/presentations-pdfs/day8.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations/day1.pptx:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations-pdfs/day10.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations/day8.pptx:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations-pdfs/day16.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations/day10.pptx:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations-pdfs/day11.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations/day16.pptx:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations/day11.pptx:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2023-08-24 19:27:43
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+plan-v2.md:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations-pdfs/day12.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations/day12.pptx:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations-pdfs/day2.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations-pdfs/day9.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations/day2.pptx:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+output/plan-v2.pdf: plan-v2.md output
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 15):
+	marp plan-v2.md -o $@ --pdf
+	
+
+# Not a target:
+output/presentations/day9.pptx:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations-pdfs/day6.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations/day6.pptx:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations-pdfs/day13.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations/day13.pptx:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations-pdfs/day15.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 22):
+	rm -rf output
+	
+
+# Not a target:
+output/presentations-pdfs/day5.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations/day15.pptx:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations/day5.pptx:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations-pdfs/day4.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations/day4.pptx:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations-pdfs/day3.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+output:
+#  Implicit rule search has not been done.
+#  Last modified 2023-08-24 19:28:17
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 2):
+	mkdir -p output/presentations
+	
+
+# Not a target:
+output/presentations/day3.pptx:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations-pdfs/day14.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+output/presentations/day14.pptx:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=46/1024=4%, Rehash=0, Collisions=1/105=1%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue Apr  9 20:20:24 2024
+
+ 

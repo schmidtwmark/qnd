@@ -19,34 +19,14 @@ Mark Schmidt
 
 # Today
 
-- Nested Ifs
 - Video Games
 - Making a video game
+- Nested Ifs
 
 ---
 
 
-# Nested Ifs
 
-- You can put if statements inside of other if statements
-
-```swift
-...
-if answer == "Cookies and cream" {
-    print("Correct, oreos in ice cream is the best")
-    print("Waffle cones or sugar cones?")
-    let cones = readLine()!
-    if cones == "Waffle cones" {
-        print("Come on, who doesn't love a fresh waffle cone?") 
-    } else {
-        print("WRONG")
-    }
-}
-...
-```
-
-<!-- Show nested -->
----
 
 # Video Games
 
@@ -78,6 +58,28 @@ if answer == "Cookies and cream" {
 ![bg right w:500](../assets/starfield.webp)
 
 
+---
+
+# Nested Ifs
+
+- You can put if statements inside of other if statements
+
+```swift
+...
+if answer == "Cookies and cream" {
+    print("Correct, oreos in ice cream is the best")
+    print("Waffle cones or sugar cones?")
+    let cones = readLine()!
+    if cones == "Waffle cones" {
+        print("Come on, who doesn't love a fresh waffle cone?") 
+    } else {
+        print("WRONG")
+    }
+}
+...
+```
+
+<!-- Show nested -->
 ---
 
 # My Example

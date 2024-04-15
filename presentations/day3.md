@@ -62,41 +62,6 @@ if answer == "Cookies and cream" {
 
 ---
 
-# Nested Ifs
-
-- You can put if statements inside of other if statements
-
-```swift
-...
-if answer == "Cookies and cream" {
-    print("Correct, oreos in ice cream is the best")
-    print("Waffle cones or sugar cones?")
-    let cones = readLine()!
-    if cones == "Waffle cones" {
-        print("Come on, who doesn't love a fresh waffle cone?") 
-    } else {
-        print("WRONG")
-    }
-}
-...
-```
-
-<!-- Show nested -->
----
-
 # Assignment
 
-- Extend your quiz!
-- Use `else if`
-- Have at least 2 layers of `if` statements (3 questions total)
-
----
-
-# Make Your Own
-
-- Give the user some story and a simple choice
-- Use nested `if` statements to print what happens next
-- Be creative!
-  - You can do a quiz (or extend your quiz)
-- *keep it appropriate*
-- https://replit.com/@mrschmidt/Adventure#main.swift
+- Add more questions!

@@ -12,7 +12,6 @@ Mark Schmidt
 # Agenda
 
 - Computer History (brief)
-- An Unbelievable Fact
 - Basic Math
 - Project
 

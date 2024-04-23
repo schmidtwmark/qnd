@@ -86,8 +86,6 @@ if  operation == "divide" {
 
 # Calculator Improvements
 
-- Exponentiation
-    - `**`
 - Accept "+" or "add" or "Add"
     - use `||`
 - What happens if we divide by zero?

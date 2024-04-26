@@ -11,7 +11,6 @@ Mark Schmidt
 
 # Recap
 
-- Functions
 - Guess My Number
 
 ---
@@ -30,12 +29,14 @@ Wordle
 
 ---
 
-# This Week
+#  What's Left
 
-- Monday: Wordle
-- Tuesday: Wordle
-- Wednesday: Wordle (grading!)
-- Thursday: iOS Apps
+- Friday : Wordle
+- Next week off
+- Monday : Wordle
+- Tuesday : Wordle (grading!)
+- Wednesday : iOS Apps
+- Thursday : iOS Apps
 - Friday: Last Day!
 
 ---

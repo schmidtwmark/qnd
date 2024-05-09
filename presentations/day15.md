@@ -55,7 +55,6 @@ We'll need it today!
 # iOS 
 
 - Operating System for iPhones, iPads
-- iOS 17 launches tomorrow!
 
 
 ![bg right w:500](../assets/ios.webp)
@@ -91,5 +90,5 @@ We'll need it today!
 
 # Let's Get Coding
 
-- Button example
-- Favorite Things
+- Buttons
+- Guess My Number

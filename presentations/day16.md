@@ -9,75 +9,36 @@ Mark Schmidt
 
 --- 
 
-# Last Day
+# Agenda
 
-- What's Next
-- Favorite Things App
-- Feedback Survey
+- Guess My Number
+- Adventure Game
 
----
+--- 
 
-# What Did We Learn?
+# Guess My Number
 
-- Variables
-- Strings
-- Integers and Booleans
-- `if` / `else if` / `else`
-- `while` and `for` loops
+- Mirror game logic
+- Use a Picker
 
 ---
 
-# What's Next?
+# Bindings
 
-- If you didn't like this...
-    - You're done!
-- If you did like this...
-    - There's a **lot** more to learn!
-
----
-
-# Where to Focus
-
-- Swift Playgrounds
-- Computer Science Club
-- AP Computer Science
-- Other Resources
-  - Books
-  - Advent of Code
-  - Codecademy and Code.org
+- Use '$'
+- Passes some state value into another view
+- Lets another view modify this view's state
 
 ---
 
-# Favorite Things App
+# Adventure Game
 
-```swift
-var body: some View { 
-        ScrollView {
-            VStack {
-                Group {
-                    Image("luna")
-                        .resizable() // Resize image instead of crop
-                        .aspectRatio(contentMode: .fit) // Keep aspect ratio
-                        .frame(width: 300) // Set a maximum width
-                    Text("Luna is the best dog!")
-                }
-                // ... Add more groups
-        }
-    }
-}
-```
-
+- Use `NavigationStack` to manage the app
+- Create a view struck for each node in the tree
+- Use `NavigationLink` for each choice
+- Copy your story from Replit into this project
+- Replace each `print` with `Text`
 ---
+# Flowchart
 
-# Thank You!
-
-- Computer Science is **hard**
-
----
-
-# Feedback Survey
-
-- Your final grade!
-- https://markschmidt.io/qnd-feedback
-
-
+![bg w:90%](../assets/flowchart.png)

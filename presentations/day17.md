@@ -11,9 +11,9 @@ Mark Schmidt
 
 # Last Day
 
-- What's Next
-- Favorite Things App
 - Feedback Survey
+- What's Next
+- Adventure iOS App
 
 ---
 
@@ -24,6 +24,8 @@ Mark Schmidt
 - Integers and Booleans
 - `if` / `else if` / `else`
 - `while` and `for` loops
+- SwiftUI
+
 
 ---
 
@@ -39,7 +41,6 @@ Mark Schmidt
 # Where to Focus
 
 - Swift Playgrounds
-- Computer Science Club
 - AP Computer Science
 - Other Resources
   - Books
@@ -48,30 +49,10 @@ Mark Schmidt
 
 ---
 
-# Favorite Things App
-
-```swift
-var body: some View { 
-        ScrollView {
-            VStack {
-                Group {
-                    Image("luna")
-                        .resizable() // Resize image instead of crop
-                        .aspectRatio(contentMode: .fit) // Keep aspect ratio
-                        .frame(width: 300) // Set a maximum width
-                    Text("Luna is the best dog!")
-                }
-                // ... Add more groups
-        }
-    }
-}
-```
-
----
-
 # Thank You!
 
 - Computer Science is **hard**
+- Thank you for giving it your best shot
 
 ---
 
@@ -80,4 +61,16 @@ var body: some View {
 - Your final grade!
 - https://markschmidt.io/qnd-feedback
 
+---
 
+# Adventure Game
+
+- Use `NavigationStack` to manage the app
+- Create a view struct for each node in the tree
+- Use `NavigationLink` for each choice
+- Copy your story from Replit into this project
+- Replace each `print` with `Text`
+---
+# Flowchart
+
+![bg w:90%](../assets/flowchart.png)

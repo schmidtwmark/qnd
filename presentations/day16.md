@@ -34,7 +34,7 @@ Mark Schmidt
 # Adventure Game
 
 - Use `NavigationStack` to manage the app
-- Create a view struck for each node in the tree
+- Create a view struct for each node in the tree
 - Use `NavigationLink` for each choice
 - Copy your story from Replit into this project
 - Replace each `print` with `Text`

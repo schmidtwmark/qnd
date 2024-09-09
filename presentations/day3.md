@@ -16,7 +16,6 @@ Mark Schmidt
 - Concatenation
 - `print()`
 - `readLine()!`
-- Chat
 
 ---
 
@@ -31,12 +30,13 @@ Mark Schmidt
 - Execute different code based on a condition
 
 ```swift
-print("What is the best ice cream flavor?")
-let answer = readLine()!
-if answer == "Cookies and cream" {
-    print("Correct, oreos in ice cream is the best")
+print("What is the song of the summer?")
+let guess = readLine()!
+
+if guess == "Hot To Go" {
+    print("That's right! Chappel Roan's Hot To Go is the song of the summer.")
 } else {
-    print("Wrong, " + answer + " is not the best")
+    print("Wrong, try again!")
 }
 ```
 
@@ -47,16 +47,18 @@ if answer == "Cookies and cream" {
 # `else if`
 
 - What if there are multiple branches?
-- You can have as many `else if`s as you want!
 ```swift
-print("What is the best ice cream flavor?")
-let answer = readLine()!
-if answer == "Cookies and cream" {
-    print("Correct, oreos in ice cream is the best")
-} else if answer == "Chocolate" {
-    print("Chocolate is good, but it's not quite the best")
+print("What is the song of the summer?")
+let guess = readLine()!
+
+if guess == "Hot To Go" {
+    print("That's right! Chappel Roan's Hot To Go is the song of the summer.")
+} else if guess == "Espresso" || guess == "Please Please Please" {
+    print("Sabrina Carpenter is great, but that's not the song of the summer.")
+} else if guess == "I Had Some Help" {
+    print("A good song, but not the song of the summer.")
 } else {
-    print("Wrong, " + answer + " is not the best")
+    print("Wrong, try again!")
 }
 ```
 

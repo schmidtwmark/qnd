@@ -35,7 +35,7 @@ Mark Schmidt
 ...
 if guess == "Hot To Go" {
     print("That's right! Chappel Roan's Hot To Go is the song of the summer.")
-    print("What's the movie of the year?")
+    print("What's the best movie of the year?")
     let movie = readLine()!
     if movie == "Dune: Part Two" {
         print("Giant Sand Worms >>>> Anything else")

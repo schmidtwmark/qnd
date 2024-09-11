@@ -12,7 +12,20 @@ Mark Schmidt
 # Today
 
 - Adventure Game
-- Due end of class *tomorrow*
+
+---
+
+# Expectations
+
+- If we're working hard...
+  - We can have more time tomorrow
+- If we're not...
+  - It will be due today
+
+---
+
+# Adventure Game
+
 - Stay busy!
   - Add more conditions using `else if` or more nested `if`s
   - Test and help your neighbors! 

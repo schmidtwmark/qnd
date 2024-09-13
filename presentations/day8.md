@@ -5,168 +5,109 @@ class: invert
 ---
 
 # QND Computer Science Day 8
-Mark Schmidt
+Mr. Schmidt
+
+--- 
+
+# DOWNLOAD SWIFT PLAYGROUNDS
+
+We'll need it today!
+
+![bg right w:500](../assets/swift.jpeg)
 
 ---
 
 # Agenda
 
-- Computer History (brief)
-- Basic Math
-- Project
+- Behind the Scenes
+- Swift Playgrounds
+- Making an app!
 
 ---
 
-# Math
+# Behind The Scenes
 
-- Early computers were made for math!
-- Codebreaking
-- Artillery Range Tables
-- Aerodynamics
-
-![bg right w:500](../assets/hopper.webp)
+- Replit did a bad thing
+- We're winging it
 
 ---
 
-# Early Computers
+# Swift Playgrounds
 
-- Before the machines, computer was a job!
-- Largely held by women
-- Margaret Hamilton with her Apollo Lunar Lander program
-
-![bg right w:500](../assets/hamilton.jpg)
+- Apple-made app
+- Learn Swift
+- 3 major modes
 
 ---
 
-# Computer Programming
+# Playgrounds
 
-- Transitioning to physical computers was slow
-- Women computers took advantage and gained engineering roles
-- Judith Love Cohen
-
-![bg right w:500](../assets/cohen.jpeg)
+- Very similar to our Replit environments!
+- Write Swift code and run it
+- Cannot receive input from the user 😡
 
 ---
 
-# Math and Computers Today
+# Lessons
 
-- Computers are constantly doing math
-- Building modern programs requires a ton of math
-- Video Games require the most complex math
-
----
-
-# What does this do?
-
-```swift
-let a = 5
-let b = 4
-
-let result = a + b
-
-print(result)
-```
----
-
-# The Square Calculator
-
-- Ask the user for a number
-- Square it and print the result
-
-```swift
-print("Enter a number to square: ")
-let number = readLine()!
-
-print(number * number)
-```
+- Interactive environments
+- Guided coding
+- Some of the best self-teaching materials
+- Free!
 
 ---
 
-# Types
+# Apps
 
-- Strings
-  - Sequence of characters
-  - Can be empty
-  - Put in quotes
-  - Can be combined with other strings
-- Integers
-  - A number with no decimal
+- Develop actual iOS apps on iPad
+- Release on the App Store!
+  - No need for Xcode
+
+
 
 ---
 
-# The Square Calculator (fixed)
+# iOS 
 
-```swift
-print("Enter a number to square: ")
-let numberString = readLine()!
-let number = Int(numberString)!
-
-print(number * number)
-```
-
----
-# Decimals
+- Operating System for iPhones, iPads
 
 
-- What will this do?
-```swift
-let a = 0.1
-let b = 0.1
-print(a + b)
-
-```
-![bg right w:500](../assets/math.jpeg)
-<!-- -->
-<!-- Show 0.1 + 0.1 = 0.2, 0.1 + 0.2 => 0.3000000004 -->
-
----
-
-# This has caused a lot of problems
-
-- Banks deal with decimals a lot!
-
-```swift
-let myBalance = 200.20
-let purchasePrice = 100.20
-let finalBalance = myBalance - purchasePrice
-print(finalBalance)
-```
-
----
-
-# Types
-
-- Strings
-- Ints
-- Floats
-  - Store decimal values
-  - Imprecise (be careful!)
-
----
-
-# Project
-
-Make a **calculator**
-
-- Use `readLine()!` twice to get two integers 
-- Don't forget `Int()!`
-
-Compute the sum, print it out!
+![bg right w:500](../assets/ios.webp)
 
 --- 
 
-# Calculator Improvements
+# iOS Apps
 
-- Use `readLine()!` again to get an operation
-- Add, Subtract, Multiply, Divide
-- Use `if` to handle the operation
+- App Store launched in 2008 alongside the iPhone 3G
+- Originally written in Objective-C using UIKit
+- Apple released Swift in 2014 as a more modern alternative
+- Added SwiftUI in 2019
 
 ---
 
-# Extra Challenges
+# SwiftUI
 
-1. Also print the difference (-)
-2. Also print the product (*)
-3. Also print the quotient (/)
-4. Use `Floats` instead of ints
-5. What happens if we divide by zero?
+- UI = User Interface
+- "Declarative"
+- Simpler to write
+- Works across iOS, tvOS, watchOS, macOS, and visionOS
+
+---
+
+# SwiftUI
+
+- Simple building blocks
+- Common experience across all apps
+  - No need to reinvent the wheel for each app
+- Built-in accessibility
+
+---
+
+# Let's Get Coding
+
+- Views
+- Text
+- Buttons
+- View Modifiers
+- Numbers
+

@@ -5,7 +5,7 @@ class: invert
 ---
 
 # QND Computer Science Day 14
-Mark Schmidt
+Mr. Schmidt
 
 --- 
 

@@ -33,7 +33,7 @@ Mr. Schmidt
 # Other Lessons
 
 - Debugging
-- Resiliency
+- Patience 
 - Asking for help
 
 ---

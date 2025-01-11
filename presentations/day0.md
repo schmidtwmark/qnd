@@ -28,6 +28,7 @@ Mr. Schmidt
 - Side Projects
     - Fidgets
     - Scoreboard
+    - Planetary Lifts
 ![bg right w:500](../assets/collage.png)
 
 ---
@@ -36,7 +37,7 @@ Mr. Schmidt
 
 - Computer Science can be hard to self-teach
 - CS is for everyone!
-- Have an open mind
+    - Have an open mind
 
 <!-- -->
 <!-- Computer science can be really hard to self-teach -->
@@ -50,9 +51,8 @@ Mr. Schmidt
 - 4 Weeks of intro to Computer Science
     - Swift
 - Games
-- Choose Your Own Adventure
 - Wordle
-- iPhone App
+- Code Art
 - **No homework!**
 
 
@@ -68,25 +68,28 @@ Mr. Schmidt
 
 - Fun
     - Creative problem solving
-    - Satisfaction
-    - Art + expression
+        - Every program is a puzzle
+    - Artistic expression
 
 
 ---
 # Why CS?
 
-- Career
-    - High demand, well paying jobs
-    - Differentiator for any field
+- Great Careers
+    - You should be thinking about career options
+    - Software engineers are in high demand
+        - High pay, great benefits
+- Differentiator for any field!
 
 ---
 
 # Why CS?
 
 - Understanding
-- Massive changes coming
-    - AI
-    - AR / VR
+    - Huge societal impacts of technology
+    - Protection from scams and bad actors
+- Problem Solving Skills
+    - Critical thinking
 
 <!-- -->
 <!-- Even if you're not a computer person or a science person, you might find you enjoy the problem solving aspects! -->

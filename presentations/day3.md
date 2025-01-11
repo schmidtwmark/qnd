@@ -14,8 +14,8 @@ Mr. Schmidt
 - Strings
 - Variables
 - Concatenation
-- `print()`
-- `readLine()!`
+- `console.write()`
+- `console.read()`
 
 ---
 
@@ -30,13 +30,12 @@ Mr. Schmidt
 - Execute different code based on a condition
 
 ```swift
-print("What is the song of the summer?")
-let guess = readLine()!
+let guess = console.read("What is the song of the summer?")
 
 if guess == "Hot To Go" {
-    print("That's right! Chappel Roan's Hot To Go is the song of the summer.")
+    console.write("That's right! Chappel Roan's Hot To Go is the song of the summer.")
 } else {
-    print("Wrong, try again!")
+    console.write("Wrong, try again!")
 }
 ```
 
@@ -48,17 +47,16 @@ if guess == "Hot To Go" {
 
 - What if there are multiple branches?
 ```swift
-print("What is the song of the summer?")
-let guess = readLine()!
+let guess = console.read("What is the song of the summer?")
 
 if guess == "Hot To Go" {
-    print("That's right! Chappel Roan's Hot To Go is the song of the summer.")
+    console.write("That's right! Chappel Roan's Hot To Go is the song of the summer.")
 } else if guess == "Espresso" || guess == "Please Please Please" {
-    print("Sabrina Carpenter is great, but that's not the song of the summer.")
+    console.write("Sabrina Carpenter is great, but that's not the song of the summer.")
 } else if guess == "I Had Some Help" {
-    print("A good song, but not the song of the summer.")
+    console.write("A good song, but not the song of the summer.")
 } else {
-    print("Wrong, try again!")
+    console.write("Wrong, try again!")
 }
 ```
 

@@ -34,15 +34,15 @@ Mr. Schmidt
 ```swift
 ...
 if guess == "Hot To Go" {
-    print("That's right! Chappel Roan's Hot To Go is the song of the summer.")
-    print("What's the best movie of the year?")
+    console.write("That's right! Chappel Roan's Hot To Go is the song of the summer.")
+    console.write("What's the best movie of the year?")
     let movie = readLine()!
     if movie == "Dune: Part Two" {
-        print("Giant Sand Worms >>>> Anything else")
+        console.write("Giant Sand Worms >>>> Anything else")
     } else if movie == "Deadpool and Wolverine" {
-        print("Cameo cringefest 👎👎👎")
+        console.write("Cameo cringefest 👎👎👎")
     } else {
-        print("Wrong answer, try again!")
+        console.write("Wrong answer, try again!")
     }
 } else if guess == "Espresso" || guess == "Please Please Please" {
 ...
@@ -89,7 +89,7 @@ if guess == "Hot To Go" {
 - https://replit.com/@mrschmidt/Adventure#main.swift
 - Escaping quotes with `\"`
 - Nested Ifs
-- Empty print statements
+- Empty console.write statements
 
 ---
 
@@ -102,7 +102,7 @@ if guess == "Hot To Go" {
 # Make Your Own
 
 - Give the user some story and a simple choice
-- Use nested `if` statements to print what happens next
+- Use nested `if` statements to console.write what happens next
 - You can have more than 2 options at each choice!
 - 3 choices total
 - Be creative!

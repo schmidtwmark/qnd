@@ -12,10 +12,11 @@ Mr. Schmidt
 # Recap
 
 - Website
-- Replit
+- Swift Playgrounds
 - Strings
-- Print
+- `console.write`
 - Variables
+- `console.read`
 
 ---
 
@@ -28,7 +29,7 @@ Mr. Schmidt
 let greeting = "Hello"
 let name = "Luna 🐕"
 
-print(greeting + name)
+console.write(greeting + name)
 ```
 
 ---
@@ -41,17 +42,16 @@ print(greeting + name)
 
 ```swift
 let greeting = "Hello"
-print("🦀" + "🦕" + greeting)
+console.write("🦀" + "🦕" + greeting)
 ```
 ---
 
 # Reading Input
 
-- Use `readLine()!`
+- Use `console.read()`
 - Another function! 
+- Writes a prompt, then reads user input
 - Gets input from the console, stores it in a variable
-- Note the exclamation point!
-  - `readLine()` can have an error--`!` tells Swift we don't care
 
 ---
 
@@ -77,12 +77,12 @@ print("🦀" + "🦕" + greeting)
 
 ```swift
 // Ask for a name and greet the user
-print("What is your name?")
+console.write("What is your name?")
 let name = readLine()!
-print("Hello " + name + ", my name is Mr. Schmidt")
+console.write("Hello " + name + ", my name is Mr. Schmidt")
 
 // Ask for a favorite color
-print("What is your favorite color?")
+console.write("What is your favorite color?")
 let color = readLine()!
-print("I also like " + color + ", but my favorite is blue")
+console.write("I also like " + color + ", but my favorite is blue")
 ```

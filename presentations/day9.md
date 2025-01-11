@@ -20,7 +20,7 @@ Mr. Schmidt
 
 ```swift
 Button {
-  print("Pressed!")
+  console.write("Pressed!")
   // Other code to run when button is pressed
 } label: {
   Text("Press me!")
@@ -33,7 +33,7 @@ Button {
 
 ```swift
 Button {
-  print("Liked!")
+  console.write("Liked!")
 } label: {
   Label("Like", systemImage: "heart") 
 }.buttonStyle(.borderedProminent)

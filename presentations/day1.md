@@ -59,28 +59,38 @@ Mr. Schmidt
 - Everything you need is at [markschmidt.io/qnd]()
 - Presentation slides
 - Code links
-- **Livestream**
 
 ---
 
-# Replit
+# Swift Playgrounds
 
 - We need a coding environment
-- **Replit** is an online Integrated Development Environment
-- Skip installation/package management/local device issues 
+- We'll use Swift Playgrounds
+- Normally for iOS App Development
+- Use a template to do simple starter coding
 
 ---
 
 # Setup
 
-1. Go to Replit.com
-2. Create an account (use your Google account)
-3.  Press "+" in the top right
-4.  Select **Swift** as a template
-5.  Title **Hello World**
-6.  Press "Create REPL"
-![bg right:50% 100%](../assets/repl-setup.png)
+- Go to [markschmidt.io/qnd](markschmidt.io/qnd)
+- Download the template under Day 1
+- Unzip the template and open in Swift Playgrounds
 
+---
+
+# Swift Playgrounds Template
+
+- All of our code will live in **Main**
+- All of our code goes in the `start` function
+- `{` and `}` are the start and end of a function
+
+
+```swift
+func start(console: TextConsole) {
+
+}
+```
 
 ---
 
@@ -89,12 +99,12 @@ Mr. Schmidt
 Type the following into the code editor:
 
 ```swift
-print("Hello World!")
+console.write("Hello World!")
 ```
 
-Then tap the **▶️ Run** button on top
+Then tap the **▶️ Run** button on the bottom right
 
-You should see `Hello World!` in the console below
+You should see `Hello World!` appear in the console!
 
 ---
 
@@ -106,10 +116,10 @@ You should see `Hello World!` in the console below
 - Always between quotation marks `""`
 ---
 
-# The Print Function
+# The `write` Function
 
-- `print("Hello 🦀🦀🦀")`
-- Prints the provided string to the console output
+- `console.write("Hello 🦀🦀🦀")`
+- Writes the provided string to the console output
 - Add emoji with `control` + `command` + `spacebar`
 - We will see many, many other functions
 - `function(input1, input2, input3...)`
@@ -121,11 +131,11 @@ You should see `Hello World!` in the console below
 - Our program can have multiple lines!
 
 ```swift
-print("Hello 🦀🦀🦀")
-print("Hello 🦀🦀🦀")
-print("hello from Swift!")
-print("hello from Swift!")
-print("hello from Swift!")
+console.write("Hello 🦀🦀🦀")
+console.write("Hello 🦀🦀🦀")
+console.write("hello from Swift!")
+console.write("hello from Swift!")
+console.write("hello from Swift!")
 ```
 
 --- 
@@ -137,9 +147,9 @@ print("hello from Swift!")
 
 ```swift
 let greeting = "Hello 🦀🦀🦀!"
-print(greeting)
-print(greeting)
-print(greeting)
+console.write(greeting)
+console.write(greeting)
+console.write(greeting)
 ```
 
 ---
@@ -150,21 +160,19 @@ print(greeting)
 ```swift
 let greeting = "Hello "
 let name = "Mr. Schmidt"
-print(greeting + name)
+console.write(greeting + name)
 ```
 ---
 
 # This program is boring!
 
 - It needs to respond to user input
-- Use the `readLine()!` function!
-  - Note the `!`
+- Use `console.read`
 - Waits for the user to type in the console and press Enter
 - Stores the value in a variable
 
 ```swift
-print("What is your name?")
-let name = readLine()!
+let name = console.read("What is your name?")
 ```
 - Use concatenation to say hello!
 
@@ -178,12 +186,11 @@ let name = readLine()!
 
 ```swift
 // Ask the user for their name
-print("What is your name?")
-let name = readLine()!
+let name = console.read("What is your name?")
 
 // Note the space after Hello
 let greeting = "Hello "
-print(greeting + name)
+console.write(greeting + name)
 ```
 
 
@@ -191,7 +198,12 @@ print(greeting + name)
 
 # Extra Challenges
 
-- Print the greeting 3 times
-- Ask a user for their name and their favorite color. Print each out 3 times.
-- Print empty lines between each line of output
-  - What happens if we pass `""` to `print`?
+- `console.write` the greeting 3 times
+- Ask a user for their name and their favorite color. `console.write` each out 3 times.
+- `console.write` empty lines between each line of output
+  - What happens if we pass `""` to `console.write`?
+
+--- 
+
+# Exit Ticket
+

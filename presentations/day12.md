@@ -22,7 +22,7 @@ Mr. Schmidt
 
 - Create a new variable `guessCount`
 - Increment it each time the user guesses
-- Print the number of guesses at the end
+- console.write the number of guesses at the end
 
 --- 
 

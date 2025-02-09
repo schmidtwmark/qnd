@@ -44,6 +44,9 @@ Mr. Schmidt
 
 ---
 
+![bg 100%](../assets/tierlist.png)
+
+---
 # Swift
 
 - Programming Language created by Apple
@@ -74,23 +77,18 @@ Mr. Schmidt
 # Setup
 
 - Go to [markschmidt.io/qnd](markschmidt.io/qnd)
-- Download the template under Day 1
-- Unzip the template and open in Swift Playgrounds
+- Click the "Download Template" button
+- Open the file in Files
+- Unzip
+- Open the Playground
 
 ---
 
-# Swift Playgrounds Template
+# Why is this so complicated?
 
-- All of our code will live in **Main**
-- All of our code goes in the `start` function
-- `{` and `}` are the start and end of a function
-
-
-```swift
-func start(console: TextConsole) {
-
-}
-```
+- Apple is dumb
+- They broke this one week ago
+- I am very mad
 
 ---
 
@@ -102,7 +100,7 @@ Type the following into the code editor:
 console.write("Hello World!")
 ```
 
-Then tap the **▶️ Run** button on the bottom right
+Then tap the **▶️ Run My Code** button on the bottom right
 
 You should see `Hello World!` appear in the console!
 
@@ -207,3 +205,6 @@ console.write(greeting + name)
 
 # Exit Ticket
 
+- Go to markschmidt.io/qnd
+- Under Day 1, click the Exit Ticket for a quick question
+- This is a vibe check to see how the class is doing

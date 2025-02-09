@@ -85,12 +85,10 @@ Mr. Schmidt
 
 # Why CS?
 
-- Understanding
-    - Huge societal impacts of technology
-    - Protection from scams and bad actors
-- Problem Solving Skills
-    - Critical thinking
-
+- Technology Literacy
+- We blew it
+    - Everything is too complex, designed to extract attention and money
+    - It's probably not going to get better
 <!-- -->
 <!-- Even if you're not a computer person or a science person, you might find you enjoy the problem solving aspects! -->
 
@@ -131,3 +129,11 @@ Mr. Schmidt
 # ROUND TWO
 
 - Let's fix our problems together
+
+---
+
+# DOWNLOAD SWIFT PLAYGROUNDS
+
+We'll need it today!
+
+![bg right w:500](../assets/swift.jpeg)

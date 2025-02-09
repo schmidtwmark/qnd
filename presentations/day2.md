@@ -86,3 +86,8 @@ console.write("What is your favorite color?")
 let color = readLine()!
 console.write("I also like " + color + ", but my favorite is blue")
 ```
+
+--- 
+
+# Exit Ticket
+

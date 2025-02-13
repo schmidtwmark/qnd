@@ -16,21 +16,17 @@ Mr. Schmidt
 - Strings
 - `console.write`
 - Variables
+- Concatenation
 - `console.read`
 
 ---
 
-# Concatenation
+# Agenda
 
-- `+`
-- Combine two strings together
+- Multiple Concatenation
+- Spacing + Comments
+- Project: Chat Program
 
-```swift
-let greeting = "Hello"
-let name = "Luna 🐕"
-
-console.write(greeting + name)
-```
 
 ---
 
@@ -44,16 +40,7 @@ console.write(greeting + name)
 let greeting = "Hello"
 console.write("🦀" + "🦕" + greeting)
 ```
----
-
-# Reading Input
-
-- Use `console.read()`
-- Another function! 
-- Writes a prompt, then reads user input
-- Gets input from the console, stores it in a variable
-
----
+--- 
 
 # Spacing
 
@@ -73,21 +60,14 @@ console.write("🦀" + "🦕" + greeting)
 
 - Make a chat program!
 - Ask the user questions
-- Provide an answer, referencing what they said (5 things)
+- Provide an answer, referencing what they said (3 things)
 
 ```swift
 // Ask for a name and greet the user
-console.write("What is your name?")
-let name = readLine()!
+let name = console.read("What is your name?")
 console.write("Hello " + name + ", my name is Mr. Schmidt")
 
 // Ask for a favorite color
-console.write("What is your favorite color?")
-let color = readLine()!
+let color = console.read("What is your favorite color?")
 console.write("I also like " + color + ", but my favorite is blue")
 ```
-
---- 
-
-# Exit Ticket
-

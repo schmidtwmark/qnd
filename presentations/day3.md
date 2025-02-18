@@ -64,4 +64,4 @@ if guess == "Hot To Go" {
 
 # Assignment
 
-- Add more questions!
+- Add more branches!

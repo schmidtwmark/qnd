@@ -33,8 +33,8 @@ Mr. Schmidt
 
 ```swift
 ...
-if guess == "Hot To Go" {
-    console.write("That's right! Chappel Roan's Hot To Go is the song of the summer.")
+if guess == "Chappell Roan" {
+    console.write("That's right! Chappel Roan is the best!")
     console.write("What's the best movie of the year?")
     let movie = readLine()!
     if movie == "Dune: Part Two" {

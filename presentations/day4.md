@@ -32,19 +32,18 @@ Mr. Schmidt
 - You can put if statements inside of other if statements
 
 ```swift
-...
 if guess == "Chappell Roan" {
     console.write("That's right! Chappel Roan is the best!")
-    console.write("What's the best movie of the year?")
-    let movie = readLine()!
-    if movie == "Dune: Part Two" {
-        console.write("Giant Sand Worms >>>> Anything else")
-    } else if movie == "Deadpool and Wolverine" {
-        console.write("Cameo cringefest 👎👎👎")
+    console.write("") // Empty line to separate output
+    let movie = console.read("What's her best song?")!
+    if movie == "Pink Pony Club" {
+        console.write("That's right!")
+    } else if movie == "Good Luck, Babe!" {
+        console.write("A certified bop, but not my favorite")
     } else {
         console.write("Wrong answer, try again!")
     }
-} else if guess == "Espresso" || guess == "Please Please Please" {
+} else if guess == "Sabrina Carpenter" {
 ...
 ```
 
@@ -74,19 +73,8 @@ if guess == "Chappell Roan" {
 
 ---
 
-# Narrative Fiction
-
-- Still developed today!
-- Hugely influential
-
-![bg right w:500](../assets/starfield.webp)
-
-
----
-
 # My Example
 
-- https://replit.com/@mrschmidt/Adventure#main.swift
 - Escaping quotes with `\"`
 - Nested Ifs
 - Empty console.write statements

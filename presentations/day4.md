@@ -87,11 +87,11 @@ if guess == "Chappell Roan" {
 
 ---
 
-# Make Your Own
+# Requirements
 
 - Give the user some story and a simple choice
-- Use nested `if` statements to console.write what happens next
+- Use nested `if` statements to `console.write` what happens next
 - You can have more than 2 options at each choice!
-- 3 choices total
+- 3 choices total, minimum
 - Be creative!
 - *Keep it appropriate*

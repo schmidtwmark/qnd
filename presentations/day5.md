@@ -24,6 +24,18 @@ Mr. Schmidt
 
 ---
 
+# Requirements
+
+- Give the user some story and a simple choice
+- Use nested `if` statements to `console.write` what happens next
+- You can have more than 2 options at each choice!
+- 3 choices total, minimum
+- Be creative!
+- *Keep it appropriate*
+
+
+---
+
 # Flowchart
 
 ![bg w:90%](../assets/flowchart.png)

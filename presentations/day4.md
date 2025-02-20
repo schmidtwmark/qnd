@@ -77,7 +77,7 @@ if guess == "Chappell Roan" {
 
 - Escaping quotes with `\"`
 - Nested Ifs
-- Empty console.write statements
+- `console.write("")` for empty space
 
 ---
 

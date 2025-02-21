@@ -18,14 +18,15 @@ Mr. Schmidt
 # Expectations
 
 - If we're working hard...
-  - We can have more time tomorrow
+  - We can have more time on Monday
 - If we're not...
   - It will be due today
 
 ---
 
-# Adventure Game
+# If you finish early...
 
-- Stay busy!
-  - Add more conditions using `else if` or more nested `if`s
-  - Test and help your neighbors! 
+- Expand your story using `else if` or more nested `if`s!
+- **Test and help your neighbors!**
+- Explore other Swift Playground lessons
+- Work quietly on other homework

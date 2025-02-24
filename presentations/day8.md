@@ -7,107 +7,170 @@ class: invert
 # QND Computer Science Day 8
 Mr. Schmidt
 
---- 
-
-# DOWNLOAD SWIFT PLAYGROUNDS
-
-We'll need it today!
-
-![bg right w:500](../assets/swift.jpeg)
-
 ---
 
 # Agenda
 
-- Behind the Scenes
-- Swift Playgrounds
-- Making an app!
+- Computer History (brief, relax)
+- Basic Math
+- Project
 
 ---
 
-# Behind The Scenes
+# Math
 
-- Replit did a bad thing
-- We're winging it
+- Early computers were made for math!
+- Codebreaking
+- Artillery Range Tables
+- Aerodynamics
 
----
-
-# Swift Playgrounds
-
-- Apple-made app
-- Learn Swift
-- 3 major modes
+![bg right w:500](../assets/hopper.webp)
 
 ---
 
-# Playgrounds
+# Early Computers
 
-- Very similar to our Replit environments!
-- Write Swift code and run it
-- Cannot receive input from the user 😡
+- Before the machines, computer was a job!
+- Largely held by women
+- Margaret Hamilton with her Apollo Lunar Lander program
 
----
-
-# Lessons
-
-- Interactive environments
-- Guided coding
-- Some of the best self-teaching materials
-- Free!
+![bg right w:500](../assets/hamilton.jpg)
 
 ---
 
-# Apps
+# Computer Programming
 
-- Develop actual iOS apps on iPad
-- Release on the App Store!
-  - No need for Xcode
+- Transitioning to physical computers was slow
+- Women computers took advantage and gained engineering roles
+- Judith Love Cohen
 
-
+![bg right w:500](../assets/cohen.jpeg)
 
 ---
 
-# iOS 
+# Math and Computers Today
 
-- Operating System for iPhones, iPads
+- Computers are constantly doing math
+- Building modern programs requires a ton of math
+- Video Games require the most complex math
+
+---
+
+# What does this do?
+
+```swift
+let a = 5
+let b = 4
+
+let result = a + b
+
+console.write(result)
+```
+---
+
+# The Square Calculator
+
+- Ask the user for a number
+- Square it and console.write the result
+
+```swift
+let number = console.read("Enter a number to square: ")
+
+console.write(number * number)
+```
+
+---
+
+# Types
+
+- Strings
+  - Sequence of characters
+  - Can be empty
+  - Put in quotes
+  - Can be combined with other strings
+- Integers
+  - A number with no decimal
+
+---
+
+# The Square Calculator (fixed)
+
+```swift
+let numberString = console.read("Enter a number to square: ")
+let number = Int(numberString)!
+
+console.write("Squared: " + String(number * number))
+```
+
+- `Int()!` converts a string to an integer
+- `String()` converts an integer to a string
+- Note the !
+  - What happens if we try `Int("just a string, not a number")!`
+- Why doesn't `String` have a `!`?
+
+---
+# Decimals
 
 
-![bg right w:500](../assets/ios.webp)
+- What will this do?
+```swift
+let a = 0.1
+let b = 0.1
+console.write(String(a + b))
+
+```
+![bg right w:500](../assets/math.jpeg)
+<!-- -->
+<!-- Show 0.1 + 0.1 = 0.2, 0.1 + 0.2 => 0.3000000004 -->
+
+---
+
+# This has caused a lot of problems
+
+- Banks deal with decimals a lot!
+
+```swift
+let myBalance = 200.20
+let purchasePrice = 100.20
+let finalBalance = myBalance - purchasePrice
+console.write(String(finalBalance))
+```
+
+---
+
+# Types
+
+- Strings
+- Ints
+- Floats
+  - Store decimal values
+  - Imprecise (be careful!)
+
+---
+
+# Project
+
+Make a **calculator**
+
+- Use `console.read()` twice to get two integers 
+- Don't forget `Int()!`
+
+Compute the sum, console.write it out!
 
 --- 
 
-# iOS Apps
+# Calculator Improvements
 
-- App Store launched in 2008 alongside the iPhone 3G
-- Originally written in Objective-C using UIKit
-- Apple released Swift in 2014 as a more modern alternative
-- Added SwiftUI in 2019
-
----
-
-# SwiftUI
-
-- UI = User Interface
-- "Declarative"
-- Simpler to write
-- Works across iOS, tvOS, watchOS, macOS, and visionOS
+- Use `console.read()` again to get an operation
+- Add, Subtract, Multiply, Divide
+- Use `if` to handle the operation
 
 ---
 
-# SwiftUI
+# Extra Challenges
 
-- Simple building blocks
-- Common experience across all apps
-  - No need to reinvent the wheel for each app
-- Built-in accessibility
-
----
-
-# Let's Get Coding
-
-- Views
-- Text
-- Buttons
-- View Modifiers
-- Numbers
-
+1. Also console.write the difference (-)
+2. Also console.write the product (*)
+3. Also console.write the quotient (/)
+4. Use `Double` instead of `Int` for decimals 
+5. What happens if we divide by zero?

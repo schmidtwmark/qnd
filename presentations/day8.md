@@ -13,18 +13,6 @@ Mr. Schmidt
 
 - Computer History (brief, relax)
 - Basic Math
-- Project
-
----
-
-# Math
-
-- Early computers were made for math!
-- Codebreaking
-- Artillery Range Tables
-- Aerodynamics
-
-![bg right w:500](../assets/hopper.webp)
 
 ---
 
@@ -32,7 +20,7 @@ Mr. Schmidt
 
 - Before the machines, computer was a job!
 - Largely held by women
-- Margaret Hamilton with her Apollo Lunar Lander program
+- Computer machines were a huge opportunity for women!
 
 ![bg right w:500](../assets/hamilton.jpg)
 
@@ -40,19 +28,20 @@ Mr. Schmidt
 
 # Computer Programming
 
-- Transitioning to physical computers was slow
-- Women computers took advantage and gained engineering roles
 - Judith Love Cohen
 
 ![bg right w:500](../assets/cohen.jpeg)
 
 ---
 
+
 # Math and Computers Today
 
 - Computers are constantly doing math
 - Building modern programs requires a ton of math
-- Video Games require the most complex math
+- Video Games require extremely complex math
+- AI stuff?
+  - That's just math
 
 ---
 
@@ -64,9 +53,13 @@ let b = 4
 
 let result = a + b
 
-console.write(result)
+console.write(String(result))
 ```
+
+- `String()` converts a number to a string
 ---
+
+
 
 # The Square Calculator
 
@@ -76,7 +69,7 @@ console.write(result)
 ```swift
 let number = console.read("Enter a number to square: ")
 
-console.write(number * number)
+console.write(String(number * number))
 ```
 
 ---
@@ -103,13 +96,12 @@ console.write("Squared: " + String(number * number))
 ```
 
 - `Int()!` converts a string to an integer
-- `String()` converts an integer to a string
 - Note the !
   - What happens if we try `Int("just a string, not a number")!`
 - Why doesn't `String` have a `!`?
 
 ---
-# Decimals
+# Decimals (Floats)
 
 
 - What will this do?
@@ -119,9 +111,19 @@ let b = 0.1
 console.write(String(a + b))
 
 ```
+
+---
+# Decimalsa (Floats)
+
+
+- What will this do?
+```swift
+let a = 0.1
+let b = 0.2
+console.write(String(a + b))
+
+```
 ![bg right w:500](../assets/math.jpeg)
-<!-- -->
-<!-- Show 0.1 + 0.1 = 0.2, 0.1 + 0.2 => 0.3000000004 -->
 
 ---
 
@@ -133,6 +135,7 @@ console.write(String(a + b))
 let myBalance = 200.20
 let purchasePrice = 100.20
 let finalBalance = myBalance - purchasePrice
+
 console.write(String(finalBalance))
 ```
 
@@ -142,7 +145,7 @@ console.write(String(finalBalance))
 
 - Strings
 - Ints
-- Floats
+- Floats (also called Doubles)
   - Store decimal values
   - Imprecise (be careful!)
 
@@ -155,7 +158,7 @@ Make a **calculator**
 - Use `console.read()` twice to get two integers 
 - Don't forget `Int()!`
 
-Compute the sum, console.write it out!
+Compute the sum, `console.write` it out!
 
 --- 
 

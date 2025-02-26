@@ -113,7 +113,7 @@ console.write(String(a + b))
 ```
 
 ---
-# Decimalsa (Floats)
+# Decimals (Floats)
 
 
 - What will this do?

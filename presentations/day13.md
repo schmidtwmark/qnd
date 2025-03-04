@@ -54,7 +54,7 @@ l()
 - Reuse code with different values!
 
 ```swift
-func flower(turtle: TurtleHandle, petals: Int, radius: Double) {
+func flower(petals: Int, radius: Double) {
     let petalSpacing = 360.0 / Double(petals)
     for i in 0..&lt;petals {
         turtle.arc(radius: radius, angle: petalSpacing)

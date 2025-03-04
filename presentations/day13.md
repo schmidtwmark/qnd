@@ -12,10 +12,23 @@ Mr. Schmidt
 # Today
 
 - Final Project
+- Custom Colors
 - Functions!
 
 ---
 
+# Custom Colors
+
+- Hex codes
+- RGB values
+- Must download new template
+
+```swift
+turtle.lineColor(.hex("daf542"))
+turtle.lineCOlor(.rgb(red: 245, green: 66, blue: 66))
+```
+
+---
 # Functions
 
 - Repeating code is annoying

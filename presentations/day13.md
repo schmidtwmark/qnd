@@ -52,3 +52,13 @@ func flower(turtle: TurtleHandle, petals: Int, radius: Double) {
 }
 ```
 
+---
+
+# Final Project Requirements
+
+- Put in a solid effort for the rest of the week
+- Make something unique -- don't just copy my examples
+- Use a function to repeat code
+    - Bonus points if you can use a parameter!
+
+

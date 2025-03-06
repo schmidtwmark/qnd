@@ -56,7 +56,7 @@ l()
 ```swift
 func flower(petals: Int, radius: Double) {
     let petalSpacing = 360.0 / Double(petals)
-    for i in 0..&lt;petals {
+    for i in 0..<petals {
         turtle.arc(radius: radius, angle: petalSpacing)
         turtle.rotate(180-petalSpacing)
         turtle.arc(radius: radius, angle: petalSpacing)

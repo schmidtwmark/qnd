@@ -11,8 +11,8 @@ Mr. Schmidt
 
 # Today
 
-- Feedback survey
 - Last Day :(
+- Feedback survey
 - What's Next?
 - Final Project Show and Tell
 
@@ -60,9 +60,9 @@ Mr. Schmidt
 
 # CS Careers
 
-- You should be thinking about what youi want to do after high school!
+- You should be thinking about what you want to do after high school!
 - CS is a fantastic option
-- Great differntiator for any field
+- Great differentiator for any field
 
 ---
 
@@ -79,5 +79,4 @@ Mr. Schmidt
 ---
 
 # Show and Tell!
-
 

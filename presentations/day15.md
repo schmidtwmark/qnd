@@ -58,10 +58,23 @@ Mr. Schmidt
 
 ---
 
+# CS Careers
+
+- You should be thinking about what youi want to do after high school!
+- CS is a fantastic option
+- Great differntiator for any field
+
+---
+
+
 # Thank You!
 
 - Computer Science is **hard**
 - Thank you for giving it your best shot
+
+---
+
+# Questions?
 
 ---
 

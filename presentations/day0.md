@@ -25,10 +25,6 @@ Mr. Schmidt
 - Microsoft
 - Ocient
 - Google
-- Side Projects
-    - Fidgets
-    - Scoreboard
-    - Planetary Lifts
 ![bg right w:500](../assets/collage.png)
 
 ---
@@ -67,16 +63,20 @@ Mr. Schmidt
 # Why CS? 
 
 - Fun
-    - Creative problem solving
-        - Every program is a puzzle
-    - Artistic expression
+    - Creative outlet
+    - Solve your own problems
 
+
+![bg right w:500](../assets/betterblue-phones.png)
+
+<!-- -->
+<!-- Even if you're not a computer person or a science person, you might find you enjoy the problem solving aspects! -->
 
 ---
 # Why CS?
 
 - Great Careers
-    - You should be thinking about career options
+    - It's never too early to think about your career.
     - Software engineers are in high demand
         - High pay, great benefits
 - Differentiator for any field!
@@ -85,12 +85,9 @@ Mr. Schmidt
 
 # Why CS?
 
-- Technology Literacy
-- We blew it
-    - Everything is too complex, designed to extract attention and money
-    - It's probably not going to get better
-<!-- -->
-<!-- Even if you're not a computer person or a science person, you might find you enjoy the problem solving aspects! -->
+- Literacy
+    - Know Your Enemy!
+    - Tech is not getting any less important in our lives
 
 ---
 
@@ -101,7 +98,6 @@ Mr. Schmidt
 <!-- What's my role at Google like? -->
 <!-- What are my hot takes on recent technology developments -->
 <!-- How did I know that Software Engineering was right for me? -->
-
 ---
 
 # Your First Program!

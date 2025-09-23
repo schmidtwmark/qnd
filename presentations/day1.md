@@ -9,9 +9,14 @@ Mr. Schmidt
 
 ---
 
+# DOWNLOAD SWIFT PLAYGROUNDS NOW
+![bg right w:500](../assets/swift.jpeg)
+
+---
+
 # Agenda
 
-- Learning philosophy
+- Expectations
 - Programming Languages
 - Swift
 - Tools
@@ -19,13 +24,21 @@ Mr. Schmidt
 
 ---
 
-# Learning Philosophy
+# Expectations
 
 - You will not master everything today
 - You will (probably) be lost
 - That's okay!
+
+
+--- 
+
+# Expectations
+
 - Practice, practice, practice
 - Help each other!
+- Today will be slower and more boring than normal
+- Bear with me!
 
 ---
 
@@ -87,7 +100,6 @@ Mr. Schmidt
 # Why is this so complicated?
 
 - Apple is dumb
-- They broke this one week ago
 - I am very mad
 
 ---
@@ -124,7 +136,7 @@ You should see `Hello World!` appear in the console!
 
 ---
 
-# Repitition
+# Repetition
 
 - Our program can have multiple lines!
 

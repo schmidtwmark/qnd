@@ -16,19 +16,44 @@ Mr. Schmidt
 - Strings
 - `console.write`
 - Variables
-- Concatenation
-- `console.read`
 
 ---
 
 # Agenda
 
+- Concatenation
+- `console.read`
 - Multiple Concatenation
 - Spacing + Comments
 - Project: Chat Program
 
 
 ---
+# Concatenation
+
+- Combine variables together!
+
+```swift
+let greeting = "Hello "
+let name = "Mr. Schmidt"
+console.write(greeting + name)
+```
+---
+
+# This program is boring!
+
+- It needs to respond to user input
+- Use `console.read`
+- Waits for the user to type in the console and press Enter
+- Stores the value in a variable
+
+```swift
+let name = console.read("What is your name?")
+```
+- Use concatenation to say hello!
+
+---
+
 
 # Multiple Concatenation
 
@@ -49,10 +74,20 @@ console.write("🦀" + "🦕" + greeting)
 
 ---
 
-# Comments
+# Spacing and Comments
 
-- Comments are ignored by the program
-- Anything after a `//` is ignored
+- Empty lines can be ignored
+- Anything after a `//` is ignored by the program
+
+```swift
+// Ask the user for their name
+let name = console.read("What is your name?")
+
+// Note the space after Hello
+let greeting = "Hello "
+console.write(greeting + name)
+```
+
 
 ---
 

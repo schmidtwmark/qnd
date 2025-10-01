@@ -20,7 +20,15 @@ Mr. Schmidt
 # Adventure Game
 
 - Plan out your story on paper!
-- Refer to my example (but don't copy!)
+- Refer to my example on the website (but don't copy!)
+
+---
+
+# My Example
+
+- Escaping quotes with `\"`
+- Nested Ifs
+- `console.write("")` for empty space
 
 ---
 
@@ -33,8 +41,25 @@ Mr. Schmidt
 - Be creative!
 - *Keep it appropriate*
 
+---
+
+# Expectations
+
+- If we're working hard...
+  - We can have more time on Thursday
+- If we're not...
+  - It will be due tomorrow
 
 ---
+
+# If you finish early...
+
+- Expand your story using `else if` or more nested `if`s!
+- **Test and help your neighbors!**
+- Explore other Swift Playground lessons
+- Work quietly on other homework
+
+--- 
 
 # Flowchart
 

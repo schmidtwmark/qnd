@@ -19,6 +19,7 @@ Mr. Schmidt
 
 # Today
 
+- OR
 - Nested Ifs
 - Video Games
 - Making a video game
@@ -27,24 +28,39 @@ Mr. Schmidt
 
 ---
 
+# OR
+
+
+- `==` is case sensitive and spelling sensitive
+- How can we make sure that both `"manchild"` and `"Manchild"` are allowed?
+
+```swift
+if guess == "Manchild" || guess == "manchild" {
+    ...
+}
+```
+- `||` is the OR operator
+- Note: `guess == "Manchild" || "manchild"` is not correct -- the `||` must go between two full comparisons
+
+---
+
 # Nested Ifs
 
 - You can put if statements inside of other if statements
 
 ```swift
-if guess == "Chappell Roan" {
-    console.write("That's right! Chappel Roan is the best!")
+if guess == "Manchild" {
+    console.write("That's right!")
     console.write("") // Empty line to separate output
-    let movie = console.read("What's her best song?")!
-    if movie == "Pink Pony Club" {
-        console.write("That's right!")
-    } else if movie == "Good Luck, Babe!" {
-        console.write("A certified bop, but not my favorite")
+
+    let song = console.read("What the best song on her new album?")
+    if song == "Nobody's Son" {
+        console.write("Correct!")
     } else {
-        console.write("Wrong answer, try again!")
+        console.write("Wrong!")
     }
-} else if guess == "Sabrina Carpenter" {
-...
+} else if guess == "Golden" {
+// ...
 ```
 
 <!-- Show nested -->
@@ -54,6 +70,8 @@ if guess == "Chappell Roan" {
 # Video Games
 
 - What games are you currently playing?
+
+![bg right w:500](../assets/hades2.jpg)
 
 ---
 

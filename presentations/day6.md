@@ -18,7 +18,7 @@ Mr. Schmidt
 # Expectations
 
 - If we're working hard...
-  - We can have more time on Monday
+  - We can have more time on Thursday
 - If we're not...
   - It will be due today
 

@@ -15,6 +15,13 @@ Mr. Schmidt
 
 ---
 
+# Stage 4
+
+- Play Again?
+- Track best guess count across plays
+
+---
+
 # What's Next?
 
 Wordle

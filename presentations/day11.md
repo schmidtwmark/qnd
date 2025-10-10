@@ -51,6 +51,14 @@ Mr. Schmidt
 
 ---
 
+# (bonus) Stage 6: Check Real Words 
+
+- `import Foundation`
+- Make a URL request to dictionaryapi.dev
+- Check the response
+
+---
+
 # What's Next?
 
 - Turtle!

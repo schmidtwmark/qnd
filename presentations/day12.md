@@ -11,20 +11,20 @@ Mr. Schmidt
 
 # Today
 
-- Final Project
-- Functions
+- Turtles
 
 --- 
 
 # Final Project
 
-- Download the Turtle Template from my website
 - Make some art!
   - Whatever you want!
   - Keep it appropriate!
   - Think Etch a Sketch, not Mona Lisa
-- Submit code on Thursday
-- On Friday, we'll do a little show and tell
+  - Make it unique
+    - Do not just copy my code
+- Submit code end of class **Thursday**
+- On Friday, we'll do a show and tell
   - If we're not working hard, we can do a final exam
 
 ---

@@ -11,72 +11,99 @@ Mr. Schmidt
 
 # Today
 
-- Last Day :(
-- Feedback survey
-- What's Next?
-- Final Project Show and Tell
+- Submit your turtle project!
+- iOS App Development
 
 ---
 
-# Feedback Survey
+# iOS Apps
 
-- Your final grade!
-- https://markschmidt.io/qnd-feedback
+- App Store released in 2008
+- I have several apps!
+- Use SwiftUI
 
----
-
-# What Did We Learn?
-
-- Reading / Writing to console
-- Variables
-- Strings
-- Integers
-- `if` / `else if` / `else`
-- `while` and `for` loops
-- Turtles!
-
+![bg right width:500](../assets/betterblue-phones.png)
 
 ---
 
-# What's Next?
+# It's all Views!
 
-- If you didn't like this...
-    - You're done!
-- If you did like this...
-    - There's a **lot** more to learn!
+```swift
+struct ContentView: View {
+  var body: some View {
+      Text("Hello world!")
+  }
+}
+```
+- Lots of curly braces and nesting
+---
+
+# Managing State
+
+```swift
+struct ContentView: View {
+  @State var count = 0
+  var body: some View {
+    VStack {
+      Text("Count is \(count)")
+      Button("Press") {
+        count += 1
+      }
+    }
+  }
+}
+```
 
 ---
 
-# Where to Focus
+# Chatroom
 
-- Swift Playgrounds
-- AP Computer Science
-- Other Resources
-  - Books
-  - Advent of Code
-  - Codecademy and Code.org
+- I have set up a chatroom
+- Write an app to send messages that you can see on the screen
+- Keep it appropriate, I am tracking your IPs
+- Grab code from my website for the client
 
 ---
 
-# CS Careers
+# Sending a Message
 
-- You should be thinking about what you want to do after high school!
-- CS is a fantastic option
-- Great differentiator for any field
+```swift
+struct ContentView: View {
+  var body: some View {
+    Button("Send") {
+      Task {
+        try await sendMessage(username: "YOUR NAME HERE", message: "Hello World!")
+      }
+    }
+  }
+}
+```
+
+- Task for running background code
+- `try await` to handle errors and wait for network
 
 ---
 
+# TextField
 
-# Thank You!
-
-- Computer Science is **hard**
-- Thank you for giving it your best shot
+```swift
+struct ContentView: View{
+  @State var text = ""
+  var body: some View {
+    HStack {
+      TextField("Message", text: $text)
+      Button("Send") {
+        Task {
+          try await sendMessage(username: "YOUR NAME HERE", message: "Hello World!")
+        }
+      }
+    }
+  }
+}
+```
 
 ---
 
-# Questions?
+# TextField
 
----
-
-# Show and Tell!
-
+- `$` creates a Binding -- lets some other View change a part of your View

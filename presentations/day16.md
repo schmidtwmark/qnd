@@ -4,7 +4,7 @@ theme: gaia
 class: invert
 ---
 
-# QND Computer Science Day 15
+# QND Computer Science Day 16
 Mr. Schmidt
 
 --- 
@@ -31,9 +31,11 @@ Mr. Schmidt
 - Variables
 - Strings
 - Integers
+- Math
 - `if` / `else if` / `else`
 - `while` and `for` loops
 - Turtles!
+- Apps!
 
 
 ---

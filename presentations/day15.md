@@ -94,7 +94,7 @@ struct ContentView: View{
       TextField("Message", text: $text)
       Button("Send") {
         Task {
-          try await sendMessage(username: "YOUR NAME HERE", message: "Hello World!")
+          try await sendMessage(username: "YOUR NAME HERE", message: text)
         }
       }
     }

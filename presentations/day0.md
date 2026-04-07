@@ -88,6 +88,7 @@ Mr. Schmidt
 - Literacy
     - Know Your Enemy!
     - Tech is not getting any less important in our lives
+    - AI is a big change
 
 ---
 

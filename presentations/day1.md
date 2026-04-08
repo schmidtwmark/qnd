@@ -91,7 +91,7 @@ Mr. Schmidt
 
 - Go to [markschmidt.io/qnd](markschmidt.io/qnd)
 - Click the "Download Template" button
-- Open the file in Files
+- Open the file in the Files app
 - Unzip
 - Open the Playground
 
@@ -104,111 +104,99 @@ Mr. Schmidt
 
 ---
 
-# Hello World!
+# Robots!
 
-Type the following into the code editor:
-
-```swift
-console.write("Hello World!")
-```
-
-Then tap the **▶️ Run My Code** button on the bottom right
-
-You should see `Hello World!` appear in the console!
+- Move a robot around a virtual world
+- Reach the end gate
+- 8 different levels
 
 ---
 
-# Strings
+# Robot Commands
 
-- A sequence of characters
-- Characters
-  - Letters, numbers, punctuation, emoji 🚀🚀🚀
-- Always between quotation marks `""`
+- robot.forward()
+- robot.turnRight()
+- robot.turnLeft()
+- robot.wait() 
+- Don't touch a wall or it's game over!
 ---
 
-# The `write` Function
+# What does all this mean?
 
-- `console.write("Hello 🦀🦀🦀")`
-- Writes the provided string to the console output
-- Add emoji with `control` + `command` + `spacebar`
-- We will see many, many other functions
-- `function(input1, input2, input3...)`
-
----
-
-# Repetition
-
-- Our program can have multiple lines!
-
-```swift
-console.write("Hello 🦀🦀🦀")
-console.write("Hello 🦀🦀🦀")
-console.write("hello from Swift!")
-console.write("hello from Swift!")
-console.write("hello from Swift!")
-```
+- `robot` is a reference to the robot on the screen
+- `.` tells the program to apply the function to the robot
+- `forward`, `turnRight`, etc. are the names of functions that tell the robot what to do
+- `()` means to execute the function
+  - Later, we'll see functions with inputs, which will go inside the parentheses
 
 --- 
-# Variables
 
-- *Declare* variables with `let`
-- Just like in math, replaces the variable with a value
-- Read it as "Let greeting equal ..."
+# Level 1
 
-```swift
-let greeting = "Hello 🦀🦀🦀!"
-console.write(greeting)
-console.write(greeting)
-console.write(greeting)
+- Turn right
+- Move forward twice
+- Turn right
+- Move forward twice
+
+```
+robot.turnRight()
+robot.forward()
+robot.forward()
+robot.turnRight()
+robot.forward()
+robot.forward()
 ```
 
----
-# Concatenation
-
-- Combine variables together!
-
-```swift
-let greeting = "Hello "
-let name = "Mr. Schmidt"
-console.write(greeting + name)
-```
----
-
-# This program is boring!
-
-- It needs to respond to user input
-- Use `console.read`
-- Waits for the user to type in the console and press Enter
-- Stores the value in a variable
-
-```swift
-let name = console.read("What is your name?")
-```
-- Use concatenation to say hello!
+![bg right 50%](../assets/level1.png)
 
 ---
 
-# One More Thing
+# Level 2
 
-- Comments + Spacing
-- Empty lines can be ignored
-- Anything after a `//` is ignored by the program
-
-```swift
-// Ask the user for their name
-let name = console.read("What is your name?")
-
-// Note the space after Hello
-let greeting = "Hello "
-console.write(greeting + name)
-```
-
+- More complicated movement!
 
 ---
 
-# Extra Challenges
+# Level 3
 
-- `console.write` the greeting 3 times
-- Ask a user for their name and their favorite color. `console.write` each out 3 times.
-- `console.write` empty lines between each line of output
-  - What happens if we pass `""` to `console.write`?
+- Keys!
+- Go get the key, then go through the lock to the end
+
+---
+
+# Level 4
+
+- Enemies!
+- Avoid the enemies by waiting for them to pass
+- Enemies move when you move
+- If you touch them, game over
+- Use `robot.wait()` to wait for an enemy to pass
+
+---
+
+# Level 5
+
+- Lasers!
+- Periodically turn on and off
+
+---
+
+# Level 6
+
+- Teleporters
+- Go through the teleporter to get to the end
+
+---
+
+# Level 7
+
+- More lasers!
+
+---
+
+# Level 8
+
+- Putting it all together
+
+
+

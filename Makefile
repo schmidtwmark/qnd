@@ -15,6 +15,7 @@ output/plan-v2.pdf: plan-v2.md output
 
 targets := $(wildcard presentations/*.md )
 all: $(patsubst presentations/%.md,output/presentations/%.pptx,$(targets)) output/plan.pdf output/plan-v2.pdf $(patsubst presentations/%.md,output/presentations-pdfs/%.pdf,$(targets))
+	cp output/presentations-pdfs/*.pdf ../presentation-pdfs/
 
 .PHONY : clean
 clean:

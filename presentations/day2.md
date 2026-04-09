@@ -21,14 +21,63 @@ Mr. Schmidt
 
 # Agenda
 
-- Concatenation
+- Text Console
+- `console.write`
 - `console.read`
-- Multiple Concatenation
-- Spacing + Comments
-- Project: Chat Program
+- Concatenation
+- If Statements?
 
 
 ---
+
+# Hello World!
+
+Type the following into the code editor:
+
+```swift
+console.write("Hello World!")
+```
+
+Then tap the **▶️ Run My Code** button on the bottom right
+
+You should see `Hello World!` appear in the console!
+
+---
+
+# Strings
+
+- A sequence of characters
+- Characters
+  - Letters, numbers, punctuation, emoji 🚀🚀🚀
+- Always between quotation marks `""`
+
+---
+
+# The `write` Function
+
+- `console.write("Hello 🦀🦀🦀")`
+- Writes the provided string to the console output
+- Add emoji with `control` + `command` + `spacebar`
+- We will see many, many other functions
+- `function(input1, input2, input3...)`
+
+--- 
+
+# Variables
+
+- *Declare* variables with `let`
+- Just like in math, replaces the variable with a value
+- Read it as "Let greeting equal ..."
+
+```swift
+let greeting = "Hello 🦀🦀🦀!"
+console.write(greeting)
+console.write(greeting)
+console.write(greeting)
+```
+
+---
+
 # Concatenation
 
 - Combine variables together!
@@ -49,60 +98,42 @@ console.write(greeting + name)
 
 ```swift
 let name = console.read("What is your name?")
+console.write("Hello " + name)
 ```
 - Use concatenation to say hello!
 
 ---
 
+# `if`
 
-# Multiple Concatenation
-
-- You can repeat concatenation as much as you want
-- Remember to put quotes around strings
-- Variables do not have quotes
+- Execute different code based on a condition
+- Brackets define what code is executed if the condition is true
 
 ```swift
-let greeting = "Hello"
-console.write("🦀" + "🦕" + greeting)
+let answer = console.read("Who's the GOAT?")
+if answer == "Michael Jordan" {
+    console.write("Correct!")
+} else {
+    console.write("Wrong!")
+}
 ```
---- 
-
-# Spacing
-
-- Empty lines are ignored by Swift
-- Use this to group things together!
 
 ---
 
-# Spacing and Comments
+# `else if`
 
-- Empty lines can be ignored
-- Anything after a `//` is ignored by the program
+- ``if` statements can be chained together with `else if`
+- The first condition that is true will be executed
+- Add any number of else if statements **in between** `if` and `else`
+
 
 ```swift
-// Ask the user for their name
-let name = console.read("What is your name?")
-
-// Note the space after Hello
-let greeting = "Hello "
-console.write(greeting + name)
-```
-
-
----
-
-# Project
-
-- Make a chat program!
-- Ask the user questions
-- Provide an answer, referencing what they said (3 things)
-
-```swift
-// Ask for a name and greet the user
-let name = console.read("What is your name?")
-console.write("Hello " + name + ", my name is Mr. Schmidt")
-
-// Ask for a favorite color
-let color = console.read("What is your favorite color?")
-console.write("I also like " + color + ", but my favorite is blue")
+let answer = console.read("Who's the GOAT?")
+if answer == "Michael Jordan" {
+    console.write("Correct!")
+} else if answer == "LeBron James" {
+    console.write("Not Lebron!")
+} else {
+    console.write("Wrong!")
+}
 ```

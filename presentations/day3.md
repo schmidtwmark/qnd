@@ -11,109 +11,62 @@ Mr. Schmidt
 
 # Recap
 
-- Strings
-- Variables
-- Concatenation
-- `console.write()`
-- `console.read()`
+- `if`
+- `else if`
+- `else`
 
 ---
 
 # Today
 
-- How can we make programs more interactive?
-
----
-
-# What is the Song of the Summer?
-
-- A certified bop
-- A jam and a half
-
----
-
-# Qualities of the Song of the Summer
-
-- Beach vibes
-- Upbeat, danceable
-- Simple chorus -- you only need to hear it once!
-
----
-
-# Possible Topics for the Song of the Summer
-
-- My ex is awful (Good 4 U)
-- My SO is great (Cheerleader)
-- Dancing is fun (Hot to Go)
-- My haters are trash (Not Like Us)
+- Making a video game
 
 ---
 
 
-# What is NOT the Song of the Summer?
+# Video Games
 
-- Whatever is #1 on the charts
-- Sad girl autumn crash out music (Sorry, Taylor)
-- Whatever is big on TikTok
-    - The people choose the song of the summer, not The Algorithm
+- What games are you currently playing?
 
----
-
-# `if` statements
-
-- Execute different code based on a condition
-
-```swift
-let guess = console.read("What is the song of the summer?")
-
-if guess == "Manchild" {
-    console.write("That's right!") 
-} else {
-    console.write("Wrong, try again!")
-}
-```
-
-<!-- Things to note: if/else keyword, double equals sign, brackets, indentation -->
+![bg right w:500](../assets/hades2.jpg)
 
 ---
 
-# `else if`
+# Video Games 
 
-- What if there are multiple branches?
-```swift
-let guess = console.read("What is the song of the summer?")
-
-if guess == "Manchild" {
-    console.write("That's right!") 
-} else if guess == "Ordinary" {
-    console.write("In this household we do not support TikTok influencers")
-} else if guess == "That's So True" {
-    console.write("Gracie Abrams is talented, but she's also a nepo baby")
-} else if guess == "Golden" {
-    console.write("Haven't seen the movie yet, but it is a good song!")
-} else {
-    console.write("Wrong, try again!")
-}
-```
+- What is the oldest game you've ever played?
 
 ---
 
-# OR
+# Zork 
 
+- Text based games
+- Before computer graphics
+- https://classicreload.com/zork-i.html
 
-- `==` is case sensitive and spelling sensitive
-- How can we make sure that both `"manchild"` and `"Manchild"` are allowed?
-
-```swift
-if guess == "Manchild" || guess == "manchild" {
-    ...
-}
-```
-- `||` is the OR operator
-- Note: `guess == "Manchild" || "manchild"` is not correct -- the `||` must go between two full comparisons
+![bg right w:500](../assets/zork.jpeg)
 
 ---
 
-# Assignment
+# My Example
 
-- Add more branches!
+- Escaping quotes with `\"`
+- Nested Ifs
+- `console.write("")` for empty space
+
+---
+
+# Flowchart
+
+![bg width: 80%](../assets/flowchart.png)
+
+---
+
+# Requirements
+
+- Give the user some story and a simple choice
+- Use nested `if` statements to `console.write` what happens next
+- You can have more than 2 options at each choice!
+- 3 choices total, minimum
+- Be creative!
+- *Keep it appropriate*

@@ -28,5 +28,5 @@ Mr. Schmidt
 
 - Expand your story using `else if` or more nested `if`s!
 - **Test and help your neighbors!**
-- Explore other Swift Playground lessons
+- Finish the robot playground and create your own levels!
 - Work quietly on other homework

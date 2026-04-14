@@ -17,21 +17,6 @@ Mr. Schmidt
 
 ---
 
-# Adventure Game
-
-- Plan out your story on paper!
-- Refer to my example on the website (but don't copy!)
-
----
-
-# My Example
-
-- Escaping quotes with `\"`
-- Nested Ifs
-- `console.write("")` for empty space
-
----
-
 # Requirements
 
 - Give the user some story and a simple choice
@@ -46,9 +31,9 @@ Mr. Schmidt
 # Expectations
 
 - If we're working hard...
-  - We can have more time on Thursday
+  - We can have some time tomorrow
 - If we're not...
-  - It will be due tomorrow
+  - It will be due today
 
 ---
 

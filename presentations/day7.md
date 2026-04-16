@@ -4,71 +4,17 @@ theme: gaia
 class: invert
 ---
 
-# QND Computer Science Day 6
+# QND Computer Science Day 7
 Mr. Schmidt
 
 --- 
 
 # Today
 
-- Adventure Game
-- Due *today*
-- Stay busy!
-  - Add more conditions using `else if` or more nested `if`s
-  - Test and help your neighbors! 
 - Math
----
-# Agenda
+- Calculator
 
-- Computer History (brief, relax)
-- Basic Math
-
----
-
-# Early Computers
-
-- Before the machines, computer was a job!
-- Largely held by women
-- Computer machines were a huge opportunity for women!
-
-![bg right w:500](../assets/hamilton.jpg)
-
----
-
-# Computer Programming
-
-- Judith Love Cohen
-
-![bg right w:500](../assets/cohen.jpeg)
-
----
-
-
-# Math and Computers Today
-
-- Computers are constantly doing math
-- Building modern programs requires a ton of math
-- Video Games require extremely complex math
-- AI stuff?
-  - That's just math
-
----
-
-# What does this do?
-
-```swift
-let a = 5
-let b = 4
-
-let result = a + b
-
-console.write(String(result))
-```
-
-- `String()` converts a number to a string
----
-
-
+--- 
 
 # The Square Calculator
 

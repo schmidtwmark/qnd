@@ -113,6 +113,7 @@ if favorite_ice_cream_flavors.contains("Chocolate") {
 
 - Turn a string into an Array
 - Get a guess from the user
+- Check each letter of the secret word
 
 ---
 

@@ -4,7 +4,7 @@ theme: gaia
 class: invert
 ---
 
-# QND Computer Science Day 10
+# QND Computer Science Day 9
 Mr. Schmidt
 
 --- 

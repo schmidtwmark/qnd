@@ -4,7 +4,7 @@ theme: gaia
 class: invert
 ---
 
-# QND Computer Science Day 11
+# QND Computer Science Day 10
 Mr. Schmidt
 
 --- 
@@ -62,6 +62,5 @@ Mr. Schmidt
 # What's Next?
 
 - Turtle!
-- You'll have all week to make your piece
-- On Friday, we'll do a little show and tell
+- You'll have the rest of the week to make your piece
 - Start thinking about what you want to make

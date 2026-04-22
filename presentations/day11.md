@@ -4,7 +4,7 @@ theme: gaia
 class: invert
 ---
 
-# QND Computer Science Day 12
+# QND Computer Science Day 11
 Mr. Schmidt
 
 --- 
@@ -15,17 +15,14 @@ Mr. Schmidt
 
 --- 
 
-# Final Project
+# Project
 
 - Make some art!
   - Whatever you want!
-  - Keep it appropriate!
+  - **Keep it appropriate!**
   - Think Etch a Sketch, not Mona Lisa
   - Make it unique
     - Do not just copy my code
-- Submit code end of class **Thursday**
-- On Friday, we'll do a show and tell
-  - If we're not working hard, we can do a final exam
 
 ---
 

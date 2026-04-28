@@ -85,5 +85,3 @@ Mr. Schmidt
 ✅ "Build a quiz app about NBA basketball with 10 multiple choice questions. Show one question at a time, highlight the correct answer in green if I get it right or red if I get it wrong, track my score, and show my final score with a message at the end."
 
 - Detail and specificity are key to getting good results
-
----

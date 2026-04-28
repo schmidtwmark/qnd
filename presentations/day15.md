@@ -50,6 +50,15 @@ Mr. Schmidt
 
 ---
 
+# System Prompts are weird
+
+![bg right w:650](../assets/codex-system-prompt.webp)
+
+- One of the only levers to control what a model outputs
+
+---
+
+
 # LLMs Do Not Think!!
 
 - My pet peeve

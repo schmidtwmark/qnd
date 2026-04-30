@@ -11,74 +11,31 @@ Mr. Schmidt
 
 # Today
 
-- Last Day :(
-- Feedback survey
-- What's Next?
-- Final Project Show and Tell
+- Last Day of Coding
 
 ---
 
-# Feedback Survey
+# Expectations
 
-- Your final grade!
-- https://markschmidt.io/qnd-feedback
-
----
-
-# What Did We Learn?
-
-- Reading / Writing to console
-- Variables
-- Strings
-- Integers
-- Math
-- `if` / `else if` / `else`
-- `while` and `for` loops
-- Turtles!
-- Apps!
-
+- Let's make good use of time today
+- Polish your project, or use what you've larned to make something new!
+- Submit your code at the end of class
 
 ---
 
-# What's Next?
+# Tomorrow
 
-- If you didn't like this...
-    - You're done!
-- If you did like this...
-    - There's a **lot** more to learn!
-
----
-
-# Where to Focus
-
-- Swift Playgrounds
-- AP Computer Science
-- Other Resources
-  - Books
-  - Advent of Code
-  - Codecademy and Code.org
+- We'll do a show and tell of everyone's projects
+- Present *either* your turtle project or your AI Studio project
+- Informal -- I will show your project and maybe ask some questions
+- Make sure your project is something you're proud to share!
 
 ---
 
-# CS Careers
+# Project Submission
 
-- You should be thinking about what you want to do after high school!
-- CS is a fantastic option
-- Great differentiator for any field
+- Use the Share button
+- Make sure to make it publicly viewable!
 
----
-
-
-# Thank You!
-
-- Computer Science is **hard**
-- Thank you for giving it your best shot
-
----
-
-# Questions?
-
----
-
-# Show and Tell!
+![bg right w:400px](../assets/share-ai-studio.png)
 

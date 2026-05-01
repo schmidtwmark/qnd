@@ -18,7 +18,7 @@ Mr. Schmidt
 # Expectations
 
 - Let's make good use of time today
-- Polish your project, or use what you've larned to make something new!
+- Polish your project, or use what you've learned to make something new!
 - Submit your code at the end of class
 
 ---

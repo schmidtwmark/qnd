@@ -21,7 +21,6 @@ Mr. Schmidt
 # Feedback Survey
 
 - Your final grade!
-- https://markschmidt.io/qnd-feedback
 
 ---
 
@@ -35,7 +34,7 @@ Mr. Schmidt
 - `if` / `else if` / `else`
 - `while` and `for` loops
 - Turtles!
-- Apps!
+- AI Studio!
 
 
 ---
@@ -57,6 +56,14 @@ Mr. Schmidt
   - Books
   - Advent of Code
   - Codecademy and Code.org
+
+---
+
+# Coding Agents
+
+- Be careful
+- You can make cool things, but learning how things work is important
+- No one wants slop!
 
 ---
 

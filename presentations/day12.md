@@ -32,7 +32,7 @@ Mr. Schmidt
 ```swift
 turtle.lineColor(.hex("daf542"))
 turtle.lineColor(.hex("#daf542")) // With or without # is fine
-turtle.lineCOlor(.rgb(red: 245, green: 66, blue: 66))
+turtle.lineColor(.rgb(245, 66, 66)) // red, green, blue from 0 to 255
 ```
 
 ---

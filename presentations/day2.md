@@ -104,15 +104,70 @@ console.write("Hello " + name)
 
 ---
 
+# What is the Song of the Summer?
+
+- A certified bop
+- A jam and a half
+
+---
+
+# Qualities of the Song of the Summer
+
+- Beach vibes
+- Upbeat, danceable
+- Simple chorus -- you only need to hear it once!
+
+---
+
+# Possible Topics for the Song of the Summer
+
+- My ex is awful (Good 4 U)
+- My SO is great (Cheerleader)
+- Dancing is fun (Hot to Go)
+- My haters are trash (Not Like Us)
+
+---
+
+# What is NOT the Song of the Summer?
+
+- Whatever is #1 on the charts
+- Sad girl autumn crash out music
+- Whatever is big on TikTok
+    - The people choose the song of the summer, not The Algorithm
+
+---
+
 # `if`
 
 - Execute different code based on a condition
 - Brackets define what code is executed if the condition is true
 
 ```swift
-let answer = console.read("Who's the GOAT?")
-if answer == "Michael Jordan" {
+let answer = console.read("What's the song of the summer?")
+if answer == "Drop Dead" {
     console.write("Correct!")
+} else {
+    console.write("Wrong!")
+}
+```
+
+<!-- Things to note: if/else keyword, double equals sign, brackets, indentation -->
+
+---
+
+# `else if`
+
+- `if` statements can be chained together with `else if`
+- The first condition that is true will be executed
+- Add any number of else if statements **in between** `if` and `else`
+
+
+```swift
+let answer = console.read("What's the song of the summer?")
+if answer == "Drop Dead" {
+    console.write("Correct!")
+} else if answer == "Choosin Texas" {
+    console.write("Hmm, not quite!")
 } else {
     console.write("Wrong!")
 }
@@ -120,20 +175,21 @@ if answer == "Michael Jordan" {
 
 ---
 
-# `else if`
+# OR
 
-- ``if` statements can be chained together with `else if`
-- The first condition that is true will be executed
-- Add any number of else if statements **in between** `if` and `else`
-
+- `==` is case sensitive and spelling sensitive
+- How can we make sure that both `"Drop Dead"` and `"drop dead"` are allowed?
 
 ```swift
-let answer = console.read("Who's the GOAT?")
-if answer == "Michael Jordan" {
-    console.write("Correct!")
-} else if answer == "LeBron James" {
-    console.write("Not Lebron!")
-} else {
-    console.write("Wrong!")
+if answer == "Drop Dead" || answer == "drop dead" {
+    ...
 }
 ```
+- `||` is the OR operator
+- Note: `answer == "Drop Dead" || "drop dead"` is not correct -- the `||` must go between two full comparisons
+
+---
+
+# Assignment
+
+- Add more branches!

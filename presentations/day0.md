@@ -67,7 +67,7 @@ Mr. Schmidt
     - Solve your own problems
 
 
-![bg right w:500](../assets/betterblue-phones.png)
+![bg right w:300](../assets/bb-phone.png)
 
 <!-- -->
 <!-- Even if you're not a computer person or a science person, you might find you enjoy the problem solving aspects! -->

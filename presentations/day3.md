@@ -12,29 +12,14 @@ Mr. Schmidt
 # Recap
 
 - `if`
-- `else if`
 - `else`
 
 ---
 
 # Today
 
+- `else if`
 - Making a video game
-
----
-
-
-# Video Games
-
-- What games are you currently playing?
-
-![bg right w:500](../assets/hades2.jpg)
-
----
-
-# Video Games 
-
-- What is the oldest game you've ever played?
 
 ---
 
